@@ -29,45 +29,43 @@
          </div>
         <div class="col-8">
 <!--SIMILAR LAYOUT TO LOVE RUNNING https://repl.it/@DanielBradford/Love-Running#assets/css/style.css-->
+<!-- NAV BAR MENU--------------->
+    <button class="col-4 btn join-us-btn"><h4 class="join-us">Join Us</h4></button>
     <nav>
 			<ul id="menu">
 				<li>
-					<a class="active" href='index.html'>Home</a>
+					<a class="active" href="index.html"> Home</a>
 				</li>
 				<li>
-					<a href="#">Classes and Membership</a>
+					<a href="#"> Classes </a>
 				</li>
                 <li>
-					<a href="#">Gallery</a>
+					<a href="#"> Gallery </a>
 				</li>
                 <li>
-					<a href="#">Contact Us</a>
+					<a href="#"> Contact Us</a>
 				</li>
 			</ul>
 	</nav>
+    <!-- NAV BAR MENU--------------->
         </div>
         </div>
         
-        <button class="btn btn-lg join-us-btn"></button>
-      </div>
     </header>
     <!--THIS IS THE REPEATING IMAGE ON ALL PAGES--><!--REF _ https://wallpaperaccess.com/chinese-bamboo -->
     <div class="heroimage">
       
       <!--This was borrowed from the Whiskey Project in the Bootstrap lessons: https://danielbradford.github.io/bootstrap/-->
       <div class="container-fluid callout-container">
-		<div class="opaque-overlay"> </div>
 		<div class="row">
 			<div class="col-12">
-				<section class="callout jumbotron text-center" width="30%">
+				<section class="callout jumbotron text-center">
 					<h1 class="jumbotron-header">Welcome to Bamboo Fitness</h1>
 					<hr class="block-divider-gold">
-					<p>Sgn up today to get your membership started. Your first visit is free!</p><s class="d-none s-sm-inline">$19,88</s><span class="d-inline d-sm-none"></span><strong><mark>First one is free!</mark></strong>
-					<br>
-					<br>
-					<button class="btn btn-lg btn--cta btn--gold" data-toggle="modal" data-target="#signUpModal">Sign-Up!</button>
+					<p>Sign up today to get your membership started! Your first visit is free!</p>
+					<button class="btn btn-lg" data-toggle="modal" data-target="#signUpModal">Sign-Up!</button>
 					<p class="text-muted">
-						<small>You must be over 18 years old to sign up to our service. Please drink responsible</small>
+						<small>You must be over 16 years old to sign up to our service.</small>
 					</p>
 				</section>
 			</div>
@@ -76,24 +74,85 @@
 	</div>
     
     </div>
+    <!-- FIRST CONTENT SECTION--------------->
     <section>
-    <div class="row no-gutters intro">
-    <div class="col-6">
-    <h2 class="about-heading">What we do</h2>
+    <div class="row first-content">
+        <div class="col-4 what-we-do inline">
+            <h2 class="about-heading uppercase">What we do <i class="fa fa-question-circle"></i></h2>
       
-        <p class="about-text">What we do</p>
+        <p class="about-text"><h4>We are here to help you realise your potential and to get back to you. We provide top of the line facilities for you to enhance your physical and mental
+        well-being.</h4></p>
       
-      </div>
-      <div class="three-women-photo">
-      <img class="col-6 three-women" src="assets/images/three-women.jpg" alt=""/>
-      
-      </div>
-      </div>
+        </div>
+        <!-- Photo by cottonbro from Pexels(3 girls kneeling)------->
+        <div class="three-women-img">
+         <div class="col-12 three-women-photo inline">
+            <img class="three-women" src="assets/images/three-women.jpg" alt=""/>
+        </div>
+        </div>
+    
+    </div>
+         
     </section>
+    <!-- FIRST CONTENT SECTION--------------->
+    <!-- SECOND CONTENT SECTION--------------->
     <section class="testimonials">
     
     </section>
-    <footer>
-    </footer>
+    <!-- SECOND CONTENT SECTION--------------->
+    <div class="row">
+    <footer class="container-fluid">
+		<div id="footer-details" class="row">
+			<div class="col-sm-4">
+				<h5 class="uppercase general-sub">About</h5>
+				<p class="inline-block">
+					SHORT PARAGRAPH ABOUT BAMBOO FITNESS
+				</p>
+			</div>
+			<div class="col-sm-4">
+				<h5 class="uppercase general-sub">Download</h5>
+				<p class="inline-block">
+					Download our Class timetable!<a href="assets/cv/class-timetable.pdf" target="_blank" class="cv-pdf"><i class="fa fa-download" aria-hidden="true"></i>
+						<span class="sr-only">Download Link</span>
+					</a>
+				</p>
+			</div>
+			<div class="col-sm-4">
+				<h5 class="uppercase general-sub">Social</h5>
+				<ul class="list-inline social-links">
+					<li class="list-inline-item">
+						<a target="_blank" href="#"><i class="fa fa-facebook" aria-hidden="true"></i>
+							<span class="sr-only">Facebook</span>
+						</a>
+					</li>
+					<li class="list-inline-item">
+						<a target="_blank" href="#"><i class="fa fa-twitter" aria-hidden="true"></i>
+							<span class="sr-only">Twitter</span></a>
+					</li>
+					<li class="list-inline-item">
+						<a target="_blank" href="#"><i class="fa fa-linkedin" aria-hidden="true"></i>
+							<span class="sr-only">LinkedIn</span>
+						</a>
+					</li>
+					<li class="list-inline-item">
+						<a target="_blank" href="#"><i class="fa fa-pinterest" aria-hidden="true"></i>
+							<span class="sr-only">Pinterest</span>
+						</a>
+					</li>
+					<li class="list-inline-item">
+						<a target="_blank" href="#"><i class="fa fa-instagram" aria-hidden="true"></i>
+							<span class="sr-only">Instagram</span>
+						</a>
+					</li>
+					<li class="list-inline-item">
+						<a target="_blank" href="#"><i class="fa fa-youtube" aria-hidden="true"></i>
+							<span class="sr-only">Youtube</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+    </div>
   </body>
 </html>
