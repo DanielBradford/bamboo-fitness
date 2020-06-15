@@ -1,42 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <title>Bamboo Fitness</title>
+  </head>
 
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-		type="text/css">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-		type="text/css">
-	<title>Bamboo Fitness</title>
-</head>
+  <body>
+    <header>
+    <div class="row">
+         <div class="col-md-4 inline">
+          <img
+            class="logo"
+            src="assets/images/BF-LOGO.png"
+            alt="Bamboo Fitness Logo"
+          />
+         </div>
+        <div class="col-8">
+<!--SIMILAR LAYOUT TO LOVE RUNNING https://repl.it/@DanielBradford/Love-Running#assets/css/style.css-->
+    <nav>
+			<ul id="menu">
+				<li>
+					<a class="active" href='index.html'>Home</a>
+				</li>
+				<li>
+					<a href="#">Classes and Membership</a>
+				</li>
+                <li>
+					<a href="#">Gallery</a>
+				</li>
+                <li>
+					<a href="#">Contact Us</a>
+				</li>
+			</ul>
+	</nav>
+        </div>
+        </div>
+        
+        <button class="btn btn-lg join-us-btn"></button>
+      </div>
+    </header>
+    <!--THIS IS THE REPEATING IMAGE ON ALL PAGES--><!--REF _ https://wallpaperaccess.com/chinese-bamboo -->
+    <div class="heroimage">
+      
+      <!--This was borrowed from the Whiskey Project in the Bootstrap lessons: https://danielbradford.github.io/bootstrap/-->
+      <div class="container-fluid callout-container">
+		<div class="opaque-overlay"> </div>
+		<div class="row">
+			<div class="col-12">
+				<section class="callout jumbotron text-center" width="30%">
+					<h1 class="jumbotron-header">Welcome to Bamboo Fitness</h1>
+					<hr class="block-divider-gold">
+					<p>Sgn up today to get your membership started. Your first visit is free!</p><s class="d-none s-sm-inline">$19,88</s><span class="d-inline d-sm-none"></span><strong><mark>First one is free!</mark></strong>
+					<br>
+					<br>
+					<button class="btn btn-lg btn--cta btn--gold" data-toggle="modal" data-target="#signUpModal">Sign-Up!</button>
+					<p class="text-muted">
+						<small>You must be over 18 years old to sign up to our service. Please drink responsible</small>
+					</p>
+				</section>
+			</div>
+		</div>
 
-<body>
-	<header>
-		<!--REF _ https://wallpaperaccess.com/chinese-bamboo -->
-		<!-- <img class="logo" src="assets/images/BF-Logo.png" alt="Bamboo Fitness Logo"> -->
-		<nav>
-
-		</nav>
-	</header>
-	<!--THIS IS THE REPEATING IMAGE ON ALL PAGES-->
-	<div class="heroimage">
-		<section>
-			<!--JUMBOTRON OVERLAID ON IMAGE WELCOMING USER-->
-		</section>
 	</div>
-	<!--INTRO TO COMPANY ETHOS AND CTA BUTTON-->
-	<div class="intro">
-		<section>
-			<p></p>
-		</section>
-	</div>
-	<div class="testimonials">
-		<section></section>
-	</div>
-	<footer>
-
-	</footer>
-</body>
-
+    
+    </div>
+    <section>
+    <div class="row no-gutters intro">
+    <div class="col-6">
+    <h2 class="about-heading">What we do</h2>
+      
+        <p class="about-text">What we do</p>
+      
+      </div>
+      <div class="three-women-photo">
+      <img class="col-6 three-women" src="assets/images/three-women.jpg" alt=""/>
+      
+      </div>
+      </div>
+    </section>
+    <section class="testimonials">
+    
+    </section>
+    <footer>
+    </footer>
+  </body>
 </html>

@@ -1,0 +1,105 @@
+/*---------------------LOGO-----------*/
+
+
+.logo {
+    height: 80%;
+    width: 80%;
+    position: relative; 
+    left:50px;
+    top: 20px;
+    float:left;
+    z-index: 2;
+    border-radius: 40%;
+}
+/*---------------------HEADER-------------*/
+
+header{
+    height: 200px;
+}
+
+/*---------------------CALLOUT-------------*/
+.callout-container {
+    height: 100vh;
+    background: url(../assets/images/bamboo.jpg) no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+
+.jumbotron{
+    float: right;
+    background-color: #d39e0059;
+}
+/*---------------------NAVBAR-------------*/
+
+#menu{
+  font-size: 110%;
+  list-style-type: none;
+  letter-spacing: 4px;
+  float: right;
+  color: #594100;
+  padding-top: 150px;
+}
+
+#menu li {
+  margin-right:30px;
+  float: left;
+  
+}
+
+#menu a{
+  text-decoration: none;
+  color: inherit;
+}
+/*---------------------TEXT-------------*/
+
+h2 {
+    font-family: sans-serif;
+    font-size: large;
+    color: goldenrod;
+}
+
+.what-we-do {
+    text-align: justify;
+    margin: 0 auto;
+}
+/*---------------------Images-------------*/
+
+.hero-image {
+    padding-top: 0;
+   background: url(..assets/images/bamboo.jpg) no-repeat bottom right fixed;
+   background-size: contain;
+   height: 50vmh;
+}
+
+.three-women{
+    background-size: contain;
+    float: right;
+    margin-top: 50px;
+    margin: 50px;
+    margin-right: 70px;
+    border-radius: 30%;
+}
+/*---------------------COLOURS-------------
+
+Green: #049107
+Gold: #b08100
+Brown: #594100
+White: #fcfcfc
+
+*/
+/*---------------------Footer-------------*/
+
+footer {
+    height:50px;
+    background-color: #0f6f31;
+    width: 100vmh;
+    position: relative;
+    bottom: 0;
+}
