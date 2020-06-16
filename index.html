@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="css/style.css" type="text/css" />
     <title>Bamboo Fitness</title>
   </head>
-
+<div class="full-jacket">
   <body>
     <header>
     <div class="row">
@@ -30,8 +30,8 @@
         <div class="col-8">
 <!--SIMILAR LAYOUT TO LOVE RUNNING https://repl.it/@DanielBradford/Love-Running#assets/css/style.css-->
 <!-- NAV BAR MENU--------------->
-    <button class="col-4 btn join-us-btn"><h4 class="join-us">Join Us</h4></button>
-    <nav>
+    <button class="col-4 btn join-us-btn d-none d-lg-block d-md-block "><h4 class="join-us">Join Us</h4></button>
+    <nav class="navbar-expand-sm d-none d-lg-block d-md-block ">
 			<ul id="menu">
 				<li>
 					<a class="active" href="index.html"> Home</a>
@@ -47,6 +47,8 @@
 				</li>
 			</ul>
 	</nav>
+    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="true" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span></button>
     <!-- NAV BAR MENU--------------->
         </div>
         </div>
@@ -76,8 +78,10 @@
     </div>
     <!-- FIRST CONTENT SECTION--------------->
     <section>
+        <button class="col-12 btn join-us-btn d-none d-sm-block d-md-none"><h4 class="join-us">Join Us</h4></button>
+
     <div class="row first-content">
-        <div class="col-4 what-we-do inline">
+        <div class="col-lg-4 col-sm-12 what-we-do inline">
             <h2 class="about-heading uppercase">What we do <i class="fa fa-question-circle"></i></h2>
       
         <p class="about-text"><h4>We are here to help you realise your potential and to get back to you. We provide top of the line facilities for you to enhance your physical and mental
@@ -86,7 +90,7 @@
         </div>
         <!-- Photo by cottonbro from Pexels(3 girls kneeling)------->
         <div class="three-women-img">
-         <div class="col-12 three-women-photo inline">
+         <div class="col-12 col-md-12 three-women-photo inline">
             <img class="three-women" src="assets/images/three-women.jpg" alt=""/>
         </div>
         </div>
@@ -96,21 +100,35 @@
     </section>
     <!-- FIRST CONTENT SECTION--------------->
     <!-- SECOND CONTENT SECTION--------------->
-    <section class="testimonials">
+   
     
-    </section>
+    
     <!-- SECOND CONTENT SECTION--------------->
-    <div class="row">
+     <section>
+    <div class="row container-fluid membership">
+    <div class="col membership d-none d-lg-block">
+    <div class="col-lg-4 col-sm-12 what-we-do inline">
+            <h2 class="membership-heading uppercase">What we do <i class="fa fa-question-circle"></i></h2>
+      
+        <p class="about-text"><h4>We are here to help you realise your potential and to get back to you. We provide top of the line facilities for you to enhance your physical and mental
+        well-being.</h4></p>
+      
+        </div>
+    </div>
+    </div>
+    </section>
+
+    <!-- FOOTER SECTION-------MODELLED OFF THE RESUME PROJECT--------------->
     <footer class="container-fluid">
 		<div id="footer-details" class="row">
-			<div class="col-sm-4">
+			<div class="col-lg-4 d-none d-lg-block d-xl-none">
 				<h5 class="uppercase general-sub">About</h5>
 				<p class="inline-block">
 					SHORT PARAGRAPH ABOUT BAMBOO FITNESS
 				</p>
 			</div>
-			<div class="col-sm-4">
-				<h5 class="uppercase general-sub">Download</h5>
+			<div class="col-sm-4 d-none d-lg-block d-xl-none">
+				<h5 class="uppercase general-sub d-sm-none d-md-block">Download</h5>
 				<p class="inline-block">
 					Download our Class timetable!<a href="assets/cv/class-timetable.pdf" target="_blank" class="cv-pdf"><i class="fa fa-download" aria-hidden="true"></i>
 						<span class="sr-only">Download Link</span>
@@ -155,4 +173,5 @@
 	</footer>
     </div>
   </body>
+  </div>
 </html>

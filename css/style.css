@@ -3,8 +3,8 @@
 /*---------------------LOGO-----------*/
 
 .logo {
-  height: 80%;
-  width: 80%;
+  height: 200px;
+  width: 200px;
   position: relative;
   left: 50px;
   top: 20px;
@@ -20,14 +20,14 @@ header {
 
 .jumbotron-header {
   font-family: "Amatic SC", cursive, sans-serif;
-  font-size: 50px;
+  font-size: 70px;
   color: white;
   font-weight: 700;
 }
 
 /*---------------------CALLOUT-------------*/
 .callout-container {
-  height: 70vh;
+  height: 60vh;
   background: url(../assets/images/bamboo.jpg) no-repeat bottom right fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -78,7 +78,7 @@ header {
   text-align: justify;
   margin: 0 auto;
   margin-top: 50px;
-  margin-left: 60px;
+  margin-left: 110px;
   height: 300px;
   padding-bottom: 20px;
 }
@@ -88,7 +88,13 @@ header {
   color: #a87b00;
   text-align: center;
 }
+.membership-heading{
+    font-family: "Amatic SC", cursive, sans-serif;
+  font-size: 60px;
+  color: #ffffff;
+  text-align: center;
 
+}
 .about-text {
   font-family: "Amatic SC", cursive, sans-serif;
   font-size: 40px;
@@ -104,6 +110,18 @@ header {
   display: inline-block;
   flex-direction: row-reverse;
 }
+
+h4{
+    font-family:"Oswald",sans-serif;
+    font-weight:200;
+    letter-spacing: 2px;
+    line-height: 40px;
+}
+
+.membership{
+    color: #ffffff;
+}
+
 /*---------------------Images-------------*/
 
 .hero-image {
@@ -111,6 +129,7 @@ header {
   background: url(..assets/images/bamboo.jpg) no-repeat bottom right fixed;
   background-size: contain;
   height: 40vmh;
+  width: 100vmh;
 }
 
 .three-women {
@@ -177,6 +196,18 @@ header {
 .first-content {
   height: 500px;
 }
+
+.membership {
+    height: 500px;
+    width:100%;
+    background-color: #a87b00;
+}
+
+.membership-block{
+
+    position: relative;
+    right: 100px;
+}
 /*---------------------COLOURS-------------
 
 Green: #049107
@@ -192,9 +223,13 @@ footer {
   min-height: 120px;
   margin: 0;
   background-color: #0f6f31;
+  width: 100vw;
+  padding: 0;
 }
-.list-inline-item {
+li .list-inline-item {
   display: inline-block;
+  background-color: #a87b00;
+  color: #fafafa;
 }
 
 i {
@@ -211,4 +246,79 @@ i {
 .list-inline {
   padding-left: 0;
   list-style: none;
+}
+
+
+/*---------------------Media Queries-------------*/
+
+@media (max-width: 768px){
+    html, body {
+    overflow-x: hidden;
+    }
+    body {
+    position: relative
+    }
+    footer{
+        flex-shrink: 0;
+        max-height: 40px;
+    }
+    #menu{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    #menu li {
+    margin-right: 15px;
+    float: left;
+    }
+}
+
+@media (max-width: 667px){
+    .callout-container {
+    height: 70vh;
+    }
+    .full-jacket{
+
+        width: 100vw;
+    }
+    html, body {
+  overflow-x: hidden;
+    }
+    body {
+  position: relative
+    }
+    .logo{
+
+    
+        height: 20vh;
+        width: 40vw;
+    }
+
+    .jumbotron-header{
+        font-size: 4em;
+    }
+    .hero-image{
+        width: 100vw;
+    }
+    .first-content {
+        width: 80vw;
+    }
+    
+    header{ 
+    
+        height: 120px;}
+
+    .three-women{
+        float: left;
+        padding: 0;
+        margin: 0 auto;
+        margin-top:4em;
+        align-content: center;
+    }
+
+    footer{
+        flex-shrink: 0;
+        max-height: 30px;
+        width: 100%;
+    }
+    
 }
