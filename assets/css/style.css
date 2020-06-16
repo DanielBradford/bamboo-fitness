@@ -3,14 +3,26 @@
 /*---------------------LOGO-----------*/
 
 .logo {
-  height: 200px;
-  width: 200px;
+  height: 300px;
+  width: 300px;
   position: relative;
   left: 50px;
   top: 20px;
   float: left;
   z-index: 2;
   border-radius: 40%;
+  animation-name: hero-zoom;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes logo-zoom {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.6);
+  }
 }
 /*---------------------HEADER-------------*/
 
@@ -28,7 +40,7 @@ header {
 /*---------------------CALLOUT-------------*/
 .callout-container {
   height: 60vh;
-  background: url(../assets/images/bamboo.jpg) no-repeat bottom right fixed;
+  background: url(../images/bamboo.jpg) no-repeat bottom right fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -40,8 +52,15 @@ header {
 }
 
 .jumbotron {
-  float: right;
+  float: center;
   background-color: #d39e0059;
+  padding: 32px;
+}
+
+hr {
+  width: 10em;
+  background-color: goldenrod;
+  height: 0.15em;
 }
 /*---------------------NAVBAR-------------*/
 
@@ -55,6 +74,7 @@ header {
   padding-right: 70px;
   font-family: "Oswald", cursive, sans-serif;
   font-weight: 400;
+  border-radius: 20%;
 }
 
 #menu li {
@@ -65,6 +85,13 @@ header {
 #menu li:hover {
   background-color: #674f08;
   color: #fafafa;
+  border-radius: 20%;
+}
+
+.active {
+border-style: solid;
+  border-width: 1px;
+  border: #674f08;
 }
 
 #menu a {
@@ -73,9 +100,10 @@ header {
 }
 
 /*---------------------TEXT-------------*/
-.callout-container > p {
+.callout p {
   font-family: "Oswald", cursive, sans-serif;
   font-weight: 400;
+  font-size: 1.5em;
   color: #ffffff;
 }
 
@@ -98,6 +126,7 @@ header {
   font-size: 60px;
   color: #ffffff;
   text-align: center;
+  background: transparent;
 }
 .about-text {
   font-family: "Amatic SC", cursive, sans-serif;
@@ -126,11 +155,71 @@ h4 {
   color: #ffffff;
 }
 
+/*---------------------Membership Types-------------*/
+.membership-title{
+font-family: "Amatic SC", cursive, sans-serif;
+  font-size: 60px;
+  color: #2d8d21;
+  text-align: center;
+
+
+}
+.memberships {
+  text-align: center;
+  list-style-type: none;
+  text-decoration: none;
+  background-color: #fafafa;
+  border-radius: 50%;
+}
+
+.memberships h4{
+    font-family: "Amatic SC", cursive, sans-serif;
+    font-size: 50px;
+
+}
+.memberships li{
+font-family: "Oswald", sans-serif;
+font-size: 20px;
+list-style-type: none;
+}
+
+.memberships i{
+
+font-size: 80px;
+}
+
+.bronze {
+  color: #c07512;
+}
+
+.silver {
+  color: #a8a7a3;
+}
+
+.gold {
+  color: #c99918;
+}
+
 /*---------------------Images-------------*/
 
 .hero-image {
   padding-top: 0;
-  background: url(..assets/images/bamboo.jpg) no-repeat bottom right fixed;
+  background: url(images/bamboo.jpg) no-repeat bottom right fixed;
+  background-size: contain;
+  height: 40vmh;
+  width: 100vmh;
+}
+.hero-image2 {
+  padding-top: 0;
+  background: url(images/bamboo.jpg) no-repeat bottom right fixed;
+  background-size: contain;
+  height: 30vmh;
+  width: 100vmh;
+}
+
+.hero-image3 {
+  padding-top: 0;
+  background: url(images/women.jpg) no-repeat bottom right fixed;
   background-size: contain;
   height: 40vmh;
   width: 100vmh;
@@ -152,6 +241,18 @@ h4 {
 .friends-of-the-earth {
   width: 300px;
 }
+/*---------------------Below used in love running-------------*/
+
+img {
+  width: 400px;
+  padding: 10px;
+}
+.photo {
+  margin: 30px;
+}
+/* .photo > img:hover {
+    transform:scale(3);
+    margin: 30px;} */
 
 /*---------------------Buttons-------------*/
 
@@ -193,6 +294,9 @@ button {
   letter-spacing: 2px;
 }
 
+.sign-up-btn {
+  width: 50px;
+}
 /*---------------------CONTAINER-------------*/
 
 .container-fluid {
@@ -227,18 +331,10 @@ White: #fcfcfc
 */
 /*---------------------Footer-------------*/
 
-.social-links {
-
-    display: inline;
-    align-content: center;
-    margin: auto 0;
-
+.social {
+  display: inline-block;
+  list-style-type: none;
 }
-
-footer {
-    min-height: 90px;
-}
-
 
 /*---------------------Media Queries-------------*/
 
