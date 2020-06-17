@@ -51,6 +51,70 @@ header {
   position: relative;
 }
 
+.callout-container6 {
+  height: 10vh;
+  background: url(../images/bamboo-lower.jpg) no-repeat bottom right fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.callout-container5 {
+  height: 60vh;
+  background: url(../images/bamboo-lower.jpg) no-repeat bottom right fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.callout-container2{
+  height: 60vh;
+  background: url(../images/women.jpg) no-repeat bottom right fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.callout-container3{
+  height: 60vh;
+  background: url(../images/cupboard.jpg) no-repeat bottom right fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.callout-container4{
+  height: 60vh;
+  background: url(../images/weights.jpg) no-repeat bottom right fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+
 .jumbotron {
   float: center;
   background-color: #d39e0059;
@@ -61,6 +125,10 @@ hr {
   width: 10em;
   background-color: goldenrod;
   height: 0.15em;
+}
+
+.contact-page {
+opacity: .5;
 }
 /*---------------------NAVBAR-------------*/
 
@@ -89,7 +157,7 @@ hr {
 }
 
 .active {
-border-style: solid;
+  border-style: solid;
   border-width: 1px;
   border: #674f08;
 }
@@ -114,6 +182,10 @@ border-style: solid;
   margin-left: 110px;
   height: 300px;
   padding-bottom: 20px;
+}
+
+.what-we-do h4{
+    width: 60%;
 }
 .about-heading {
   font-family: "Amatic SC", cursive, sans-serif;
@@ -156,14 +228,13 @@ h4 {
 }
 
 /*---------------------Membership Types-------------*/
-.membership-title{
-font-family: "Amatic SC", cursive, sans-serif;
+.membership-title {
+  font-family: "Amatic SC", cursive, sans-serif;
   font-size: 60px;
   color: #2d8d21;
   text-align: center;
-
-
 }
+
 .memberships {
   text-align: center;
   list-style-type: none;
@@ -171,33 +242,56 @@ font-family: "Amatic SC", cursive, sans-serif;
   background-color: #fafafa;
   border-radius: 50%;
 }
+.memberships:hover{
+    cursor: pointer;
+    transform: scale(1.2);
 
-.memberships h4{
-    font-family: "Amatic SC", cursive, sans-serif;
-    font-size: 50px;
+
 
 }
-.memberships li{
-font-family: "Oswald", sans-serif;
-font-size: 20px;
-list-style-type: none;
+.memberships h4 {
+  font-family: "Amatic SC", cursive, sans-serif;
+  font-size: 50px;
+}
+.memberships li {
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+  list-style-type: none;
 }
 
-.memberships i{
-
-font-size: 80px;
+.memberships i {
+  font-size: 80px;
 }
 
 .bronze {
-  color: #c07512;
+  color: #ac5a0d;
+  border: solid 4px #ac5a0d;
+}
+
+.bronze h4{
+    background-color: #ac5a0d;
+    color: #faffff;
+    border-radius: 1.2em;
 }
 
 .silver {
   color: #a8a7a3;
+  border: solid 4px #a8a7a3;
 }
-
+.silver h4{
+    background-color: #a8a7a3;
+    color: #faffff;
+    border-radius: 1.2em;
+}
 .gold {
   color: #c99918;
+  border: solid 4px #c99918;
+}
+
+.gold h4{
+    background-color: #c99918;
+    color: #faffff;
+    border-radius: 1.2em;
 }
 
 /*---------------------Images-------------*/
@@ -211,7 +305,7 @@ font-size: 80px;
 }
 .hero-image2 {
   padding-top: 0;
-  background: url(images/bamboo.jpg) no-repeat bottom right fixed;
+  background: url(images/women.jpg) no-repeat bottom right fixed;
   background-size: contain;
   height: 30vmh;
   width: 100vmh;
@@ -227,15 +321,12 @@ font-size: 80px;
 
 .three-women {
   width: 500px;
-  border-radius: 50%;
-  margin: 50px;
-  float: right;
 }
 
-.three-women-img {
-  align-items: right;
-  margin: auto 0;
-  align-content: center;
+
+.three-women-photo{
+    background: url(assets/images/three-women.jpg);
+    display: inline;
 }
 
 .friends-of-the-earth {
@@ -331,9 +422,23 @@ White: #fcfcfc
 */
 /*---------------------Footer-------------*/
 
-.social {
-  display: inline-block;
-  list-style-type: none;
+.social-links .inline:hover{
+
+    transform: scale(1.4);
+
+}
+
+
+.social-links i{
+    height: 20px;
+    width: 20px;
+    font-size: 35px;
+    color: #a87b00;
+    padding: 10px;
+    
+    word-spacing: 50px;
+    
+
 }
 
 /*---------------------Media Queries-------------*/
