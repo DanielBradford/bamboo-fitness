@@ -13,7 +13,7 @@
       href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
       type="text/css"
     />
-    <link rel="stylesheet" href="../assets/css/style.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <title>Contact Us - Bamboo Fitness</title>
   </head>
   <div class="full-jacket">
@@ -33,7 +33,10 @@
             <button class="col-4 btn join-us-btn d-none d-lg-block d-md-block">
               <h4 class="join-us">Join Us</h4>
             </button>
-            <nav class="navbar-expand-sm d-none d-lg-block d-md-block">
+            <nav
+              id="navbarNavDropdown"
+              class="navbar-expand-sm d-none d-lg-block d-md-block"
+            >
               <ul id="menu">
                 <li>
                   <a href="index.html"> Home</a>
@@ -78,36 +81,122 @@
           </div>
         </div>
       </div>
-      <!-- FIRST CONTENT SECTION--------------->
-      <section>
-        <button class="col-12 btn join-us-btn d-none d-sm-block d-md-none">
-          <h4 class="join-us">Join Us</h4>
-        </button>
-
-        <div class="row first-content"></div>
-      </section>
-      <!-- FIRST CONTENT SECTION--------------->
       <div class="container-fluid callout-container3">
         <div class="row">
-          <div class="col-12"></div>
+          <div class="col-4 contact-item">
+            <i class="fa fa-phone-square"></i
+            ><a href="tel:+44151637987"> +44 (0151) 637 9872</a>
+          </div>
+          <div class="col-4 contact-item">
+            <i class="fa fa-envelope-square"></i
+            ><a href="mailto:info@bamboofitness.co.uk">
+              info@bamboofitness.co.uk</a
+            >
+          </div>
+          <div class="col-4 contact-item">
+            <i class="fa fa-home"></i
+            ><a
+              href="http://maps.google.com/?q=22-24 Parkside Cl, Birkenhead, Bebington, Wirral CH63 7RY"
+              >22-24 Parkside Cl, Bebington, Wirral CH63 7RY</a
+            >
+          </div>
         </div>
       </div>
+      <!-- FIRST CONTENT SECTION--------------->
+      <button class="col-12 btn join-us-btn d-none d-sm-block d-md-none">
+        <h4 class="join-us">Join Us</h4>
+      </button>
+
+      <div class="row membership">
+        <div class="col-3 callout-container"></div>
+        <!-- FORM TEMPLATE FROM BOOTSTRAP--------------->
+        <div class="col-lg-6 col-sm-12 contact-form">
+          <section class="form-section">
+            <form
+              class="form-group"
+              method="post"
+              action="https://formdump.codeinstitute.net/"
+            >
+              <h2>Get in touch... <i class="fa fa-heartbeat"></i></h2>
+
+              <label for="fname">FIRST NAME: </label>
+              <input
+                class="text-input"
+                type="text"
+                name="first_name"
+                id="fname"
+                required
+              /><br />
+              <br />
+              <label for="lname">LAST NAME: </label>
+              <input
+                class="text-input"
+                type="text"
+                name="last_name"
+                id="lname"
+                required
+              /><br />
+              <br />
+              <label for="email">EMAIL: </label>
+              <input
+                class="text-input"
+                type="email"
+                name="email_address"
+                id="email"
+                required
+              />
+              <br />
+              <h4 class="uppercase">
+                Please select the membership type you are interested in:
+              </h4>
+              <label class="uppercase" for="bronze"> Bronze Leaf </label>
+              <input
+                type="checkbox"
+                name="membership_preference"
+                value="bronze"
+                id="bronze"
+              />
+              <label class="uppercase" for="silver"> Silver Leaf </label>
+              <input
+                type="checkbox"
+                name="membership_preference"
+                value="silver"
+                id="silver"
+              />
+              <label class="uppercase" for="gold"> Gold Leaf </label>
+              <input
+                type="checkbox"
+                name="membership_preference"
+                value="gold"
+                id="gold"
+              />
+              <div class="form-group">
+                <label for="enquiry">How can we help?</label>
+                <textarea
+                  name="enquiry"
+                  class="form-control textarea"
+                  id="enquiry"
+                  rows="3"
+                ></textarea>
+              </div>
+              <br />
+              <input class="join-button" type="submit" value="SEND" />
+            </form>
+          </section>
+        </div>
+        <div class="col-3 callout-container"></div>
+      </div>
+      <!-- FIRST CONTENT SECTION--------------->
+      
       <!-- SECOND CONTENT SECTION--------------->
 
       <!-- SECOND CONTENT SECTION--------------->
-      <section>
-        <div class="row container-fluid membership">
-          <div class="col membership d-none d-lg-block"></div>
-        </div>
-      </section>
-      <div class="container-fluid callout-container3">
-        <div class="row">
-          <div class="col-12"></div>
-        </div>
-      </div>
 
       <!-- FOOTER SECTION-------MODELLED OFF THE RESUME PROJECT--------------->
-      <footer class="container-fluid">
+      <footer
+        class="container-fluid callout-container3"
+        style="background: url(cupboard.jpg);"
+      >
         <div class="row social-links">
           <span class="col-3 inline">
             <i class="fa fa-facebook"></i>
