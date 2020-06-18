@@ -201,17 +201,17 @@ hr {
 }
 
 #menu li:hover {
-  border: solid #674f08 1px;
-  background-color: #00830085;
+  background-color: #0083005b;
   color: #674f08;
   border-top-left-radius: 70%;
   border-bottom-right-radius: 70%;
 }
 
 .active {
-  border-style: solid;
-  border-width: 1px;
-  border: #674f08;
+  background-color: #0083005b;
+  color: #674f08;
+  border-top-left-radius: 70%;
+  border-bottom-right-radius: 70%;
 }
 
 #menu a {
@@ -280,7 +280,6 @@ hr {
   position: relative;
   color: #a87b00;
 }
-
 
 h4 {
   font-family: "Oswald", sans-serif;
@@ -405,6 +404,10 @@ img {
   margin: 30px;
 }
 
+.photo .leaf {
+  border-top-left-radius: 70%;
+  border-bottom-right-radius: 70%;
+}
 /*---------------------Buttons-------------*/
 
 button {
@@ -450,7 +453,7 @@ button {
   font-size: 1.5em;
 }
 
-/*---------------------CONTAINER-------------*/
+/*---------------------CONTAINERS-------------*/
 
 .container-fluid {
   width: 100%;
@@ -474,14 +477,15 @@ button {
   height: 500px;
   width: 100%;
   background-color: #a87b00;
+  opacity: 0.8;
 }
 
 .thin-gold-wrapper {
   height: 300px;
   width: 100%;
   background-color: #a87b00;
-  overflow:visible;
-  z-index: 1;
+  overflow: visible;
+ 
 }
 
 .membership-block {
@@ -518,23 +522,22 @@ textarea.form-control {
 
 /*--------------------CONTACT US items-------------*/
 
-.contact-item{
-margin-top: 30px;
-    text-decoration: none;
-    font-size: 2em;
-    text-align: center;
-
+.contact-item {
+  margin-top: 30px;
+  text-decoration: none;
+  font-size: 2em;
+  text-align: center;
 }
 
-.contact-item i{
-    font-size: 3em;
-    background-color: #fafafa;
-    color: #674f08;
-    border-radius: 50%;
+.contact-item i {
+  font-size: 3em;
+  background-color: #fafafa;
+  color: #674f08;
+  border-radius: 50%;
 }
 
-.contact-item a{
-    color: #674f08;
+.contact-item a {
+  color: #674f08;
 }
 
 /*---------------------CSS ANIMATED MEMBERSHIP FEATURE (guided by @coding_gyan)-------------*/
@@ -654,14 +657,13 @@ margin-top: 30px;
   .hero-image {
     width: 100vw;
   }
-  .first-content {
-    width: 80vw;
-  }
 
   header {
     height: 120px;
   }
-
+  .first-content {
+    width: 100vw;
+  }
   .three-women {
     float: left;
     padding: 0;

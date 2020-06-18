@@ -16,8 +16,7 @@
     <link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
     <title>Bamboo Fitness</title>
   </head>
-<div class="full-jacket">
-  <body>
+<body>
     <header>
     <div class="row">
          <div class="col-md-4 inline">
@@ -65,7 +64,9 @@
 					<h1 class="jumbotron-header">Welcome to Bamboo Fitness</h1>
 					<hr class="block-divider">
 					<p>Sign up today to get your membership started!<br> Your first visit is free!</p>
-					<button class="btn btn-lg join-us-btn sign-up-button" data-toggle="modal" data-target="#signUpModal">Sign-Up!</button>
+					<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                        Launch demo modal
+                    </button>
 				</section>
 			</div>
 		</div>
@@ -79,7 +80,7 @@
 
     <div class="row first-content">
         <div class="col-lg-6 col-sm-12 what-we-do inline">
-            <h2 class="about-heading uppercase">What we do <i class="fa fa-question-circle"></i></h2>
+            <h2 class="about-heading uppercase">What we do <i class="fa fa-dumbbell"></i></h2>
             <br>
       
             <p class="about-text"><h4>We are here to help you realise your <strong>potential</strong> and to get back to you. We provide <strong>top of the line facilities</strong> for you to enhance your physical and mental
@@ -94,7 +95,7 @@
          
     </section>
     <!-- FIRST CONTENT SECTION--------------->
-    <div class="container-fluid callout-container7"></div>
+    <div class="container-fluid callout-container7 d-none d-sm-none"></div>
     <!-- SECOND CONTENT SECTION--------------->
    
     
@@ -114,7 +115,7 @@
     </div>
     </div>
     </section>
-   <div class="heroimage2">
+    <div class="heroimage2">
     
       <h2 class="membership-title uppercase">Memberships <i class="fa fa-user-shield"></i></h2>
       </div>
@@ -171,26 +172,45 @@
 			</div>
 		</div>
       </div>
-
-	</div>
-    
-    <!-- FOOTER SECTION-------MODELLED OFF THE RESUME PROJECT--------------->
+<!-- FOOTER SECTION-------MODELLED OFF THE RESUME PROJECT--------------->
     <footer class="container-fluid indexfooter">
-    <div class="row social-links">
-    <span class="col-3 inline">
-            <a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a>
-        </span>
-        <span class="col-3 inline">
+        <div class="row social-links">
+            <span class="col-3 inline">
+             <a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a>
+             </span>
+            <span class="col-3 inline">
             <a href="https://www.instagram.com"><i class="fa fa-instagram"></i></a>
-        </span>
-        <span class="col-3 inline">
+            </span>
+             <span class="col-3 inline">
             <a href="https://www.twitter.com"><i class="fa fa-twitter"></i></a>
-        </span>
-        <span class="col-3 inline">
+            </span>
+            <span class="col-3 inline">
             <a href="https://www.youtube.com"><i class="fa fa-youtube"></i></a>
-        </span>
-    </div>
+            </span>
+        </div>
 	</footer>
-  </body>
-  </div>
+    <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                ...
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <a href="assets/class-timetable.pdf" target="_blank"><button type="button" class="btn btn-primary">Save changes</button></a>
+            </div>
+            </div>
+        </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    </body>
 </html>
