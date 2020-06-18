@@ -179,11 +179,11 @@
           <div class="col-12">
             <button
               type="button"
-              class="btn btn-primary"
+              class="btn btn-lg btn-primary uppercase"
               data-toggle="modal"
               data-target="#exampleModal"
             >
-              Launch demo modal
+              Class Timetable
             </button>
           </div>
         </div>
@@ -293,7 +293,7 @@
           </span>
         </div>
       </footer>
-<!-- Modal -->
+      <!-- Modal COPIED EXAMPLE FROM BOOTSTRAP THEN MODIFIED-->
       <div
         class="modal fade"
         id="exampleModal"
@@ -302,10 +302,15 @@
         aria-labelledby="exampleModalLabel"
         aria-hidden="true"
       >
-        <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+        <div
+          class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable"
+        >
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+              <h5 class="modal-title" id="exampleModalLabel">
+              
+                Class Timetable
+              </h5>
               <button
                 type="button"
                 class="close"
@@ -316,7 +321,105 @@
               </button>
             </div>
             <div class="modal-body">
-              ...
+            <div class="row">
+            <div class="col-6">
+                <img class="qrcode" src="assets/images/qr-code.png" alt="qr code for classes">
+            </div>
+            <div class="col-6">
+            <table class="table">
+                <thead>
+        <!-- TABLE HEADINGS -->
+                  <tr>
+                    <th scope="col">Day</th>
+                    <th scope="col">Time</th>
+                    <th scope="col">Class</th>
+                    <th scope="col">Level</th>
+                  </tr>
+                </thead>
+                <tbody>
+                <!-- MONDAY -->     
+                  <tr>
+                    <th scope="row">Monday</th>
+                    <td>08:00 - 09:00</td>
+                    <td>Yoga</td>
+                    <td>All</td>
+                  </tr>
+                  <tr>
+                    <th scope="row"> </th>
+                    <td>09:00 - 10:00</td>
+                    <td>HITT</td>
+                    <td>Intermediate</td>
+                  </tr>
+                  <tr>
+                    <th scope="row"> </th>
+                    <td>18:30 - 19:30</td>
+                    <td>Pilates</td>
+                    <td>Beginner</td>
+                  </tr>
+                  <!-- WEDNESDAY --> 
+                  <tr>
+                    <th scope="row">Wednesday</th>
+                    <td>08:00 - 09:00</td>
+                    <td>HITT</td>
+                    <td>Beginner</td>
+                  </tr>
+                  <tr>
+                    <th scope="row"> </th>
+                    <td>09:00 - 10:00</td>
+                    <td>Spin</td>
+                    <td>Intermediate</td>
+                  </tr>
+                  <tr>
+                    <th scope="row"> </th>
+                    <td>18:30 - 19:30</td>
+                    <td>Pilates</td>
+                    <td>Intermediate</td>
+                  </tr>
+                  <!-- FRIDAY --> 
+                  <tr>
+                    <th scope="row">Friday</th>
+                    <td>08:00 - 09:00</td>
+                    <td>Spin</td>
+                    <td>Intermediate</td>
+                    <tr>
+                    <th scope="row"> </th>
+                    <td>09:00 - 10:00</td>
+                    <td>HITT</td>
+                    <td>All</td>
+                  </tr>
+                  <tr>
+                    <th scope="row"> </th>
+                    <td>18:30 - 19:30</td>
+                    <td>Pilates</td>
+                    <td>Beginner</td>
+                  </tr>
+                  </tr>
+                  <!-- SATURDAY --> 
+                  <tr>
+                    <th scope="row">Saturday</th>
+                    <td>08:00 - 09:00</td>
+                    <td>Spin</td>
+                    <td>All</td>
+                  </tr>
+                  <tr>
+                    <th scope="row"> </th>
+                    <td>09:00 - 10:00</td>
+                    <td>HITT</td>
+                    <td>All</td>
+                  </tr>
+                  <tr>
+                    <th scope="row"> </th>
+                    <td>18:30 - 19:30</td>
+                    <td>Pilates</td>
+                    <td>All</td>
+                  </tr>
+                </tbody>
+              </table>
+            
+            </div>
+            </div>
+
+                
             </div>
             <div class="modal-footer">
               <button
@@ -326,9 +429,11 @@
               >
                 Close
               </button>
-              <button type="button" class="btn btn-primary">
-                Save changes
-              </button>
+              <a href="assets/class-timetable.pdf" target="_blank"
+                ><button type="button" class="btn btn-primary">
+                  DOWNLOAD PDF <i class="fa fa-file-pdf"></i>
+                </button></a
+              >
             </div>
           </div>
         </div>
