@@ -1,6 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Open+Sans+Condensed:wght@300&family=Oswald&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Heebo&display=swap");
 /*---------------------LOGO-----------*/
+body{
+  overflow-x: hidden;
+}
 
 .logo {
   height: 300px;
@@ -64,6 +67,23 @@ header {
   align-items: center;
   justify-content: center;
   position: relative;
+}
+
+.class-container {
+
+    height: auto;
+  background: url(../images/class.jpg) no-repeat bottom right fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  opacity: .5;
+
+
 }
 
 .indexfooter {
@@ -169,12 +189,15 @@ header {
   float: center;
   background-color: #d39e0059;
   padding: 32px;
+  height: auto;
+  width: auto;
 }
 
 hr {
   width: 10em;
   background-color: goldenrod;
   height: 0.15em;
+  margin: auto;
 }
 
 .contact-page {
@@ -186,13 +209,12 @@ hr {
   font-size: 180%;
   list-style-type: none;
   letter-spacing: 4px;
-  float: right;
+  float: center;
   color: #674f08;
   padding-top: 15px;
-  padding-right: 70px;
+
   font-family: "Oswald", cursive, sans-serif;
-  font-weight: 400;
-  border-radius: 20%;
+
 }
 
 #menu li {
@@ -226,6 +248,7 @@ hr {
   font-size: 1.5em;
   color: #ffffff;
   border-bottom-left-radius: 20%;
+  opacity: .8;
 }
 
 .what-we-do {
@@ -258,10 +281,11 @@ hr {
 }
 
 .what-we-offer {
-  text-align: justify;
+    text-align: justify;
   margin: 0 auto;
+  margin-top: 50px;
   padding-bottom: 20px;
-  border-bottom-left-radius: 20%;
+
 }
 
 .what-we-offer h4 {
@@ -292,6 +316,14 @@ h4 {
   color: #ffffff;
 }
 
+.meet-our-team {
+  font-family: "Amatic SC", cursive, sans-serif;
+  font-size: 40px;
+  background-color: #52351194;
+  border-top-left-radius: 70%;
+  border-bottom-right-radius: 70%;
+}
+
 /*---------------------Membership Types-------------*/
 .membership-title {
   font-family: "Amatic SC", cursive, sans-serif;
@@ -307,6 +339,8 @@ h4 {
   background-color: #fafafa;
   border-radius: 50%;
   z-index: 100;
+  height: 20rem;
+  opacity: 1;
 }
 .memberships:hover {
   cursor: pointer;
@@ -386,9 +420,17 @@ h4 {
 
 .three-women img {
   width: 80%;
-  margin-top: 60px;
+  margin-top: 100px;
   border-top-left-radius: 70%;
   border-bottom-right-radius: 70%;
+}
+
+.charity img{
+  width: 80%;
+  margin-top: 100px;
+  border-top-right-radius: 70%;
+  border-bottom-left-radius: 70%;
+  margin-left: 70px;
 }
 
 .id-photo {
@@ -413,25 +455,29 @@ img {
 button {
   font-family: "Amatic SC", cursive, sans-serif;
   font-size: 20px;
+  color: #fffffa;
+  background-color: #7512d1;
+  border: solid 1px white;
+  width: 15rem;
+  text-align: center;
 }
 
-.join-us-btn {
+.callout .btn-cta {
+    color: #fff;
+    background-color: #6845bd;
+    border-color: #ffffff;
+    letter-spacing: .8rem;
+}
+
+.btn-cta:hover {
   background-color: #a87b00;
-  color: #fafafa;
-  float: right;
-  margin: 25px;
-  border-radius: 2em;
-  font-family: "Amatic SC", cursive, sans-serif;
-  font-size: 20px;
+  color: #ffffff;
+  border-color: #ffffff;
 }
 
-.join-us-btn:hover {
-  background-color: #fafafa;
-  color: #a87b00;
-  float: right;
-  margin: 25px;
-  border-radius: 2em;
-  border-color: #a87b00;
+.btn-ca:active{
+    border-color: #ffffff;
+
 }
 
 .join-us-btn h4 {
@@ -439,18 +485,6 @@ button {
   font-size: 20px;
   color: white;
   letter-spacing: 2px;
-}
-
-.join-us-btn h4:hover {
-  font-family: "Amatic SC", cursive, sans-serif;
-  font-size: 20px;
-  color: #a87b00;
-  letter-spacing: 2px;
-}
-
-.sign-up-btn {
-  width: 200px;
-  font-size: 1.5em;
 }
 
 /*---------------------CONTAINERS-------------*/
@@ -481,11 +515,9 @@ button {
 }
 
 .thin-gold-wrapper {
-  height: 300px;
+  height: 320px;
   width: 100%;
   background-color: #a87b00;
-  overflow: visible;
- 
 }
 
 .membership-block {
@@ -493,6 +525,24 @@ button {
   right: 100px;
 }
 
+.left-block{
+height: 100px;
+background-color: #ffffff;
+border-bottom-left-radius: 50%;
+}
+
+.middle-block{
+    height: 100px;
+background-color: #ffffff;
+
+}
+
+.right-block{
+
+height: 100px;
+background-color: #ffffff;
+border-bottom-right-radius: 50%;
+}
 /*--------------------CONTACT US FORM-------------*/
 .contact-form {
   margin-top: 2em;
@@ -627,7 +677,6 @@ textarea.form-control {
     padding-right: 0px;
   }
   #menu li {
-    margin-right: 15px;
     float: left;
   }
 }

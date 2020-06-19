@@ -19,38 +19,71 @@
  <body>
     <header>
     <div class="row">
-         <div class="col-md-4 inline">
+        <div class="col-5 inline">
           <img
             class="logo"
             src="assets/images/BF-LOGO.png"
             alt="Bamboo Fitness Logo"
           />
-         </div>
-        <div class="col-8">
+        </div>
+        <div class="col-6">
+            <div class="alert alert-success bg-gradient-success" role="alert">
+                <strong>10%</strong> of all membership fees is donated to an eco charity. <a href="#charity">Click for info!</a>
+            </div>
 <!--SIMILAR LAYOUT TO LOVE RUNNING https://repl.it/@DanielBradford/Love-Running#assets/css/style.css-->
 <!-- NAV BAR MENU--------------->
-    <button class="col-4 btn join-us-btn d-none d-lg-block d-md-block "><h4 class="join-us">Join Us</h4></button>
-    <nav class="navbar-expand-sm d-none d-lg-block d-md-block ">
-			<ul id="menu">
-				<li>
-					<a class="active" href="index.html"> Home</a>
-				</li>
-				<li>
-					<a href="classes.html"> Classes </a>
-				</li>
-                <li>
-					<a href="gallery.html"> Gallery </a>
-				</li>
-                <li>
-					<a href="contact.html"> Contact Us</a>
-				</li>
-			</ul>
-	</nav>
-    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="true" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span></button>
-<!-- NAV BAR MENU--------------->
+            <nav class="navbar-expand-sm d-none d-lg-block d-md-block ">
+                    <ul id="menu">
+                        <li>
+                            <a class="active" href="index.html"> Home</a>
+                        </li>
+                        <li>
+                            <a href="classes.html"> Classes </a>
+                        </li>
+                        <li>
+                            <a href="gallery.html"> Gallery </a>
+                        </li>
+                        <li>
+                            <a href="contact.html"> Contact Us</a>
+                        </li>
+                    </ul>
+            </nav>
         </div>
-        </div> 
+<!-- NAV BAR MENU--------------->
+<!-- POTENTIAL SIGN IN BUTTON FOR MEMBERS--------------->
+        <!-- <div class="col-2">
+            <div class="btn-group dropleft">
+                <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropleft
+                </button>
+                <div class="dropdown-menu">
+                <div class="dropdown-menu">
+                    <form class="px-4 py-3">
+                        <div class="form-group">
+                        <label for="exampleDropdownFormEmail1">Email address</label>
+                        <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
+                        </div>
+                        <div class="form-group">
+                        <label for="exampleDropdownFormPassword1">Password</label>
+                        <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password">
+                        </div>
+                        <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                        <label class="form-check-label" for="dropdownCheck">
+                            Remember me
+                        </label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Sign in</button>
+                    </form>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">New around here? Sign up</a>
+                    <a class="dropdown-item" href="#">Forgot password?</a>
+                </div>
+                </div>
+            </div>
+        </div> -->
+    </div>
+
     </header>
 <!--THIS IS THE REPEATING IMAGE ON ALL PAGES--><!--REF _ https://wallpaperaccess.com/chinese-bamboo -->
     <div class="heroimage">
@@ -61,12 +94,16 @@
             </div>
 			<div class="col-lg-10 col-sm-12">
 				<section class="callout jumbotron text-center">
-					<h1 class="jumbotron-header">Welcome to Bamboo Fitness</h1>
+					<h1 class="jumbotron-header">Welcome to Bamboo Fitness <i class="fa fa-dumbbell"></i></h1>
 					<hr class="block-divider">
-					<p>Sign up today to get your membership started!<br> Your first visit is free!</p>
-					<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-                        Launch demo modal
+					<p>A HAVEN FOR RECREATION THAT ALLOWS YOU TO GIVE BACK TO YOURSELF AND THE ENVIRONMENT...</p><br>
+
+					<button type="button" class="btn-lg btn-cta " data-toggle="modal" data-target="#exampleModal">
+                        Join Us!
                     </button>
+                    <br>
+                    <br>
+                    <p>Sign up today to get your membership started!</p>
 				</section>
 			</div>
 		</div>
@@ -102,19 +139,24 @@
     
     
     <!-- SECOND CONTENT SECTION--------------->
-     <section>
-    <div class="row container-fluid gold-wrapper">
-    .<div class="col-lg-6"></div>
-    <div class="col gold-wrapper d-none d-lg-block">
-    <div class="col-lg-6 col-sm-12 what-we-offer inline">
-            <h2 class="membership-heading uppercase">What we offer <i class="fa fa-globe"></i></h2>
-      
-        <p class="about-text"><h4>At <strong>Bamboo Fitness</strong> we pride ourselves on our care and charity. That is why we will be donating 
-        at least <strong>10%</strong> of your membership each month to a selected <strong>eco charity</strong>.</h4></p>
-      
+    <section>
+        <div class="row container-fluid gold-wrapper">
+        <div class="col-6 charity">
+            <img class="charity-photo" src="assets/images/charity.jpg" alt="hands helping plant grow"/>
+
+            <br><a href="https://www.freepik.com/free-photos-vectors/people">People photo created by freepik - www.freepik.com</a>
+        
         </div>
-    </div>
-    </div>
+
+            <a name="charity"></a><div class="col-lg-6 col-sm-12 what-we-offer inline">
+                <h2 class="membership-heading uppercase">What we offer <i class="fa fa-globe"></i></h2>
+        
+            <p class="about-text"><h4>At <strong>Bamboo Fitness</strong> we pride ourselves on our care and charity. That is why we will be donating 
+            at least <strong>10%</strong> of your membership each month to a selected <strong>eco charity</strong>.</h4></p>
+        
+            </div>
+        </div>
+        
     </section>
     <div class="heroimage2">
     
@@ -173,10 +215,10 @@
 			</div>
 		</div>
       </div>
-<!-- FOOTER SECTION-------MODELLED OFF THE RESUME PROJECT--------------->
+<!-- FOOTER SECTION-------MODELLED OFF OF THE RESUME PROJECT--------------->
     <footer class="container-fluid indexfooter">
         <div class="row social-links">
-            <span class="col-3 inline">
+            <span class="col-3 inline"> 
              <a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a>
              </span>
             <span class="col-3 inline">
@@ -192,26 +234,106 @@
 	</footer>
     <!-- Modal -->
         <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
+        <div class="modal-dialog modal-xl modal-dialog-centered">
             <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <h5 class="modal-title" id="exampleModalLabel"><h2>Get in touch... <i class="fa fa-heartbeat"></i></h2></h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
                 </button>
             </div>
             <div class="modal-body">
-                ...
+              <div class="row gold-wrapper">
+                <!-- FORM TEMPLATE FROM BOOTSTRAP (SAME FORM AS CONTACT US PAGE)--------------->
+                <div class="col-lg-6 col-sm-12 contact-form">
+                <section class="form-section">
+                    <form
+                    class="form-group"
+                    method="post"
+                    action="https://formdump.codeinstitute.net/"
+                    >
+                    
+
+                    <label for="fname">FIRST NAME: </label>
+                    <input
+                        class="text-input"
+                        type="text"
+                        name="first_name"
+                        id="fname"
+                        required
+                    /><br />
+                    <br />
+                    <label for="lname">LAST NAME: </label>
+                    <input
+                        class="text-input"
+                        type="text"
+                        name="last_name"
+                        id="lname"
+                        required
+                    /><br />
+                    <br />
+                    <label for="email">EMAIL: </label>
+                    <input
+                        class="text-input"
+                        type="email"
+                        name="email_address"
+                        id="email"
+                        required
+                    />
+                    <br />
+                    <h4 class="uppercase">
+                        Please select the membership type you are interested in:
+                    </h4>
+                    <label class="uppercase" for="bronze"> Bronze Leaf </label>
+                    <input
+                        type="checkbox"
+                        name="membership_preference"
+                        value="bronze"
+                        id="bronze"
+                    />
+                    <label class="uppercase" for="silver"> Silver Leaf </label>
+                    <input
+                        type="checkbox"
+                        name="membership_preference"
+                        value="silver"
+                        id="silver"
+                    />
+                    <label class="uppercase" for="gold"> Gold Leaf </label>
+                    <input
+                        type="checkbox"
+                        name="membership_preference"
+                        value="gold"
+                        id="gold"
+                    />
+                    <div class="form-group">
+                        <label for="enquiry">How can we help?</label>
+                        <textarea
+                        name="enquiry"
+                        class="form-control textarea"
+                        id="enquiry"
+                        rows="3"
+                        ></textarea>
+                    </div>
+                    <br />
+                    <input class="join-button" type="submit" value="SEND" />
+                    </form>
+                </section>
+                </div>
+            <div class="col-6">
+                <img src="assets/images/BF-LOGO.png" alt="Bamboo Fitness Logo"/>
+                
             </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <a href="assets/class-timetable.pdf" target="_blank"><button type="button" class="btn btn-primary">Save changes</button></a>
-            </div>
-            </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary" data-dismiss="modal">Done</button>
+                    </div>
+                </div>
+                </div>
         </div>
         </div>
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     </body>
 </html>

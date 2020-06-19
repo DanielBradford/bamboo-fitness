@@ -19,51 +19,73 @@
   <div class="full-jacket">
     <body>
       <header>
-        <div class="row">
-          <div class="col-md-4 inline">
-            <img
-              class="logo"
-              src="assets/images/BF-LOGO.png"
-              alt="Bamboo Fitness Logo"
-            />
-          </div>
-          <div class="col-8">
-            <!--SIMILAR LAYOUT TO LOVE RUNNING https://repl.it/@DanielBradford/Love-Running#assets/css/style.css-->
-            <!-- NAV BAR MENU--------------->
-            <button class="col-4 btn join-us-btn d-none d-lg-block d-md-block">
-              <h4 class="join-us">Join Us</h4>
-            </button>
-            <nav class="navbar-expand-sm d-none d-lg-block d-md-block">
-              <ul id="menu">
-                <li>
-                  <a href="index.html"> Home</a>
-                </li>
-                <li>
-                  <a class="active" href="classes.html"> Classes </a>
-                </li>
-                <li>
-                  <a href="gallery.html"> Gallery </a>
-                </li>
-                <li>
-                  <a href="contact.html"> Contact Us</a>
-                </li>
-              </ul>
-            </nav>
-            <button
-              class="navbar-toggler ml-auto"
-              type="button"
-              data-toggle="collapse"
-              data-target="#navbarNavDropdown"
-              aria-controls="navbarNavDropdown"
-              aria-expanded="true"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <!-- NAV BAR MENU--------------->
-          </div>
+    <div class="row">
+        <div class="col-5 inline">
+          <img
+            class="logo"
+            src="assets/images/BF-LOGO.png"
+            alt="Bamboo Fitness Logo"
+          />
         </div>
-      </header>
+        <div class="col-6">
+            <div class="alert alert-success bg-gradient-success" role="alert">
+                <strong>10%</strong> of all membership fees is donated to charity. <a href="#">Click for info!</a>
+            </div>
+<!--SIMILAR LAYOUT TO LOVE RUNNING https://repl.it/@DanielBradford/Love-Running#assets/css/style.css-->
+<!-- NAV BAR MENU--------------->
+            <nav class="navbar-expand-sm d-none d-lg-block d-md-block ">
+                    <ul id="menu">
+                        <li>
+                            <a href="index.html"> Home</a>
+                        </li>
+                        <li>
+                            <a class="active" href="classes.html"> Classes </a>
+                        </li>
+                        <li>
+                            <a href="gallery.html"> Gallery </a>
+                        </li>
+                        <li>
+                            <a href="contact.html"> Contact Us</a>
+                        </li>
+                    </ul>
+            </nav>
+        </div>
+<!-- NAV BAR MENU--------------->
+<!-- POTENTIAL SIGN IN BUTTON FOR MEMBERS--------------->
+        <!-- <div class="col-2">
+            <div class="btn-group dropleft">
+                <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropleft
+                </button>
+                <div class="dropdown-menu">
+                <div class="dropdown-menu">
+                    <form class="px-4 py-3">
+                        <div class="form-group">
+                        <label for="exampleDropdownFormEmail1">Email address</label>
+                        <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
+                        </div>
+                        <div class="form-group">
+                        <label for="exampleDropdownFormPassword1">Password</label>
+                        <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password">
+                        </div>
+                        <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                        <label class="form-check-label" for="dropdownCheck">
+                            Remember me
+                        </label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Sign in</button>
+                    </form>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">New around here? Sign up</a>
+                    <a class="dropdown-item" href="#">Forgot password?</a>
+                </div>
+                </div>
+            </div>
+        </div> -->
+    </div>
+
+    </header>
       <!--THIS IS THE REPEATING IMAGE ON ALL PAGES--><!--REF _ https://wallpaperaccess.com/chinese-bamboo -->
       <div class="hero-image3">
         <!--This was borrowed from the Whiskey Project in the Bootstrap lessons: https://danielbradford.github.io/bootstrap/-->
@@ -73,118 +95,157 @@
               <section class="callout jumbotron text-center">
                 <h1 class="jumbotron-header">Classes</h1>
                 <hr class="block-divider-gold" />
+                <br>
+                <button
+                type="button"
+                class="btn btn-lg btn-cta uppercase"
+                data-toggle="modal"
+                data-target="#exampleModal"
+                >
+                Class Timetable
+                </button>
               </section>
             </div>
           </div>
         </div>
       </div>
-      <!-- FIRST CONTENT SECTION--------------->
-      <section>
-        <button class="col-12 btn join-us-btn d-none d-sm-block d-md-none">
-          <h4 class="join-us">Join Us</h4>
-        </button>
-
-        <div class="row first-content">
-          <!-- <div class="row container-fluid thin-gold-wrapper"> -->
-          <div class="col membership d-none d-lg-block">
-            <div class="row">
-              <div class="col-lg-3 col-sm-12">
-                <div class="memberships bronze">
-                  <img
-                    class="id-photo"
-                    src="./assets/images/mansmile.jpg"
-                    alt="man smiling"
-                  />
-                  <h4>Pilates</h4>
-                  <ul>
-                    <li>Full Access to the Gym</li>
-                    <li><strike>Including Weekends</strike></li>
-                    <li><strike>Free Parking</strike></li>
-                    <li>
-                      <strike>Complimentary Towel & Water Bottle</strike>
-                    </li>
-                    <br />
-                    <br />
-                    <br />
-                  </ul>
+<!-- FIRST CONTENT SECTION--------------->
+    <section>
+        <div class="row container-fluid classes">
+                <div class="col4">
+                    <div class="left-block"></div>
                 </div>
-              </div>
-              <div class="col-lg-3 col-sm-12">
-                <div class="memberships silver">
-                  <img
-                    class="id-photo"
-                    src="./assets/images/womensmile.jpg"
-                    alt="women smiling"
-                  />
-                  <h4>Yoga</h4>
-                  <ul>
-                    <li>Full Access to the Gym</li>
-                    <li>Including Weekends</li>
-                    <li><strike>Free Parking</strike></li>
-                    <li>Complimentary Towel & Water Bottle</li>
-                    <br />
-                    <br />
-                    <br />
-                  </ul>
+                <div class="col-4">
+                    <div class="middle-block"></div>
                 </div>
-              </div>
-              <div class="col-lg-3 col-sm-12">
-                <div class="memberships gold">
-                  <img
-                    class="id-photo"
-                    src="./assets/images/mansmile.jpg"
-                    alt="man smiling"
-                  />
-                  <h4>Spinning</h4>
-                  <ul>
-                    <li>Full Access to the Gym</li>
-                    <li>Including Weekends</li>
-                    <li>Free Parking</li>
-                    <li>Complimentary Towel & Water Bottle</li>
-                    <br />
-                    <br />
-                    <br />
-                  </ul>
+                <div class="col-4">
+                    <div class="right-block"></div>
                 </div>
-              </div>
-              <div class="col-lg-3 col-sm-12">
-                <div class="memberships gold">
-                  <img
-                    class="id-photo"
-                    src="./assets/images/mansmile.jpg"
-                    alt="man smiling"
-                  />
-                  <h4>HITT</h4>
-                  <ul>
-                    <li>Full Access to the Gym</li>
-                    <li>Including Weekends</li>
-                    <li>Free Parking</li>
-                    <li>Complimentary Towel & Water Bottle</li>
-                    <br />
-                    <br />
-                    <br />
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- </div> -->
         </div>
-      </section>
+        <div class="row class-container">
+            <div class="col d-none d-lg-block">
+            <br>
+            <br>
+                <div class="row">
+                <div class="col-3"></div>
+                <div class="col-lg-3 col-sm-12">
+                    <div class="memberships bronze">
+                    <h4>Pilates</h4>
+                    <ul>
+                        <li>Full Access to the Gym</li>
+                        <li><strike>Including Weekends</strike></li>
+                        <li><strike>Free Parking</strike></li>
+                        <li>
+                        <strike>Complimentary Towel & Water Bottle</strike>
+                        </li>
+                        <br />
+                        <br />
+                        <br />
+                    </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-12">
+                    <div class="memberships silver">
+
+                    <h4>Yoga</h4>
+                    <ul>
+                        <li>Full Access to the Gym</li>
+                        <li>Including Weekends</li>
+                        <li><strike>Free Parking</strike></li>
+                        <li>Complimentary Towel & Water Bottle</li>
+                        <br />
+                        <br />
+                        <br />
+                    </ul>
+                    </div>
+                </div>
+                </div>
+                <div class="col-3"></div>
+        <div class="row"></div>
+                <div class="col-lg-3 col-sm-12">
+                    <div class="memberships gold">
+                    <img
+                        class="id-photo"
+                        src="./assets/images/mansmile.jpg"
+                        alt="man smiling"
+                    />
+                    <h4>Spinning</h4>
+                    <ul>
+                        <li>Full Access to the Gym</li>
+                        <li>Including Weekends</li>
+                        <li>Free Parking</li>
+                        <li>Complimentary Towel & Water Bottle</li>
+                        <br />
+                        <br />
+                        <br />
+                    </ul>
+                    </div>
+                </div>
+                <div class="col-6 "></div>
+                <div class="col-lg-3 col-sm-12">
+                    <div class="memberships gold">
+                    <img
+                        class="id-photo"
+                        src="./assets/images/mansmile.jpg"
+                        alt="man smiling"
+                    />
+                    <h4>HITT</h4>
+                    <ul>
+                        <li>Full Access to the Gym</li>
+                        <li>Including Weekends</li>
+                        <li>Free Parking</li>
+                        <li>Complimentary Towel & Water Bottle</li>
+                        <br />
+                        <br />
+                        <br />
+                    </ul>
+                    </div>
+                </div>
+                <div class="col-3"></div>
+                <div class="col-lg-3 col-sm-12">
+                    <div class="memberships bronze">
+                    <h4>Pilates</h4>
+                    <ul>
+                        <li>Full Access to the Gym</li>
+                        <li><strike>Including Weekends</strike></li>
+                        <li><strike>Free Parking</strike></li>
+                        <li>
+                        <strike>Complimentary Towel & Water Bottle</strike>
+                        </li>
+                        <br />
+                        <br />
+                        <br />
+                    </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-12">
+                    <div class="memberships silver">
+                    <h4>Yoga</h4>
+                    <ul>
+                        <li>Full Access to the Gym</li>
+                        <li>Including Weekends</li>
+                        <li><strike>Free Parking</strike></li>
+                        <li>Complimentary Towel & Water Bottle</li>
+                        <br />
+                        <br />
+                        <br />
+                    </ul>
+                    </div>
+                </div>
+                <div class="col-3"></div>
+                <br>
+                <br>
+           </div>
+        </div>
+    </section>         
+              
       <!-- FIRST CONTENT SECTION--------------->
 
       <!--This was borrowed from the Whiskey Project in the Bootstrap lessons: https://danielbradford.github.io/bootstrap/-->
       <div class="container-fluid callout-container2">
         <div class="row">
           <div class="col-12">
-            <button
-              type="button"
-              class="btn btn-lg btn-primary uppercase"
-              data-toggle="modal"
-              data-target="#exampleModal"
-            >
-              Class Timetable
-            </button>
+            <h2 class="uppercase meet-our-team"> Meet Our Team</h2>
           </div>
         </div>
       </div>
@@ -199,7 +260,7 @@
                 <div class="memberships bronze">
                   <img
                     class="id-photo"
-                    src="./assets/images/mansmile.jpg"
+                    src="assets/images/mansmile.jpg"
                     alt="man smiling"
                   />
                   <h4>Pilates</h4>
