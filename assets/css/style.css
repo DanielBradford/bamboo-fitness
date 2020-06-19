@@ -20,6 +20,10 @@ body{
   animation-fill-mode: forwards;
 }
 
+.modal-body img{
+    opacity: .1;
+}
+
 @keyframes logo-zoom {
   from {
     transform: scale(1);
@@ -316,6 +320,12 @@ h4 {
   color: #ffffff;
 }
 
+
+.memberships .price{
+    font:bolder;
+    font-size: 3rem;
+    font-family:"Amatic SC", cursive, sans-serif; 
+}
 .meet-our-team {
   font-family: "Amatic SC", cursive, sans-serif;
   font-size: 40px;
@@ -339,8 +349,9 @@ h4 {
   background-color: #fafafa;
   border-radius: 50%;
   z-index: 100;
-  height: 20rem;
+  height: auto;
   opacity: 1;
+  width: auto;
 }
 .memberships:hover {
   cursor: pointer;
@@ -704,7 +715,7 @@ textarea.form-control {
     font-size: 4em;
   }
   .hero-image {
-    width: 100vw;
+    width: 110vw;
   }
 
   header {
