@@ -8,11 +8,7 @@
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
       type="text/css"
     />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-      type="text/css"
-    />
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <title>Contact Us - Bamboo Fitness</title>
   </head>
@@ -29,7 +25,7 @@
           </div>
           <div class="col-6">
             <div class="alert alert-success bg-gradient-success" role="alert">
-              <strong>10%</strong> of all membership fees is donated to charity.
+              <strong>10%</strong> of all membership fees is donated to an eco charity.
               <a href="#">Click for info!</a>
             </div>
             <!--SIMILAR LAYOUT TO LOVE RUNNING https://repl.it/@DanielBradford/Love-Running#assets/css/style.css-->
@@ -51,39 +47,6 @@
               </ul>
             </nav>
           </div>
-          <!-- NAV BAR MENU--------------->
-          <!-- POTENTIAL SIGN IN BUTTON FOR MEMBERS--------------->
-          <!-- <div class="col-2">
-            <div class="btn-group dropleft">
-                <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropleft
-                </button>
-                <div class="dropdown-menu">
-                <div class="dropdown-menu">
-                    <form class="px-4 py-3">
-                        <div class="form-group">
-                        <label for="exampleDropdownFormEmail1">Email address</label>
-                        <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
-                        </div>
-                        <div class="form-group">
-                        <label for="exampleDropdownFormPassword1">Password</label>
-                        <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password">
-                        </div>
-                        <div class="form-check">
-                        <input type="checkbox" class="form-check-input" id="dropdownCheck">
-                        <label class="form-check-label" for="dropdownCheck">
-                            Remember me
-                        </label>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Sign in</button>
-                    </form>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">New around here? Sign up</a>
-                    <a class="dropdown-item" href="#">Forgot password?</a>
-                </div>
-                </div>
-            </div>
-        </div> -->
         </div>
       </header>
       <div class="heroimage">
@@ -97,31 +60,31 @@
                 <br>
                 <button
                   type="button"
-                  class="btn btn-lg btn-cta"
+                  class="button btn-cta"
                   data-toggle="modal"
                   data-target="#exampleModal"
                 >
                   Opening Hours
-                <i class="far fa-clock"></i></button>
+                <i class="fa fa-clock"></i></button>
               </section>
             </div>
           </div>
         </div>
       </div>
       <div class="row thin-first-content">
-        <div class="col-4 contact-item">
+        <div class="col-lg-4 col-sm-12 contact-item">
           <a href="tel:+44151637987">
             <i class="fa fa-phone-square"></i> <br />+44 (0151) 637 9872</a
           >
         </div>
-        <div class="col-4 contact-item">
+        <div class="col-lg-4 col-sm-12 contact-item">
           <a href="mailto:info@bamboofitness.co.uk"
             ><i class="fa fa-envelope-square"></i>
             <br />
             info@bamboofitness.co.uk</a
           >
         </div>
-        <div class="col-4 contact-item">
+        <div class="col-lg-4 col-sm-12 contact-item">
           <a
             target="_blank"
             href="http://maps.google.com/?q=22-24 Parkside Cl, Birkenhead, Bebington, Wirral CH63 7RY"
@@ -144,8 +107,8 @@
           <section class="form-section">
             <form
               class="form-group"
-              method="post"
-              action="https://formdump.codeinstitute.net/"
+              method="POST"
+              action="/enquiry-page.php"
             >
             <br>
               <h2>Get in touch... <i class="fa fa-heartbeat"></i></h2>
@@ -211,14 +174,13 @@
                 ></textarea>
               </div>
               <br />
-              <input class="join-button" type="submit" value="SEND" />
+              <input class="btn-cta" type="submit" value="SEND" />
             </form>
           </section>
         </div>
         <div class="col-3 callout-container3"></div>
       </div>
-      <!-- FIRST CONTENT SECTION--------------->
-
+    <!-- FIRST CONTENT SECTION--------------->
       <div
         class="modal fade"
         id="exampleModal"
@@ -229,7 +191,7 @@
       >
         <div class="modal-dialog modal-lg modal-dialog-centered">
           <div class="modal-content">
-            <div class="modal-header">
+            <div class="modal-header about-heading">
               <h5 class="modal-title" id="exampleModalLabel">
                 <h2>Opening Hours <i class="far fa-clock"></i></h2>
               </h5>
@@ -303,14 +265,14 @@
               <div class="modal-footer">
                 <button
                   type="button"
-                  class="btn btn-secondary"
+                  class="btn close-btn"
                   data-dismiss="modal"
                 >
                   Close
                 </button>
                 <button
                   type="button"
-                  class="btn btn-cta"
+                  class="btn-cta"
                   data-dismiss="modal"
                 >
                   Done
@@ -337,6 +299,8 @@
       ></script>
       <!-- FOOTER SECTION-------MODELLED OFF THE RESUME PROJECT--------------->
     <footer class="container-fluid contactfooter">
+        <br>
+        <br>
         <div class="row social-links">
             <span class="col-3 inline"> 
              <a target="_blank" href="https://www.facebook.com"><i class="fa fa-facebook"></i></a>
@@ -350,6 +314,8 @@
             <span class="col-3 inline">
             <a target="_blank" href="https://www.youtube.com"><i class="fa fa-youtube"></i></a>
             </span>
+            <br>
+            <br>
         </div>
 	</footer>
     </body>

@@ -5,6 +5,15 @@ body {
   overflow-x: hidden;
 }
 
+body a {
+  color: #6845bd;
+  text-decoration: none;
+}
+
+body i{
+    color: blue;
+}
+
 .logo {
   height: 300px;
   width: 300px;
@@ -20,13 +29,12 @@ body {
   animation-fill-mode: forwards;
 }
 
-@keyframes logo-zoom {
-  from {
-    transform: scale(1);
-  }
-  to {
-    transform: scale(1.6);
-  }
+.times-logo {
+  opacity: 0.2;
+}
+
+.logo-schedule {
+  text-align: center;
 }
 /*---------------------HEADER-------------*/
 
@@ -56,7 +64,7 @@ header {
 }
 
 .callout-container7 {
-  height: 15vh;
+  height: 30vh;
   /*  Photo by Adam Wilson on Unsplash  */
   background: url(../images/gym-wall.jpg) no-repeat bottom right fixed;
   -webkit-background-size: cover;
@@ -84,7 +92,7 @@ header {
 }
 
 .indexfooter {
-  height: 10vh;
+  height: auto;
   background: url(../images/bamboo-lower.jpg) no-repeat bottom right fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -108,7 +116,7 @@ header {
   position: relative;
 }
 .contactfooter {
-  height: 10vh;
+  height: auto;
   background: url(../images/cupboard.jpg) no-repeat bottom right fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -352,13 +360,14 @@ h4 {
 }
 
 .membership-title-white {
-    font-family: "Amatic SC", cursive, sans-serif;
+  font-family: "Amatic SC", cursive, sans-serif;
   font-size: 60px;
   color: #a87b00;
   text-align: center;
   background-color: #ffffff;
   border-bottom-left-radius: 1em;
   border-bottom-right-radius: 1em;
+  width: auto;
 }
 
 .memberships {
@@ -423,17 +432,28 @@ h4 {
   color: #faffff;
   border-radius: 1.2em;
 }
-
+/*---------------------TEAM MEDALS-------------*/
 .team-medals {
-  color: #6845bd;
-  border: solid 4px #6845bd;
+  color: #c99918;
+  border: solid 4px #ffffff;
 }
 .team-medals h4 {
-  background-color: #6845bd;
-  color: #faffff;
+  background-color: #674f08;
+  color: #c99918;
   border-radius: 1.2em;
 }
+/*---------------------CLASS TYPE MEDALS-------------*/
 
+.class-type {
+  color: #c99918;
+  border: solid 4px #c99918;
+}
+
+.class.type h4 {
+  background-color: #ffffff;
+  color: #674f08;
+  border-radius: 1.2em;
+}
 /*---------------------Images-------------*/
 
 .hero-image {
@@ -477,12 +497,12 @@ h4 {
 }
 
 .id-photo {
-  height: 10px;
-  width: 10px;
+  height: 80px;
+  border-radius: 50%;
 }
 
 .gallery img {
- padding: 25px;
+  padding: 25px;
   width: 100%;
   border-radius: 3em;
 }
@@ -490,6 +510,29 @@ h4 {
 .photo .leaf {
   border-top-left-radius: 70%;
   border-bottom-right-radius: 70%;
+}
+
+.qrcode {
+  width: 80%;
+  margin: auto 0;
+  text-align: center;
+}
+
+.modal-content{
+
+    text-align: center;
+}
+
+/*------ICONS--------*/
+.modal-footer i{
+    color: white;
+}
+
+/*--------------VIDEO--------------*/
+
+video {
+  padding: 20px;
+  margin: 0;
 }
 /*---------------------Buttons-------------*/
 
