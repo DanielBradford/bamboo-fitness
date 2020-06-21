@@ -15,7 +15,7 @@
 <body>
 	<header>
 		<div class="row">
-			<div class="col-lg-5 col-sm-6inline">
+			<div class="col-lg-5 col-sm-6 inline">
 				<img
                     class="logo"
                     src="assets/images/BF-LOGO.png"
@@ -28,35 +28,24 @@
 							href="#charity">Click for info!</a>
 					</div>
 					<!-- NAV BAR MENU (SIMILAR LAYOUT TO LOVE RUNNING https://repl.it/@DanielBradford/Love-Running#assets/css/style.css)--------------->
-					<nav class="col-sm-6 navbar navbar-dark navbar-expand-sm d-none d-lg-block d-md-block ">
-						<button class="navbar-toggler ml-auto collapsed" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-						<div class="navbar-collapse collapse" id="navbarNavDropdown" style="">
-							<ul class="navbar-nav mr-auto" id="menu">
-								<li class="active nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
-								<li class="nav-item mr-2"><a class="nav-link" href="classes.html">Classes</a></li>
-								<li class="nav-item mr-2"><a class="nav-link" href="gallery.html">Gallery</a></li>
-								<li class="nav-item mr-2"><a class="nav-link" href="contact.html">Gallery</a></li>
+					<nav class="navbar-expand-sm d-none d-lg-block d-md-block">
+							<ul id="menu">
+								<li>
+									<a class="active" href="index.html"> Home</a>
+								</li>
+								<li>
+									<a href="classes.html"> Classes </a>
+								</li>
+								<li>
+									<a  href="gallery.html"> Gallery </a>
+								</li>
+								<li>
+									<a href="contact.html"> Contact Us</a>
+								</li>
 							</ul>
-						</div>
-						<!-- <ul id="menu">
-                                <li>
-                                    <a class="active" href="index.html"> Home</a>
-                                </li>
-                                <li>
-                                    <a href="classes.html"> Classes </a>
-                                </li>
-                                <li>
-                                    <a href="gallery.html"> Gallery </a>
-                                </li>
-                                <li>
-                                    <a href="contact.html"> Contact Us</a>
-                                </li>
-                            </ul> -->
 					</nav>
 				</div>
-			</div>
+                </div>
 	</header>
 	<!--THIS IS THE REPEATING IMAGE ON ALL PAGES-->
 	<!--REF _ https://wallpaperaccess.com/chinese-bamboo -->
@@ -68,7 +57,7 @@
 				</div>
 				<div class="col-lg-10 col-sm-12">
 					<section class="callout jumbotron text-center">
-						<h1 class="jumbotron-header">Welcome to Bamboo Fitness <i class="fa fa-dumbbell"></i></h1>
+						<h1 class="jumbotron-header">Welcome to Bamboo Fitness</h1>
 						<hr class="block-divider">
 						<br>
 						<p>GIVE BACK TO YOURSELF AND THE ENVIRONMENT...</p><br>
@@ -90,8 +79,8 @@
 				<h2 class="about-heading uppercase">What we do <i class="fa fa-dumbbell"></i></h2>
 				<br>
 				<p class="about-text">
-					<h4>We are more than a <a href="#">gym</a>! We are here to <a href="#">help you</a> realise your
-						<strong>potential</strong> and to get back to you. We provide <a
+					<h4>We are more than a <a href="#">gym</a>! We are here to <a href="#">help</a> you realise your
+						<strong>potential</strong> and to get 'you' back to <a href="#">YOU</a>. We provide <a
 							href="#"><strong>top of the line facilities</strong></a> for you to enhance your physical
 						and mental
 						well-being.</h4>
@@ -113,21 +102,22 @@
             </div>
 
 				<a name="charity"></a>
-				<div class="col-lg-6 col-sm-12 what-we-offer inline">
+			<div class="col-lg-6 col-sm-12 what-we-offer inline">
 					<h2 class="membership-heading uppercase">What we offer <i class="fa fa-globe"></i></h2>
 
 					<p class="about-text">
 						<h4>At <a href="#">Bamboo Fitness</a> we pride ourselves on our <a href="#">care and
-								charity</a>. That is why we will be donating
-							at least<br><a href="#">10%</a>of your membership each month to a selected <a href="#">eco
-								charity</a>.</h4>
+								charity</a>. That is why we donate
+							<br><a href="#">10%</a> of your membership every month to a selected <a href="#">eco
+								charity</a>.
+                                </h4>
 					</p>
-				</div>
 			</div>
+		</div>
 	</section>
 	<div class="indexfooter">
 		<div>
-			<h2 class="membership-title-gold uppercase">Memberships<i class="fa fa-user-shield"></i></h2>
+			<h2 class="membership-title-gold uppercase">Memberships <i class="fa fa-user-shield"></i></h2>
 		</div>
 	</div>
 	<!--This was borrowed from the Whiskey Project in the Bootstrap lessons: https://danielbradford.github.io/bootstrap/-->
@@ -205,7 +195,11 @@
                     <a target="_blank" href="https://www.youtube.com"><i class="fab fa-youtube"></i></a>
                 <br>
                 <br>
-                </span>
+            </span>
+            <br>
+            <div class="container fluid top-return">
+                <a href="#">Back to top</a>
+            </div>
 			<br>
             </div>
 	</footer>

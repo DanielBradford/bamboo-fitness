@@ -204,6 +204,8 @@ header {
   padding: 32px;
   height: auto;
   width: auto;
+  border-top-left-radius: 60%;
+  border-bottom-right-radius: 60%;
 }
 
 hr {
@@ -305,8 +307,9 @@ hr {
 .what-we-offer h4 {
   text-align: center;
   color: #ffffff;
-  width: 100%;
-  margin-right: 70px;
+  width: 80%;
+  margin-right: 60px;
+  padding:40px;
 }
 
 .about-text {
@@ -335,6 +338,18 @@ h4 {
   font-size: 3rem;
   font-family: "Oswald", cursive, sans-serif;
 }
+.top-return {
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+.top-return:hover{
+
+    color: #a87b00;
+    text-decoration: underline;
+
+}
+
 .meet-our-team {
   font-family: "Amatic SC", cursive, sans-serif;
   font-size: 40px;
@@ -363,6 +378,15 @@ h4 {
   border-bottom-left-radius: 1em;
   border-bottom-right-radius: 1em;
   width: auto;
+}
+
+.membership-title-bamboo {
+  font-family: "Amatic SC", cursive, sans-serif;
+  font-size: 60px;
+  color: #ffffff;
+  text-align: center;
+  border-bottom-left-radius: 1em;
+  border-bottom-right-radius: 1em;
 }
 
 .memberships {
@@ -513,9 +537,9 @@ h4 {
   text-align: center;
 }
 
-.modal-header{
-    text-align: center;
-    display: inline;
+.modal-header {
+  text-align: center;
+  display: inline;
 }
 
 .modal-content {
@@ -525,6 +549,12 @@ h4 {
 /*------ICONS--------*/
 .modal-footer i {
   color: white;
+}
+
+.gallery i {
+  color: purple;
+  background-color: transparent;
+  font-size: 50px;
 }
 
 /*--------------VIDEO--------------*/
@@ -543,13 +573,16 @@ button {
   border: solid 1px white;
   width: 15rem;
   text-align: center;
+  border-radius: 2rem;
 }
 
 .callout .btn-cta {
   color: #fff;
   background-color: #6845bd;
   border-color: #ffffff;
-  letter-spacing: 0.8rem;
+  letter-spacing: 0.6rem;
+  height: 5rem;
+  text-align: center;
 }
 
 .btn-cta:hover {
@@ -740,6 +773,34 @@ textarea.form-control {
   word-spacing: 50px;
 }
 
+.navbar.navbar-1 .navbar-toggler-icon {
+  background-image: url("https://mdbootstrap.com/img/svg/hamburger6.svg?color=000");
+}
+.navbar.navbar-2 .navbar-toggler-icon {
+  background-image: url("https://mdbootstrap.com/img/svg/hamburger2.svg?color=fff");
+}
+.navbar.navbar-3 .navbar-toggler-icon {
+  background-image: url("https://mdbootstrap.com/img/svg/hamburger1.svg?color=6a1b9a");
+}
+.navbar.navbar-4 .navbar-toggler-icon {
+  background-image: url("https://mdbootstrap.com/img/svg/hamburger7.svg?color=BFE100");
+}
+.navbar.navbar-5 .navbar-toggler-icon {
+  background-image: url("https://mdbootstrap.com/img/svg/hamburger5.svg?color=f3e5f5");
+}
+.navbar.navbar-6 .navbar-toggler-icon {
+  background-image: url("https://mdbootstrap.com/img/svg/hamburger8.svg?color=E3005C");
+}
+.navbar.navbar-7 .navbar-toggler-icon {
+  background-image: url("https://mdbootstrap.com/img/svg/hamburger9.svg?color=FF2C00");
+}
+.navbar.navbar-8 .navbar-toggler-icon {
+  background-image: url("https://mdbootstrap.com/img/svg/hamburger4.svg?color=1729B0");
+}
+.navbar.navbar-9 .navbar-toggler-icon {
+  background-image: url("https://mdbootstrap.com/img/svg/hamburger3.svg?color=00FBD8");
+}
+
 /*---------------------Media Queries-------------*/
 
 @media (max-width: 768px) {
@@ -798,17 +859,17 @@ textarea.form-control {
     width: 100vw;
   }
 
-  .gold-wrapper{
-      height: auto;
+  .gold-wrapper {
+    height: auto;
   }
 
-  .thin-first-content{
-      height: auto;
+  .thin-first-content {
+    height: auto;
   }
   .callout-container5 {
     height: auto;
   }
-  .contact-form{
+  .contact-form {
     text-align: right;
     margin-right: 17px;
   }
