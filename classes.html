@@ -1,428 +1,409 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link
-        rel="stylesheet"
-        href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-        type="text/css"
-        />
-        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-        <link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
-        <title>Classes - Bamboo Fitness</title>
-    </head>
-    <body>
-        <header>
-            <div class="row">
-                <div class="col-5 inline">
-                    <img
-                        class="logo"
-                        src="assets/images/BF-LOGO.png"
-                        alt="Bamboo Fitness Logo"
-                    />
-                </div>
-                <div class="col-6 inline">
-                    <div class="alert alert-success d-none d-sm-block" role="alert">
-                        <strong>10%</strong> of all membership fees is donated to an eco charity. <a href="#charity">Click for info!</a>
-                </div>
-<!--SIMILAR LAYOUT TO LOVE RUNNING https://repl.it/@DanielBradford/Love-Running#assets/css/style.css-->
- <!-- NAV BAR MENU--------------->
-                <nav class="navbar-expand-sm d-none d-lg-block d-md-block ">
-                    <ul id="menu">
-                        <li>
-                            <a href="index.html"> Home</a>
-                        </li>
-                        <li>
-                            <a class="active" href="classes.html"> Classes </a>
-                        </li>
-                        <li>
-                            <a href="gallery.html"> Gallery </a>
-                        </li>
-                        <li>
-                            <a href="contact.html"> Contact Us</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
-        </header>
-<!--THIS IS THE REPEATING IMAGE ON ALL PAGES--><!--REF _ https://wallpaperaccess.com/chinese-bamboo -->
-        <div class="hero-image3">
-<!--This was borrowed from the Whiskey Project in the Bootstrap lessons: https://danielbradford.github.io/bootstrap/-->
-            <div class="container-fluid callout-container">
-                <div class="row">
-                    <div class="col-12">
-                        <section class="callout jumbotron text-center">
-                            <h1 class="jumbotron-header">Classes</h1>
-                            <hr class="block-divider-gold" />
-                            <br>
-                            <button
-                                type="button"
-                                class="btn btn-lg btn-cta uppercase"
-                                data-toggle="modal"
-                                data-target="#exampleModal"
-                                >
-                                Class Timetable
-                            </button>
-                        </section>
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+		type="text/css" />
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+		integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+	<title>Classes - Bamboo Fitness</title>
+</head>
+
+<body>
+	<header>
+		<div class="row">
+			<div class="col-5 inline">
+				<img
+                            class="logo"
+                            src="assets/images/BF-LOGO.png"
+                            alt="Bamboo Fitness Logo"
+                        />
                     </div>
-                </div>
-            </div>
-        </div>
-        <section><!-- white space break SECTION--------------->
-            <div class="row container-fluid classes">
-                <div class="col-4">
-                    <div class="left-block"></div>
-                </div>
-                <div class="col-4">
-                    <div class="middle-block"></div>
-                </div>
-                <div class="col-4">
-                    <div class="right-block"></div>
-                </div>
-    </div>
-        </section>
-        <section  class="class-info "> <!------------------------- Class types SECTION---->
-            <div class="row class-info-container">
-                <div class="col-lg-3 col-sm-6"></div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="memberships class-type pilates">
-                        <h4 style="color:brown">Pilates</h4>
-                            <ul>
-                                <li>3 x Instructors</li>
-                                <li>Fully Qualified</li>
-                                <li>Core Workout</li>
-                                <br />
-                            </ul>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="memberships class-type yoga">
-                        <h4 style="color:green">Yoga</h4>
-                            <ul>
-                                <li>5 x Instructors</li>
-                                <li>Fully Qualified</li>
-                                <li>Breath & Meditation</li>
-                                <br />
-                            </ul>
-                    </div>
-                </div>
-                    <div class="col-lg-3 col-sm-6"></div>
-                </div>
-                <div class="row class-info-container">
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="memberships class-type spinning">
-                            <h4 style="color:blue">Spinning</h4>
-                                <ul>
-                                    <li>4 x Instructors</li>
-                                    <li>Fully Qualified</li>
-                                    <li>Hardcore Workout</li>
-                                    <br />
+				<div class="col-6 inline">
+					<div class="alert alert-success d-none d-sm-block" role="alert">
+						<strong>10%</strong> of all membership fees is donated to an eco charity. <a
+							href="#charity">Click for info!</a>
+					</div>
+					<!--SIMILAR LAYOUT TO LOVE RUNNING https://repl.it/@DanielBradford/Love-Running#assets/css/style.css-->
+					<!-- NAV BAR MENU--------------->
+					<nav class="navbar-expand-sm d-none d-lg-block d-md-block ">
+						<ul id="menu">
+							<li>
+								<a href="index.html"> Home</a>
+							</li>
+							<li>
+								<a class="active" href="classes.html"> Classes </a>
+							</li>
+							<li>
+								<a href="gallery.html"> Gallery </a>
+							</li>
+							<li>
+								<a href="contact.html"> Contact Us</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+	</header>
+	<!--THIS IS THE REPEATING IMAGE ON ALL PAGES-->
+	<!--REF _ https://wallpaperaccess.com/chinese-bamboo -->
+	<div class="hero-image3">
+		<!--This was borrowed from the Whiskey Project in the Bootstrap lessons: https://danielbradford.github.io/bootstrap/-->
+		<div class="container-fluid callout-container">
+			<div class="row">
+				<div class="col-12">
+					<section class="callout jumbotron text-center">
+						<h1 class="jumbotron-header">Classes</h1>
+						<hr class="block-divider-gold" />
+						<br>
+						<button
+                                    type="button"
+                                    class="btn btn-lg btn-cta uppercase"
+                                    data-toggle="modal"
+                                    data-target="#exampleModal"
+                                    >
+                                    Class Timetable
+                                </button>
+					</section>
+				</div>
+			</div>
+		</div>
+	</div>
+	<section>
+		<!-- white space break SECTION--------------->
+		<div class="row container-fluid classes">
+			<div class="col-4">
+				<div class="left-block"></div>
+			</div>
+			<div class="col-4">
+				<div class="middle-block"></div>
+			</div>
+			<div class="col-4">
+				<div class="right-block"></div>
+			</div>
+		</div>
+	</section>
+	<section class="class-info ">
+		<!------------------------- Class types SECTION---->
+		<div class="row class-info-container">
+			<div class="col-lg-3 col-sm-6"></div>
+			<div class="col-lg-3 col-sm-6">
+				<div class="memberships class-type pilates">
+					<i class="fas fa-balance-scale"></i>
+					<h4 style="color:brown">Pilates</h4>
+					<ul>
+						<li>3 x Instructors</li>
+						<li>Fully Qualified</li>
+						<li>Core Workout</li>
+						<br />
                                 </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6"></div>
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="memberships class-type hiit">
-                            <h4 style="color:orange">HIIT</h4>
-                                <ul>
-                                    <li>3 x Instructors</li>
-                                    <li>Fully Qualified</li>
-                                    <li>High Intensity Interval Training</li>
-                                    <br />
+				</div>
+			</div>
+			<div class="col-lg-3 col-sm-6">
+				<div class="memberships class-type yoga">
+					<i class="fas fa-fire-alt"></i>
+					<h4 style="color:green">Yoga</h4>
+					<ul>
+						<li>5 x Instructors</li>
+						<li>Fully Qualified</li>
+						<li>Breath & Meditation</li>
+						<br />
                                 </ul>
-                        </div>
-                    </div>
-                </div> 
-                <div class="row class-info-container">
-                    <div class="col-lg-3 col-sm-6"></div>
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="memberships class-type aerobics">
-                            <h4 style="color:red">Aerobics</h4>
-                                <ul>
-                                    <li>3 x Instructors</li>
-                                    <li>Fully Qualified</li>
-                                    <li>Fun Cardio Training</li>
-                                    <br />
-                                </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="memberships class-type conditioning">
-                            <h4 style="color:teal">Conditioning</h4>
-                                 <ul>
-                                    <li>5 x Instructors</li>
-                                    <li>Fully Qualified</li>
-                                    <li>Biomechanics Training</li>
-                                    <br />
-                                </ul>
-                        </div>
-                    </div>
-                        <div class="col-lg-3 col-sm-6"></div>
-                    </div>
-                </section> 
-                <section><!-- MEET OUR TEAM  SECTION--------------->
-                    <div class="row container-fluid thin-gold-wrapper">
-                        <div class="row">
-                            <div class="col-12">
-                                <h2 class="uppercase meet-our-team"> Meet Our Team</h2>
-                                    </div>
-                                </div>
-                            <div class="col membership d-none d-lg-block">
-                        <div class="row">
-                            <div class="col-lg-3 col-sm-12">
-                                <div class="memberships team-medals">
-                                        <img
+				</div>
+			</div>
+			<div class="col-lg-3 col-sm-6"></div>
+		</div>
+		<div class="row class-info-container">
+			<div class="col-lg-3 col-sm-6">
+				<div class="memberships class-type spinning">
+					<i class="fas fa-biking"></i>
+					<h4 style="color:blue">Spinning</h4>
+					<ul>
+						<li>4 x Instructors</li>
+						<li>Fully Qualified</li>
+						<li>Hardcore Workout</li>
+						<br />
+                                    </ul>
+				</div>
+			</div>
+			<div class="col-lg-3 col-sm-6"></div>
+			<div class="col-lg-3 col-sm-6">
+				<div class="memberships class-type hiit">
+					<i class="fas fa-fire"></i>
+					<h4 style="color:orange">HIIT</h4>
+					<ul>
+                        <li>High Intensity Interval Training</li>
+						<li>3 x Instructors</li>
+						<li>Fully Qualified</li>
+						<br />
+                                    </ul>
+				</div>
+			</div>
+		</div>
+		<div class="row class-info-container">
+			<div class="col-lg-3 col-sm-6"></div>
+			<div class="col-lg-3 col-sm-6">
+				<div class="memberships class-type aerobics">
+					<i class="fas fa-lungs"></i>
+					<h4 style="color:red">Aerobics</h4>
+					<ul>
+						<li>3 x Instructors</li>
+						<li>Fully Qualified</li>
+						<li>Fun Cardio Training</li>
+						<br />
+                                    </ul>
+				</div>
+			</div>
+			<div class="col-lg-3 col-sm-6">
+				<div class="memberships class-type conditioning">
+					<i class="fas fa-tools"></i>
+					<h4 style="color:teal">Conditioning</h4>
+					<ul>
+						<li>5 x Instructors</li>
+						<li>Fully Qualified</li>
+						<li>Biomechanics Training</li>
+						<br />
+                                    </ul>
+				</div>
+			</div>
+			<div class="col-lg-3 col-sm-6"></div>
+		</div>
+	</section>
+	<section>
+		<!-- MEET OUR TEAM  SECTION--------------->
+		<div class="row container-fluid thin-gold-wrapper d-none d-sm-block">
+			<div class="row">
+				<div class="col-12">
+					<h2 class="uppercase meet-our-team"> Meet Our Team</h2>
+				</div>
+			</div>
+			<div class="col membership d-none d-lg-block">
+				<div class="row">
+					<div class="col-lg-3 col-sm-12">
+						<div class="memberships team-medals">
+							<img
+                                                class="id-photo"
+                                                src="assets/images/mansmile.jpg"
+                                                alt="man smiling"
+                                            />
+							<h4>DAVID</h4>
+							<ul>
+								<li>FOUNDER & CEO</li>
+								<li>ALL THINGS GYM EXPERT</li>
+								<li>Likes: WINNING</li>
+								<li>Dislikes: COVID-19</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-3 col-sm-12">
+						<div class="memberships team-medals">
+							<img
                                             class="id-photo"
-                                            src="assets/images/mansmile.jpg"
+                                            src="./assets/images/womensmile.jpg"
+                                            alt="women smiling"
+                                        />
+							<h4>SARAH</h4>
+							<ul>
+								<li>YOGI MASTER</li>
+								<li>DANCERCISE EXPERT</li>
+								<li>Likes: SWEATING</li>
+								<li>Dislikes: NUTS</li>
+								<br />
+                                        </ul>
+						</div>
+					</div>
+					<div class="col-lg-3 col-sm-12">
+						<div class="memberships team-medals">
+							<img
+                                            class="id-photo"
+                                            src="./assets/images/mansmile.jpg"
                                             alt="man smiling"
                                         />
-                                    <h4>DAVID</h4>
-                                    <ul>
-                                        <li>FOUNDER & CEO</li>
-                                        <li>ALL THINGS GYM EXPERT</li>
-                                        <li>Likes: WINNING</li>
-                                        <li>Dislikes: COVID-19</li>
-                                        <br />
-                                        <br />
-                                        <br />
-                                    </ul>
-                                </div>
+							<h4>MICHAEL</h4>
+							<ul>
+								<li>PILATES SPECIALIST</li>
+								<li>CONDITIONING EXPERT</li>
+								<li>Likes: FOOTBALL</li>
+								<li>Dislikes: COLD WEATHER</li>
+
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-3 col-sm-12">
+						<div class="memberships team-medals">
+							<img
+                                            class="id-photo"
+                                            src="./assets/images/mansmile.jpg"
+                                            alt="man smiling"
+                                        />
+							<h4>SHAKARA</h4>
+							<ul>
+								<li>HIIT SPECIALIST</li>
+								<li>NUTRITION EXPERT</li>
+								<li>Likes: AVOCADOS</li>
+								<li>Dislikes: LAZINESS</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- FOOTER SECTION-------MODELLED OFF THE RESUME PROJECT--------------->
+	<footer class="container-fluid classesfooter">
+		<div class="row social-links">
+			<span class="col-3 inline">
+                            <a target="_blank" href="https://www.facebook.com"><i class="fab fa-facebook"></i></a>
+                        </span>
+			<span class="col-3 inline">
+                            <a target="_blank" href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+                        </span>
+			<span class="col-3 inline">
+                            <a target="_blank" href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
+                        </span>
+			<span class="col-3 inline">
+                            <a target="_blank" href="https://www.youtube.com"><i class="fab fa-youtube"></i></a>
+                        </span>
+		</div>
+	</footer>
+	<!-- Modal COPIED EXAMPLE FROM BOOTSTRAP THEN MODIFIED-->
+	<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+		aria-hidden="true">
+		<div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title about-heading" id="exampleModalLabel">
+						Class Timetable
+					</h5>
+				</div>
+				<div class="modal-body">
+					<div class="row">
+						<div class="col-lg-4 col-md-6 d-none d-sm-block">
+							<img class="qrcode" src="assets/images/qr-code.png" alt="qr code for classes">
                             </div>
-                            <div class="col-lg-3 col-sm-12">
-                                    <div class="memberships team-medals">
-                                    <img
-                                        class="id-photo"
-                                        src="./assets/images/womensmile.jpg"
-                                        alt="women smiling"
-                                    />
-                                    <h4>SARAH</h4>
-                                    <ul>
-                                        <li>YOGI MASTER</li>
-                                        <li>DANCERCISE EXPERT</li>
-                                        <li>Likes: SWEATING</li>
-                                        <li>Dislikes: NUTS</li>
-                                        <br />
-                                        <br />
-                                        <br />
-                                    </ul>
-                                    </div>
-                            </div>
-                            <div class="col-lg-3 col-sm-12">
-                                    <div class="memberships team-medals">
-                                    <img
-                                        class="id-photo"
-                                        src="./assets/images/mansmile.jpg"
-                                        alt="man smiling"
-                                    />
-                                    <h4>MICHAEL</h4>
-                                    <ul>
-                                        <li>PILATES SPECIALIST</li>
-                                        <li>CONDITIONING EXPERT</li>
-                                        <li>Likes: FOOTBALL</li>
-                                        <li>Dislikes: COLD WEATHER</li>
-                                        <br />
-                                        <br />
-                                        <br />
-                                    </ul>
-                                    </div>
-                            </div>
-                            <div class="col-lg-3 col-sm-12">
-                                    <div class="memberships team-medals">
-                                    <img
-                                        class="id-photo"
-                                        src="./assets/images/mansmile.jpg"
-                                        alt="man smiling"
-                                    />
-                                    <h4>SHAKARA</h4>
-                                    <ul>
-                                        <li>HIIT SPECIALIST</li>
-                                        <li>NUTRITION EXPERT</li>
-                                        <li>Likes: AVOCADOS</li>
-                                        <li>Dislikes: LAZINESS</li>
-                                        <br />
-                                        <br />
-                                        <br />
-                                    </ul>
-                            </div>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                </section>
-    <!-- FOOTER SECTION-------MODELLED OFF THE RESUME PROJECT--------------->
-            <footer class="container-fluid classesfooter">
-                <div class="row social-links">
-                    <span class="col-3 inline"> 
-                        <a target="_blank" href="https://www.facebook.com"><i class="fa fa-facebook"></i></a>
-                    </span>
-                    <span class="col-3 inline">
-                        <a target="_blank" href="https://www.instagram.com"><i class="fa fa-instagram"></i></a>
-                    </span>
-                    <span class="col-3 inline">
-                        <a target="_blank" href="https://www.twitter.com"><i class="fa fa-twitter"></i></a>
-                    </span>
-                    <span class="col-3 inline">
-                        <a target="_blank" href="https://www.youtube.com"><i class="fa fa-youtube"></i></a>
-                    </span>
-                </div>
-            </footer>
-        <!-- Modal COPIED EXAMPLE FROM BOOTSTRAP THEN MODIFIED-->
-            <div
-                    class="modal fade"
-                    id="exampleModal"
-                    tabindex="-1"
-                    role="dialog"
-                    aria-labelledby="exampleModalLabel"
-                    aria-hidden="true"
-                >
-            <div
-                    class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable"
-                    >
-            <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title about-heading" id="exampleModalLabel">
-                            Class Timetable
-                </h5>
-                    <button
-                            type="button"
-                            class="btn-lg close"
-                            data-dismiss="modal"
-                            aria-label="Close"
-                        >
-                            <span aria-hidden="true">&times;</span>
-                    </button>
-            </div>
-                        <div class="modal-body">
-                        <div class="row">
-                        <div class="col-4">
-                            <img class="qrcode" src="assets/images/qr-code.png" alt="qr code for classes">
-                        </div>
-                        <div class="col-8">
-                        <table class="table">
-                            <thead>
-                    <!-- TABLE HEADINGS -->
-                            <tr>
-                                <th scope="col">Day</th>
-                                <th scope="col">Time</th>
-                                <th scope="col">Class</th>
-                                <th scope="col">Level</th>
-                            </tr>
-                            </thead>
-                            <tbody>
-                            <!-- MONDAY -->     
-                            <tr>
-                                <th scope="row">Monday</th>
-                                <td>08:00 - 09:00</td>
-                                <td>Yoga</td>
-                                <td>All</td>
-                            </tr>
-                            <tr>
-                                <th scope="row"> </th>
-                                <td>09:00 - 10:00</td>
-                                <td>HIIT</td>
-                                <td>Intermediate</td>
-                            </tr>
-                            <tr>
-                                <th scope="row"> </th>
-                                <td>18:30 - 19:30</td>
-                                <td>Pilates</td>
-                                <td>Beginner</td>
-                            </tr>
-                            <!-- WEDNESDAY --> 
-                            <tr>
-                                <th scope="row">Wednesday</th>
-                                <td>08:00 - 09:00</td>
-                                <td>HIIT</td>
-                                <td>Beginner</td>
-                            </tr>
-                            <tr>
-                                <th scope="row"> </th>
-                                <td>09:00 - 10:00</td>
-                                <td>Spin</td>
-                                <td>Intermediate</td>
-                            </tr>
-                            <tr>
-                                <th scope="row"> </th>
-                                <td>18:30 - 19:30</td>
-                                <td>Pilates</td>
-                                <td>Intermediate</td>
-                            </tr>
-                            <!-- FRIDAY --> 
-                            <tr>
-                                <th scope="row">Friday</th>
-                                <td>08:00 - 09:00</td>
-                                <td>Spin</td>
-                                <td>Intermediate</td>
-                                <tr>
-                                <th scope="row"> </th>
-                                <td>09:00 - 10:00</td>
-                                <td>HIIT</td>
-                                <td>All</td>
-                            </tr>
-                            <tr>
-                                <th scope="row"> </th>
-                                <td>18:30 - 19:30</td>
-                                <td>Pilates</td>
-                                <td>Beginner</td>
-                            </tr>
-                            </tr>
-                            <!-- SATURDAY --> 
-                            <tr>
-                                <th scope="row">Saturday</th>
-                                <td>08:00 - 09:00</td>
-                                <td>Spin</td>
-                                <td>All</td>
-                            </tr>
-                            <tr>
-                                <th scope="row"> </th>
-                                <td>09:00 - 10:00</td>
-                                <td>HIIT</td>
-                                <td>All</td>
-                            </tr>
-                            <tr>
-                                <th scope="row"> </th>
-                                <td>18:30 - 19:30</td>
-                                <td>Pilates</td>
-                                <td>All</td>
-                            </tr>
-                            </tbody>
-                        </table>
-                </div>
-                </div>   
-                </div>
-                    <div class="modal-footer">
-                        <button
-                            type="button"
-                            class="btn close-btn"
-                            data-dismiss="modal"
-                        >
-                            Close
-                        </button>
-                        <a href="assets/class-timetable.pdf" target="_blank"
-                            ><button type="button" class="btn-cta">
-                            DOWNLOAD PDF <i class="fa fa-file-pdf"></i>
-                            </button></a
-                        >
-                    </div>
-        </div>
-        </div>
-        </div>
-        <script
-            src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-            crossorigin="anonymous"
-        ></script>
-        <script
-            src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-            crossorigin="anonymous"
-        ></script>
-        <script
-            src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-            integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-            crossorigin="anonymous"
-        ></script>
-    </body>
+							<div class="col-lg-8 col-md-6 col-sm-12">
+								<table class="table">
+									<thead>
+										<!-- TABLE HEADINGS -->
+										<tr>
+											<th scope="col">Day</th>
+											<th scope="col">Time</th>
+											<th scope="col">Class</th>
+											<th scope="col">Level</th>
+										</tr>
+									</thead>
+									<tbody>
+										<!-- MONDAY -->
+										<tr>
+											<th scope="row">Monday</th>
+											<td>08:00 - 09:00</td>
+											<td>Yoga</td>
+											<td>All</td>
+										</tr>
+										<tr>
+											<th scope="row"> </th>
+											<td>09:00 - 10:00</td>
+											<td>HIIT</td>
+											<td>Intermediate</td>
+										</tr>
+										<tr>
+											<th scope="row"> </th>
+											<td>18:30 - 19:30</td>
+											<td>Pilates</td>
+											<td>Beginner</td>
+										</tr>
+										<!-- WEDNESDAY -->
+										<tr>
+											<th scope="row">Wednesday</th>
+											<td>08:00 - 09:00</td>
+											<td>HIIT</td>
+											<td>Beginner</td>
+										</tr>
+										<tr>
+											<th scope="row"> </th>
+											<td>09:00 - 10:00</td>
+											<td>Spin</td>
+											<td>Intermediate</td>
+										</tr>
+										<tr>
+											<th scope="row"> </th>
+											<td>18:30 - 19:30</td>
+											<td>Pilates</td>
+											<td>Intermediate</td>
+										</tr>
+										<!-- FRIDAY -->
+										<tr>
+											<th scope="row">Friday</th>
+											<td>08:00 - 09:00</td>
+											<td>Spin</td>
+											<td>Intermediate</td>
+										<tr>
+											<th scope="row"> </th>
+											<td>09:00 - 10:00</td>
+											<td>HIIT</td>
+											<td>All</td>
+										</tr>
+										<tr>
+											<th scope="row"> </th>
+											<td>18:30 - 19:30</td>
+											<td>Pilates</td>
+											<td>Beginner</td>
+										</tr>
+										</tr>
+										<!-- SATURDAY -->
+										<tr>
+											<th scope="row">Saturday</th>
+											<td>08:00 - 09:00</td>
+											<td>Spin</td>
+											<td>All</td>
+										</tr>
+										<tr>
+											<th scope="row"> </th>
+											<td>09:00 - 10:00</td>
+											<td>HIIT</td>
+											<td>All</td>
+										</tr>
+										<tr>
+											<th scope="row"> </th>
+											<td>18:30 - 19:30</td>
+											<td>Pilates</td>
+											<td>All</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+					</div>
+					<div class="modal-footer">
+						<button
+                                type="button"
+                                class="btn close-btn"
+                                data-dismiss="modal"
+                            >
+                                Close
+                            </button>
+						<a href="assets/class-timetable.pdf" target="_blank"><button type="button" class="btn-cta">
+                                DOWNLOAD PDF <i class="fas fa-file-pdf"></i>
+                                </button></a>
+					</div>
+				</div>
+			</div>
+			<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+				integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+				crossorigin="anonymous">
+			</script>
+			<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+				integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+				crossorigin="anonymous">
+			</script>
+			<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+				integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+				crossorigin="anonymous">
+			</script>
+		</div>
+</body>
+
 </html>

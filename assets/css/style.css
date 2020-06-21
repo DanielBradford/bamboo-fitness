@@ -9,11 +9,6 @@ body a {
   color: #6845bd;
   text-decoration: none;
 }
-
-body i{
-    color: blue;
-}
-
 .logo {
   height: 300px;
   width: 300px;
@@ -518,14 +513,18 @@ h4 {
   text-align: center;
 }
 
-.modal-content{
-
+.modal-header{
     text-align: center;
+    display: inline;
+}
+
+.modal-content {
+  text-align: center;
 }
 
 /*------ICONS--------*/
-.modal-footer i{
-    color: white;
+.modal-footer i {
+  color: white;
 }
 
 /*--------------VIDEO--------------*/
@@ -762,15 +761,16 @@ textarea.form-control {
   #menu li {
     float: left;
   }
+  .callout-container5 {
+    height: 200px;
+  }
 }
 
 @media (max-width: 667px) {
   .callout-container {
-    height: 70vh;
+    height: 90vh;
   }
-  .full-jacket {
-    width: 100vw;
-  }
+
   html,
   body {
     overflow-x: hidden;
@@ -794,20 +794,22 @@ textarea.form-control {
     height: 120px;
   }
   .first-content {
-    height: 90vh;
+    height: auto;
     width: 100vw;
   }
-  .three-women {
-    float: left;
-    padding: 0;
-    margin: 0 auto;
-    margin-top: 4em;
-    align-content: center;
+
+  .gold-wrapper{
+      height: auto;
   }
 
-  footer {
-    flex-shrink: 0;
-    max-height: 30px;
-    width: 100%;
+  .thin-first-content{
+      height: auto;
+  }
+  .callout-container5 {
+    height: auto;
+  }
+  .contact-form{
+    text-align: right;
+    margin-right: 17px;
   }
 }
