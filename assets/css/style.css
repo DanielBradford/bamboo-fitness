@@ -31,6 +31,10 @@ body a {
 .logo-schedule {
   text-align: center;
 }
+
+.logo-join-us{
+    width: 80%;
+}
 /*---------------------HEADER-------------*/
 
 header {
@@ -342,21 +346,15 @@ h4 {
   text-align: center;
   text-transform: uppercase;
   text-decoration: underline;
+  color:#a87b00;
 }
 .top-return:hover{
 
-    color: #a87b00;
+    color:#6845bd;
     text-decoration: underline;
 
 }
 
-.meet-our-team {
-  font-family: "Amatic SC", cursive, sans-serif;
-  font-size: 40px;
-  background-color: #52351194;
-  border-top-left-radius: 70%;
-  border-bottom-right-radius: 70%;
-}
 
 /*---------------------Membership Types-------------*/
 .membership-title-gold {
@@ -387,6 +385,19 @@ h4 {
   text-align: center;
   border-bottom-left-radius: 1em;
   border-bottom-right-radius: 1em;
+}
+
+.class-medals{
+    text-align: center;
+  list-style-type: none;
+  text-decoration: none;
+  background-color: #fafafa;
+  border-radius: 45%;
+  z-index: 100;
+  height: auto;
+  opacity: 1;
+  width: auto;
+  margin: 1.4em;
 }
 
 .memberships {
@@ -453,7 +464,7 @@ h4 {
 }
 /*---------------------TEAM MEDALS-------------*/
 .team-medals {
-  color: #c99918;
+  color: #674f08;
   border: solid 4px #ffffff;
 }
 .team-medals h4 {
@@ -466,6 +477,7 @@ h4 {
 .class-type {
   color: #c99918;
   border: solid 4px #c99918;
+  border-radius: 45%;
 }
 
 .class.type h4 {
@@ -526,6 +538,10 @@ h4 {
   border-radius: 3em;
 }
 
+.gallery img:hover {
+  border: 2px solid #a87b00;
+}
+
 .photo .leaf {
   border-top-left-radius: 70%;
   border-bottom-right-radius: 70%;
@@ -552,7 +568,7 @@ h4 {
 }
 
 .gallery i {
-  color: purple;
+  color: #6845bd;
   background-color: transparent;
   font-size: 50px;
 }
