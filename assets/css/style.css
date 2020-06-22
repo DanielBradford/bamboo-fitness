@@ -5,10 +5,6 @@ body {
   overflow-x: hidden;
 }
 
-body a {
-  color: #6845bd;
-  text-decoration: none;
-}
 .logo {
   height: 300px;
   width: 300px;
@@ -40,7 +36,7 @@ header {
 
 .jumbotron-header {
   font-family: "Amatic SC", cursive, sans-serif;
-  font-size: 70px;
+  font-size: 5em;
   color: white;
   font-weight: 700;
 }
@@ -73,20 +69,6 @@ header {
   position: relative;
 }
 
-.class-container {
-  height: auto;
-  background: url(../images/class.jpg) no-repeat bottom right fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  opacity: 0.5;
-}
-
 .indexfooter {
   height: auto;
   background: url(../images/bamboo-lower.jpg) no-repeat bottom right fixed;
@@ -100,7 +82,7 @@ header {
   position: relative;
 }
 .galleryfooter {
-  height: 10vh;
+  height: auto;
   background: url(../images/weights.jpg) no-repeat bottom right fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -110,6 +92,7 @@ header {
   align-items: center;
   justify-content: center;
   position: relative;
+  padding: 40px;
 }
 .contactfooter {
   height: auto;
@@ -122,7 +105,19 @@ header {
   align-items: center;
   justify-content: center;
   position: relative;
+  padding: 40px;
 }
+
+.classes {
+  border-bottom: solid goldenrod;
+  text-align: center;
+  border-top: solid goldenrod;
+}
+
+.classes button {
+  height: 2.5em;
+}
+
 .classesfooter {
   height: auto;
   background: url(../images/women.jpg) no-repeat bottom right fixed;
@@ -134,9 +129,10 @@ header {
   align-items: center;
   justify-content: center;
   position: relative;
+  padding: 40px;
 }
 .callout-container5 {
-  height: 70vh;
+  height: auto;
   background: url(../images/bamboo-lower.jpg) no-repeat bottom right fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -146,6 +142,7 @@ header {
   align-items: center;
   justify-content: center;
   position: relative;
+  padding-top: 100px;
 }
 
 .callout-container2 {
@@ -197,6 +194,12 @@ header {
   align-items: center;
   justify-content: center;
   position: relative;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.classes {
+  padding: 30px;
 }
 
 .jumbotron {
@@ -215,14 +218,10 @@ hr {
   height: 0.15em;
   margin: auto;
 }
-
-.contact-page {
-  opacity: 0.5;
-}
 /*---------------------NAVBAR-------------*/
 
 #menu {
-  font-size: 180%;
+  font-size: 1.9em;
   list-style-type: none;
   letter-spacing: 4px;
   float: center;
@@ -284,15 +283,19 @@ hr {
   padding-left: 70px;
 }
 
+.what-we-do h4 a {
+  color: #6845bd;
+}
+
 .about-heading {
   font-family: "Amatic SC", cursive, sans-serif;
-  font-size: 60px;
+  font-size: 3.8em;
   color: #674f08;
   text-align: center;
 }
 .membership-heading {
   font-family: "Amatic SC", cursive, sans-serif;
-  font-size: 60px;
+  font-size: 3.8em;
   color: #ffffff;
   text-align: center;
   background: transparent;
@@ -306,21 +309,15 @@ hr {
 }
 
 .what-we-offer h4 {
-  text-align: center;
-  color: #ffffff;
+  text-align: right;
+  color: #4a3700;
   width: 80%;
   margin-right: 60px;
   padding: 40px;
 }
 
-.about-text {
-  font-family: "Amatic SC", cursive, sans-serif;
-  font-size: 40px;
-  margin: 0 auto;
-  width: 50%;
-  text-align: justify;
-  position: relative;
-  color: #a87b00;
+.what-we-offer h4 a {
+  color: #6845bd;
 }
 
 h4 {
@@ -328,6 +325,7 @@ h4 {
   font-weight: 200;
   letter-spacing: 2px;
   line-height: 40px;
+  font-size: 1.6em;
 }
 
 .membership {
@@ -343,39 +341,46 @@ h4 {
   text-align: center;
   text-transform: uppercase;
   text-decoration: underline;
-  color: #a87b00;
   padding: 0;
 }
-.top-return:hover {
-  color: #6845bd;
-  text-decoration: underline;
+
+.top-return a {
+  color: #ffffff;
 }
 
 /*---------------------Membership Types-------------*/
 .membership-title-gold {
   font-family: "Amatic SC", cursive, sans-serif;
-  font-size: 60px;
+  font-size: 3.8em;
   color: #ffffff;
   text-align: center;
   background-color: #a87b00;
   border-bottom-left-radius: 1em;
   border-bottom-right-radius: 1em;
+  width: 5em;
+  margin: auto 0;
 }
 
 .membership-title-white {
   font-family: "Amatic SC", cursive, sans-serif;
-  font-size: 60px;
+  font-size: 3.8em;
   color: #a87b00;
   text-align: center;
   background-color: #ffffff;
   border-bottom-left-radius: 1em;
   border-bottom-right-radius: 1em;
-  width: auto;
+  width: 5em;
+  margin-bottom: 40px;
+
+}
+
+.membership-title-white h2 {
+  margin: auto 0;
 }
 
 .membership-title-bamboo {
   font-family: "Amatic SC", cursive, sans-serif;
-  font-size: 60px;
+  font-size: 3.8em;
   color: #ffffff;
   text-align: center;
   border-bottom-left-radius: 1em;
@@ -390,7 +395,7 @@ h4 {
   border-radius: 45%;
   z-index: 100;
   height: auto;
-  opacity: 1;
+
   width: auto;
   margin: 1.4em;
 }
@@ -415,16 +420,16 @@ h4 {
 }
 .memberships h4 {
   font-family: "Amatic SC", cursive, sans-serif;
-  font-size: 50px;
+  font-size: 3.2em;
 }
 .memberships li {
   font-family: "Oswald", sans-serif;
-  font-size: 20px;
+  font-size: 1.4em;
   list-style-type: none;
 }
 
 .memberships i {
-  font-size: 80px;
+  font-size: 4.8em;
 }
 
 .bronze {
@@ -459,25 +464,25 @@ h4 {
 }
 /*---------------------TEAM MEDALS-------------*/
 .team-medals {
-  color: #674f08;
-  border: solid 4px #ffffff;
+  color: #715402;
+  border: solid 4px #c99918;
 }
 .team-medals h4 {
-  background-color: #674f08;
-  color: #c99918;
+  background-color: #715402;
+  color: #ffffff;
   border-radius: 1.2em;
 }
 /*---------------------CLASS TYPE MEDALS-------------*/
 
 .class-type {
-  color: #c99918;
+  color: #715402;
   border: solid 4px #c99918;
   border-radius: 45%;
 }
 
 .class.type h4 {
   background-color: #ffffff;
-  color: #674f08;
+  color: #85660f;
   border-radius: 1.2em;
 }
 /*---------------------Images-------------*/
@@ -528,7 +533,7 @@ h4 {
 }
 
 .gallery img {
-  padding: 25px;
+  padding: 10px;
   width: 100%;
   border-radius: 3em;
 }
@@ -557,28 +562,46 @@ h4 {
   text-align: center;
 }
 
+.modal-footer {
+  justify-content: center;
+}
+
 /*------ICONS--------*/
 .modal-footer i {
   color: white;
 }
 
-.gallery i {
+.jumbotron i {
   color: #6845bd;
   background-color: transparent;
-  font-size: 50px;
+  font-size: 4.8em;
 }
 
 /*--------------VIDEO--------------*/
+.videos {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
 
 video {
-  padding: 20px;
-  margin: 0;
+  height: auto;
+  border-radius: 10%;
+  
 }
+
+video:hover {
+
+border: 2px solid #ffffff;
+
+}
+
+
 /*---------------------Buttons-------------*/
 
 button {
   font-family: "Amatic SC", cursive, sans-serif;
-  font-size: 20px;
+  font-size: 1.8em;
   color: #fffffa;
   background-color: #7512d1;
   border: solid 1px white;
@@ -587,12 +610,16 @@ button {
   border-radius: 2rem;
 }
 
+.btn {
+  font-size: 1.4em;
+}
+
 .callout .btn-cta {
   color: #fff;
   background-color: #6845bd;
   border-color: #ffffff;
   letter-spacing: 0.6rem;
-  height: 5rem;
+  height: auto;
   text-align: center;
 }
 
@@ -604,13 +631,6 @@ button {
 
 .btn-ca:active {
   border-color: #ffffff;
-}
-
-.join-us-btn h4 {
-  font-family: "Amatic SC", cursive, sans-serif;
-  font-size: 20px;
-  color: white;
-  letter-spacing: 2px;
 }
 
 /*---------------------CONTAINERS-------------*/
@@ -634,16 +654,23 @@ button {
 }
 
 .gold-wrapper {
-  height: 80vh;
+  height: auto;
   width: 100%;
   background-color: #a87b00;
   margin: 0;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 50px;
 }
 
 .thin-gold-wrapper {
   height: 320px;
   width: 100%;
   background-color: #a87b00;
+}
+
+.gallery {
+  padding: 40px;
 }
 
 .membership-block {
@@ -772,14 +799,13 @@ textarea.form-control {
 
 /*---------------------Footer-------------*/
 .social-links i:hover {
-  color: #ffff;
+  color: rgb(209, 160, 0);
 }
 
 .social-links i {
   height: 20px;
-  width: 20px;
-  font-size: 35px;
-  color: #a87b00;
+  font-size: 2.5em;
+  color: #ffffff;
   padding: 10px;
   word-spacing: 50px;
 }
@@ -806,7 +832,7 @@ textarea.form-control {
     float: left;
   }
   .callout-container5 {
-    height: 200px;
+    height: auto;
   }
 }
 
