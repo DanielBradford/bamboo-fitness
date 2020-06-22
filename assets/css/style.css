@@ -6,12 +6,8 @@ body {
 }
 
 .logo {
-  height: 300px;
-  width: 300px;
+  width: 18em;
   position: relative;
-  left: 50px;
-  top: 20px;
-  float: left;
   z-index: 2;
   border-radius: 40%;
   border-bottom-right-radius: 60%;
@@ -25,8 +21,13 @@ body {
   text-align: center;
 }
 
-.logo-join-us {
-  width: 80%;
+.form-logo {
+  width: 100%;
+  position: relative;
+  top: -30px;
+  left: 30px;
+  border-radius: 50%;
+  border-bottom-right-radius: 70%;
 }
 /*---------------------HEADER-------------*/
 
@@ -34,6 +35,72 @@ header {
   height: 180px;
 }
 
+/*----------NAVBAR MENU AND ICON---------*/
+.navbar {
+  margin-bottom: 0;
+  border: 0;
+  width: 100%;
+  background-color: #ffffff;
+  padding: 0;
+}
+.navbarNavdropdown{
+
+    z-index: 500;
+}
+
+.navbar i {
+  
+  color: #674f08;
+  font-size: 3em;
+  right: 30px;
+  top: 1em;
+  border-radius: 50%;
+  
+}
+
+.navbar-nav {
+  font-weight: bold;
+  z-index: 400;
+}
+
+#menu {
+  font-size: 1.9em;
+  list-style-type: none;
+  letter-spacing: 4px;
+  float: center;
+  color: #674f08;
+  background-color: #ffffff86;
+  position: relative;
+  left: 100px;
+  bottom: 70px;
+  text-align: center;
+
+  font-family: "Oswald", cursive, sans-serif;
+}
+
+#menu li {
+  margin-right: 30px;
+  float: left;
+}
+
+#menu li:hover {
+  background-color: #0083005b;
+  color: #674f08;
+  border-top-left-radius: 70%;
+  border-bottom-right-radius: 70%;
+}
+
+.active {
+  background-color: #0083005b;
+  color: #674f08;
+  border-top-left-radius: 70%;
+  border-bottom-right-radius: 70%;
+}
+
+#menu a {
+  text-decoration: none;
+  color: inherit;
+}
 .jumbotron-header {
   font-family: "Amatic SC", cursive, sans-serif;
   font-size: 5em;
@@ -81,6 +148,7 @@ header {
   justify-content: center;
   position: relative;
 }
+
 .galleryfooter {
   height: auto;
   background: url(../images/weights.jpg) no-repeat bottom right fixed;
@@ -218,42 +286,6 @@ hr {
   height: 0.15em;
   margin: auto;
 }
-/*---------------------NAVBAR-------------*/
-
-#menu {
-  font-size: 1.9em;
-  list-style-type: none;
-  letter-spacing: 4px;
-  float: center;
-  color: #674f08;
-  padding-top: 15px;
-
-  font-family: "Oswald", cursive, sans-serif;
-}
-
-#menu li {
-  margin-right: 30px;
-  float: left;
-}
-
-#menu li:hover {
-  background-color: #0083005b;
-  color: #674f08;
-  border-top-left-radius: 70%;
-  border-bottom-right-radius: 70%;
-}
-
-.active {
-  background-color: #0083005b;
-  color: #674f08;
-  border-top-left-radius: 70%;
-  border-bottom-right-radius: 70%;
-}
-
-#menu a {
-  text-decoration: none;
-  color: inherit;
-}
 
 /*---------------------TEXT-------------*/
 .callout p {
@@ -371,7 +403,6 @@ h4 {
   border-bottom-right-radius: 1em;
   width: 5em;
   margin-bottom: 40px;
-
 }
 
 .membership-title-white h2 {
@@ -577,6 +608,10 @@ h4 {
   font-size: 4.8em;
 }
 
+.btn-cta i {
+  color: #ffffff;
+  font-size: 1em;
+}
 /*--------------VIDEO--------------*/
 .videos {
   text-align: center;
@@ -587,28 +622,13 @@ h4 {
 video {
   height: auto;
   border-radius: 10%;
-  
 }
 
 video:hover {
-
-border: 2px solid #ffffff;
-
+  border: 2px solid #ffffff;
 }
-
 
 /*---------------------Buttons-------------*/
-
-button {
-  font-family: "Amatic SC", cursive, sans-serif;
-  font-size: 1.8em;
-  color: #fffffa;
-  background-color: #7512d1;
-  border: solid 1px white;
-  width: 15rem;
-  text-align: center;
-  border-radius: 2rem;
-}
 
 .btn {
   font-size: 1.4em;
@@ -631,6 +651,10 @@ button {
 
 .btn-ca:active {
   border-color: #ffffff;
+}
+
+.navbar button {
+  color: rgb(99, 64, 0);
 }
 
 /*---------------------CONTAINERS-------------*/
@@ -831,6 +855,11 @@ textarea.form-control {
   #menu li {
     float: left;
   }
+
+  .navbar i{
+      position: relative;
+      top: 0;
+  }
   .callout-container5 {
     height: auto;
   }
@@ -849,9 +878,9 @@ textarea.form-control {
     position: relative;
   }
   .logo {
-    margin: auto 0;
-    height: 30vh;
-    width: 50vw;
+    width: 10em;
+    position: relative;
+    left: 14px;
   }
 
   .jumbotron-header {
@@ -882,4 +911,18 @@ textarea.form-control {
   .contact-form {
     text-align: right;
   }
+  .navbar{
+      height: 10em;
+  }
+}
+
+/*Nav BAR*/
+
+.navalert-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-left: 0;
+  padding-right: 0;
+  z-index: 1;
 }

@@ -14,40 +14,38 @@
 
 <body>
 	<header>
-		<div class="row">
-			<div class="col-lg-5 col-sm-4 inline">
-				<img
-                    class="logo"
-                    src="assets/images/BF-LOGO.png"
-                    alt="Bamboo Fitness Logo"
+      <nav class="navbar navbar-expand-sm">
+        <a href="/" class="navbar-brand"><div class="col-5 inline">
+                <img
+                class="logo"
+                src="assets/images/BF-LOGO.png"
+                alt="Bamboo Fitness Logo"
                 />
-            </div>
-			<div class="col-lg-6 inline">
-				<div class="alert alert-success" role="alert">
-						<strong>10%</strong> of all membership fees is donated to an eco charity. <a
-							href="#charity">Click for info!</a>
-					</div>
-					<!-- NAV BAR MENU (SIMILAR LAYOUT TO LOVE RUNNING https://repl.it/@DanielBradford/Love-Running#assets/css/style.css)--------------->
-					<nav class="navbar-expand-sm d-none d-md-block inline">
-							<ul id="menu">
-								<li>
-									<a class="active" href="index.html"> Home</a>
-								</li>
-								<li>
-									<a href="classes.html"> Classes </a>
-								</li>
-								<li>
-									<a  href="gallery.html"> Gallery </a>
-								</li>
-								<li>
-									<a href="contact.html"> Contact Us</a>
-								</li>
-							</ul>
-					</nav>
-				</div>
-            </div>
-        
-	</header>
+            </div></a>
+
+        <button
+          class="navbar-toggler ml-auto"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        ><span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul id="menu" class="navbar-nav mr-auto">
+            <li class="active nav-item mr-2">
+              <a class="active nav-link" href="/">Home</a>
+            </li>
+            <li class="nav-item mr-2"><a class="nav-link" href="classes.html">Classes</a></li>
+            <li class="nav-item mr-2"><a class="nav-link" href="gallery.html">Gallery</a></li>
+            <li class="nav-item mr-2"><a class="nav-link" href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
 	<!--THIS IS THE REPEATING IMAGE ON ALL PAGES-->
 	<!--REF _ https://wallpaperaccess.com/chinese-bamboo -->
 	<div class="heroimage">
@@ -215,12 +213,12 @@
 					<div class="row">
                     <br>
                     <br>
-						<div class="col-4 callout-container5">
-							<img class="logo" src="assets/images/BF-LOGO.png" alt="Bamboo Fitness Logo"/>
+						<div class="col-5 callout-container5">
+							<img class="form-logo" src="assets/images/BF-LOGO.png" alt="Bamboo Fitness Logo"/>
 
                 </div>
 							<!-- FORM TEMPLATE FROM BOOTSTRAP (SAME FORM AS CONTACT US PAGE)--------------->
-							<div class="col-lg-8 callout-container5 col-sm-12 contact-form">
+							<div class="col-lg-7 callout-container5 col-sm-12 contact-form">
 								<section class="form-section">
 									<form class="form-group">
 										<br>

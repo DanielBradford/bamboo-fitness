@@ -14,39 +14,38 @@
 
     <body>
         <header>
-            <div class="row">
-                <div class="col-5 inline">
+        <nav class="navbar navbar-expand-sm">
+            <a href="/" class="navbar-brand"><div class="col-5 inline">
                     <img
-                                class="logo"
-                                src="assets/images/BF-LOGO.png"
-                                alt="Bamboo Fitness Logo"
-                            />
-                        </div>
-                    <div class="col-6 inline">
-                        <div class="alert alert-success d-none d-sm-block" role="alert">
-                            <strong>10%</strong> of all membership fees is donated to an eco charity. <a
-                                href="https://8000-a61066cf-494a-414f-9f61-ea8b7a0b558c.ws-eu01.gitpod.io/index.html#charity">Click for info!</a>
-                        </div>
-                        <!--SIMILAR LAYOUT TO LOVE RUNNING https://repl.it/@DanielBradford/Love-Running#assets/css/style.css-->
-                        <!-- NAV BAR MENU--------------->
-                        <nav class="navbar-expand-sm d-none d-lg-block d-md-block ">
-                            <ul id="menu">
-                                <li>
-                                    <a href="index.html"> Home</a>
-                                </li>
-                                <li>
-                                    <a class="active" href="classes.html"> Classes </a>
-                                </li>
-                                <li>
-                                    <a href="gallery.html"> Gallery </a>
-                                </li>
-                                <li>
-                                    <a href="contact.html"> Contact Us</a>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
+                    class="logo"
+                    src="assets/images/BF-LOGO.png"
+                    alt="Bamboo Fitness Logo"
+                    />
+                </div></a>
+
+            <button
+            class="navbar-toggler ml-auto"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            ><span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul id="menu" class="navbar-nav mr-auto">
+                <li class=" nav-item mr-2">
+                <a class="nav-link" href="/">Home</a>
+                </li>
+                <li class="active nav-item mr-2"><a class="nav-link" href="classes.html">Classes</a></li>
+                <li class="nav-item mr-2"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                <li class="nav-item mr-2"><a class="nav-link" href="contact.html">Contact Us</a></li>
+            </ul>
+            </div>
+         </nav>
+    
         </header>
         <!--THIS IS THE REPEATING IMAGE ON ALL PAGES-->
         <!--REF _ https://wallpaperaccess.com/chinese-bamboo -->
