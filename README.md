@@ -1,22 +1,22 @@
-<img src="assets/images/BF-LOGO.png" style="margin: 0;">
+<img style="width:50%; margin:auto;" src="assets/images/BF-LOGO.png" style="margin: 0;">
 
-# Bamboo Fitness
+# **_Bamboo Fitness_**
 
-### A succint, accessible and expandable website for a gym and fitness company called 'Bamboo Fitness. The website allows current and potential members to access information about the gym while understanding the unique branding and ethos of the company.
-### The site encourages the advertisement of its charitable donations taken from the membership fees. The website offers a number of pages that increases the flow of current and new business to the company.
-### BUSINESS GOALS OF WEBSITE
-* ### To create an online presence for the gym as a service and unqique brand
+### _A succint, accessible and expandable website for a gym and fitness company called 'Bamboo Fitness. The website allows current and potential members to access information about the gym while understanding the unique branding and ethos of the company._
+### _The site encourages the advertisement of its charitable donations taken from the membership fees. The website offers a number of pages that increases the flow of current and new business to the company._
+### **BUSINESS GOALS OF WEBSITE**
+* ### To create an online presence for the gym as a service and unique brand
 * ### To generate new busines by advertising their services with attractive incentives
 * ### To maintian current business by providing full services information e.g class schedules & contact info
-### USER GOALS OF WEBSITE
-* ### Users as CURRENT members of gym
+### **USER GOALS OF WEBSITE**
+* ### Users as **CURRENT** members of gym
     * ### View opening hours of gym 
     * ### View the types of classes available
     * ### View information about the gym instructors and management
     * ### View/Download the Class Timeable
     * ### View Images and Videos from the gym in the Gallery
     * ### Access to main channels of contact information
-* ### Users as POTENTIAL members of gym
+* ### Users as **POTENTIAL** members of gym
     * ### To learn about the gym and its services
     * ### Direct link to pursuing a membership with the gym 
     * ### To access information about the memberships available e.g. prices
@@ -24,26 +24,32 @@
 
 
 
-## UX  
-### Who is the website for?
-#### The ideal new client for Bamboo Fitness:
-* Has an interest in joining the gym and fitness
-* Has disposable Income
-* Local resident or within a reasonable travel radius
-* Wants to improve their fitness 
-* Likes to give to charity
-* Has an interest in the environment
+## **UX** 
+### **Who is the website for?**
+### The ideal new client for Bamboo Fitness:
+* ### Has an interest in joining the gym and fitness
+* ### Has disposable Income
+* ### Local resident or within a reasonable travel radius
+* ### Wants to improve their fitness 
+* ### Likes to give to charity
+* ### Has an interest in the environment
 
 
-### What do the new visitors want?
-New visitors to Bamboo Fitnes want to know what the gym is and what it offers. They want to know about the memberships available and what makes the gym suitable for them i.e price, location, facilities, classes etc.
+### **What do the new visitors want?**
+### New visitors to Bamboo Fitnes want to know what the gym is and what it offers. They want to know about the memberships available and what makes the gym suitable for them i.e price, location, facilities, classes etc.
 
-### What does the website do?
-The website's objective is to target these potential clients and advertise their services on offer. This along with the additional incentives of giving to charity provides a strong USP for the gym. This then encourages the user to join by completing a short form that will allow for them to be contacted to get their membership started.
-
-### USER STORIES
+### **What does the website do?**
+### The website's objective is to target these potential clients and advertise their services on offer. This along with the additional incentives of giving to charity provides a strong USP for the gym. This then encourages the user to join by completing a short form that will allow for them to be contacted to get their membership started.
 
 
+Structure
+
+### **Technologies Used**
+* ### HTML / HTML5
+* ### CSS / CSS3
+* ### Bootrap Version 4.7/5
+
+### **USER STORIES**
 * As a new vistor, I want to join a gym, so that I can improve my fitness.
 * As an interested visitor, I want information about gym membership prices, so that I can decide what suits my needs.
 * As a new and potential member, I want to see images and videos of the gym, so that i can see what facilities they have.
