@@ -1,22 +1,66 @@
-<img src="assets/images/Bamboo Fitness Logo-3.png" style="margin: 0;">
+<img src="assets/images/BF-LOGO.png" style="margin: 0;">
 
-Your Project's Name
-One or two paragraphs providing an overview of your project.
+# Bamboo Fitness
 
-Essentially, this part is your sales pitch.
+### A succint, accessible and expandable website for a gym and fitness company called 'Bamboo Fitness. The website allows current and potential members to access information about the gym while understanding the unique branding and ethos of the company.
+### The site encourages the advertisement of its charitable donations taken from the membership fees. The website offers a number of pages that increases the flow of current and new business to the company.
+### BUSINESS GOALS OF WEBSITE
+* ### To create an online presence for the gym as a service and unqique brand
+* ### To generate new busines by advertising their services with attractive incentives
+* ### To maintian current business by providing full services information e.g class schedules & contact info
+### USER GOALS OF WEBSITE
+* ### Users as CURRENT members of gym
+    * ### View opening hours of gym 
+    * ### View the types of classes available
+    * ### View information about the gym instructors and management
+    * ### View/Download the Class Timeable
+    * ### View Images and Videos from the gym in the Gallery
+    * ### Access to main channels of contact information
+* ### Users as POTENTIAL members of gym
+    * ### To learn about the gym and its services
+    * ### Direct link to pursuing a membership with the gym 
+    * ### To access information about the memberships available e.g. prices
+    * ### View Images and Videos of facilities and members of the gym
 
-UX
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
 
-As a user type, I want to perform an action, so that I can achieve a goal.
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+## UX  
+### Who is the website for?
+#### The ideal new client for Bamboo Fitness:
+* Has an interest in joining the gym and fitness
+* Has disposable Income
+* Local resident or within a reasonable travel radius
+* Wants to improve their fitness 
+* Likes to give to charity
+* Has an interest in the environment
 
-Features
+
+### What do the new visitors want?
+New visitors to Bamboo Fitnes want to know what the gym is and what it offers. They want to know about the memberships available and what makes the gym suitable for them i.e price, location, facilities, classes etc.
+
+### What does the website do?
+The website's objective is to target these potential clients and advertise their services on offer. This along with the additional incentives of giving to charity provides a strong USP for the gym. This then encourages the user to join by completing a short form that will allow for them to be contacted to get their membership started.
+
+### USER STORIES
+
+
+* As a new vistor, I want to join a gym, so that I can improve my fitness.
+* As an interested visitor, I want information about gym membership prices, so that I can decide what suits my needs.
+* As a new and potential member, I want to see images and videos of the gym, so that i can see what facilities they have.
+* As an interested visitor, I want to get in contact with the gym, so that I can ask more specific questions with a representative of the gym.
+* As a potential/current member, I want to check the opening times, so that i know when i can go to gym.
+* As a current member, I want to check the class timetable, so that I know when my class is.
+* AS a current member, I want to get contact information, so i can ask a question about my membership
+* As a current member, I want to know where the gym is located, so that i can find it. 
+
+
+This section is also where you would share links to any wireframes,
+These files should themselves either be included as a pdf file in the project itself (in an separate directory),
+
+## Features
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
 
-Existing Features
+## Existing Features
 Feature 1 - allows users X to achieve Y, by having them fill out Z
 ...
 For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
@@ -30,7 +74,8 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 JQuery
 The project uses JQuery to simplify DOM manipulation.
-Testing
+
+## Testing
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
 Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.

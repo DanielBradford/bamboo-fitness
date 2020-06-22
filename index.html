@@ -15,20 +15,20 @@
 <body>
 	<header>
 		<div class="row">
-			<div class="col-lg-5 col-sm-6 inline">
+			<div class="col-lg-5 col-sm-4 inline">
 				<img
                     class="logo"
                     src="assets/images/BF-LOGO.png"
                     alt="Bamboo Fitness Logo"
                 />
-                </div>
-				<div class="col-lg-6 d-none d-sm-block inline">
-					<div class="alert alert-success " role="alert">
+            </div>
+			<div class="col-lg-6 inline">
+				<div class="alert alert-success" role="alert">
 						<strong>10%</strong> of all membership fees is donated to an eco charity. <a
 							href="#charity">Click for info!</a>
 					</div>
 					<!-- NAV BAR MENU (SIMILAR LAYOUT TO LOVE RUNNING https://repl.it/@DanielBradford/Love-Running#assets/css/style.css)--------------->
-					<nav class="navbar-expand-sm d-none d-lg-block d-md-block">
+					<nav class="navbar-expand-sm d-none d-md-block inline">
 							<ul id="menu">
 								<li>
 									<a class="active" href="index.html"> Home</a>
@@ -45,7 +45,8 @@
 							</ul>
 					</nav>
 				</div>
-                </div>
+            </div>
+        
 	</header>
 	<!--THIS IS THE REPEATING IMAGE ON ALL PAGES-->
 	<!--REF _ https://wallpaperaccess.com/chinese-bamboo -->
@@ -55,7 +56,7 @@
 			<div class="row">
 				<div class="col-lg-2 col-sm-12">
 				</div>
-				<div class="col-lg-10 col-sm-12">
+				<div class="col-lg-12 col-sm-12">
 					<section class="callout jumbotron text-center">
 						<h1 class="jumbotron-header">Welcome to Bamboo Fitness</h1>
 						<hr class="block-divider">
@@ -79,7 +80,7 @@
 				<h2 class="about-heading uppercase">What we do <i class="fa fa-dumbbell"></i></h2>
 				<br>
 				<p class="about-text">
-					<h4>We are more than a <a href="#">gym</a>! We are here to <a href="#">help</a> you realise your
+					<h4>We are more than a <a href="">gym</a>! We are here to <a href="">help</a> you realise your
 						<strong>potential</strong> and to get 'you' back to <a href="#">YOU</a>. We provide <a
 							href="#"><strong>top of the line facilities</strong></a> for you to enhance your physical
 						and mental
@@ -88,7 +89,7 @@
 			</div>
 			<!-- Photo by cottonbro from Pexels------->
 			<div class="col-lg-6 three-women inline">
-				<img class="three-women-photo d-none d-sm-block" src="assets/images/three-women.jpg" alt="three women kneeling and smiling"/>
+				<img class="three-women-photo d-none d-sm-block d-md-block" src="assets/images/three-women.jpg" alt="three women kneeling and smiling"/>
                 </div>
 			</div>
 	</section>
@@ -101,14 +102,15 @@
 				<img class="charity-photo d-none d-sm-block" src="assets/images/charity.jpg" alt="money pot with plant in"/>
             </div>
 
-				<a name="charity"></a>
+				
 			<div class="col-lg-6 col-sm-12 what-we-offer inline">
+            <a name="charity"></a>
 					<h2 class="membership-heading uppercase">What we offer <i class="fa fa-globe"></i></h2>
 
 					<p class="about-text">
 						<h4>At <a href="#">Bamboo Fitness</a> we pride ourselves on our <a href="#">care and
 								charity</a>. That is why we donate
-							<br><a href="#">10%</a> of your membership every month to a selected <a href="#">eco
+							<br><a href="#" style="size:xxl">10%</a> of your membership every month to a selected <a href="#">eco
 								charity</a>.
                                 </h4>
 					</p>
@@ -197,7 +199,7 @@
                 <br>
             </span>
             <br>
-            <div class="container fluid top-return">
+            <div class="container-fluid top-return indexfooter">
                 <a href="#">Back to top</a>
             </div>
 			<br>
@@ -209,23 +211,18 @@
 		aria-hidden="true">
 		<div class="modal-dialog modal-xl modal-dialog-centered">
 			<div class="modal-content">
-				<div class="modal-header">
-					<button type="btn btn-lg" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                    </button>
-				</div>
 				<div class="modal-body">
 					<div class="row">
-						<div class="col-5 logo-join-us">
-							<img class="logo-join-us" src="assets/images/BF-LOGO.png" alt="Bamboo Fitness Logo"/>
+                    <br>
+                    <br>
+						<div class="col-4 callout-container5">
+							<img class="logo" src="assets/images/BF-LOGO.png" alt="Bamboo Fitness Logo"/>
 
                 </div>
 							<!-- FORM TEMPLATE FROM BOOTSTRAP (SAME FORM AS CONTACT US PAGE)--------------->
-							<div class="col-lg-7 gold-wrapper col-sm-12 contact-form">
+							<div class="col-lg-8 callout-container5 col-sm-12 contact-form">
 								<section class="form-section">
 									<form class="form-group" method="post" action="https://formdump.codeinstitute.net/">
-										<br>
-										<h2>Get in touch... <i class="fa fa-heartbeat"></i></h2>
 										<br>
 										<label for="fname">FIRST NAME: </label>
 										<input
