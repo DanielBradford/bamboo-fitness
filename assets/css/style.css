@@ -1,5 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Open+Sans+Condensed:wght@300&family=Oswald&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Heebo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Open+Sans+Condensed:wght@700&family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@3700&display=swap");
+
+/*---------------------THEME COLOR-----------*/
+.theme-color {
+  color: #228b22;
+}
+
 /*---------------------LOGO-----------*/
 body {
   overflow-x: hidden;
@@ -43,19 +49,16 @@ header {
   background-color: #ffffff;
   padding: 0;
 }
-.navbarNavdropdown{
-
-    z-index: 500;
+.navbarNavdropdown {
+  z-index: 500;
 }
 
 .navbar i {
-  
   color: #674f08;
   font-size: 3em;
   right: 30px;
   top: 1em;
   border-radius: 50%;
-  
 }
 
 .navbar-nav {
@@ -67,7 +70,6 @@ header {
   font-size: 1.9em;
   list-style-type: none;
   letter-spacing: 4px;
-  float: center;
   color: #674f08;
   background-color: #ffffff86;
   position: relative;
@@ -111,7 +113,7 @@ header {
 /*---------------------CALLOUT-------------*/
 .callout-container {
   height: 80vh;
-  background: url(../images/bamboo.jpg) no-repeat bottom right fixed;
+  background: url(../images/bamboo.webP) no-repeat bottom right fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -125,7 +127,7 @@ header {
 .callout-container7 {
   height: 30vh;
   /*  Photo by Adam Wilson on Unsplash  */
-  background: url(../images/gym-wall.jpg) no-repeat bottom right fixed;
+  background: url(../images/gym-wall.webP) no-repeat bottom right fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -138,7 +140,7 @@ header {
 
 .indexfooter {
   height: auto;
-  background: url(../images/bamboo-lower.jpg) no-repeat bottom right fixed;
+  background: url(../images/bamboo-lower.webP) no-repeat bottom right fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -151,7 +153,7 @@ header {
 
 .galleryfooter {
   height: auto;
-  background: url(../images/weights.jpg) no-repeat bottom right fixed;
+  background: url(../images/weights.webP) no-repeat bottom right fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -164,7 +166,7 @@ header {
 }
 .contactfooter {
   height: auto;
-  background: url(../images/cupboard.jpg) no-repeat bottom right fixed;
+  background: url(../images/cupboard.webP) no-repeat bottom right fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -188,7 +190,7 @@ header {
 
 .classesfooter {
   height: auto;
-  background: url(../images/women.jpg) no-repeat bottom right fixed;
+  background: url(../images/women.webP) no-repeat bottom right fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -201,7 +203,7 @@ header {
 }
 .callout-container5 {
   height: auto;
-  background: url(../images/bamboo-lower.jpg) no-repeat bottom right fixed;
+  background: url(../images/bamboo-lower.webP) no-repeat bottom right fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -215,7 +217,7 @@ header {
 
 .callout-container2 {
   height: auto;
-  background: url(../images/women.jpg) no-repeat bottom right fixed;
+  background: url(../images/women.webP) no-repeat bottom right fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -227,7 +229,7 @@ header {
 }
 .callout-container3 {
   height: auto;
-  background: url(../images/cupboard.jpg) no-repeat bottom right fixed;
+  background: url(../images/cupboard.webP) no-repeat bottom right fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -240,7 +242,7 @@ header {
 
 .callout-container4 {
   height: 60vh;
-  background: url(../images/weights.jpg) no-repeat bottom right fixed;
+  background: url(../images/weights.webP) no-repeat bottom right fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -253,7 +255,7 @@ header {
 
 .class-info-container {
   height: auto;
-  background: url(../images/women.jpg) no-repeat bottom right fixed;
+  background: url(../images/women.webP) no-repeat bottom right fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -271,7 +273,6 @@ header {
 }
 
 .jumbotron {
-  float: center;
   background-color: #ce9a009a;
   padding: 32px;
   height: auto;
@@ -282,18 +283,21 @@ header {
 
 hr {
   width: 10em;
-  background-color: goldenrod;
+  background-color: #e0a500;
   height: 0.15em;
   margin: auto;
 }
 
 /*---------------------TEXT-------------*/
-.callout p {
+.uppercase {
+  text-transform: uppercase;
+}
+
+.callout h2 {
   font-family: "Oswald", cursive, sans-serif;
   font-weight: 400;
-  font-size: 1.5em;
+  font-size: 1.6rem;
   color: #ffffff;
-  border-bottom-left-radius: 20%;
   opacity: 0.8;
 }
 
@@ -301,21 +305,21 @@ hr {
   color: #6845bd;
 }
 .what-we-do {
-  text-align: justify;
+  text-align: center;
   margin: 0 auto;
   margin-top: 50px;
   padding-bottom: 20px;
   border-bottom-left-radius: 20%;
 }
 
-.what-we-do h4 {
+.what-we-do h3 {
   text-align: center;
   color: #a87b00;
   width: 80%;
   padding-left: 70px;
 }
 
-.what-we-do h4 a {
+.what-we-do h3 a {
   color: #6845bd;
 }
 
@@ -334,13 +338,13 @@ hr {
 }
 
 .what-we-offer {
-  text-align: justify;
+  text-align: center;
   margin: 0 auto;
   margin-top: 50px;
   padding-bottom: 20px;
 }
 
-.what-we-offer h4 {
+.what-we-offer h3 {
   text-align: right;
   color: #4a3700;
   width: 80%;
@@ -348,11 +352,11 @@ hr {
   padding: 40px;
 }
 
-.what-we-offer h4 a {
+.what-we-offer h3 a {
   color: #6845bd;
 }
 
-h4 {
+h3 {
   font-family: "Oswald", sans-serif;
   font-weight: 200;
   letter-spacing: 2px;
@@ -379,14 +383,13 @@ h4 {
 .top-return a {
   color: #ffffff;
 }
-
 /*---------------------Membership Types-------------*/
 .membership-title-gold {
   font-family: "Amatic SC", cursive, sans-serif;
   font-size: 3.8em;
   color: #ffffff;
   text-align: center;
-  background-color: #a87b00;
+  background-color: #e0a500;
   border-bottom-left-radius: 1em;
   border-bottom-right-radius: 1em;
   width: 5em;
@@ -475,11 +478,11 @@ h4 {
 }
 
 .silver {
-  color: #a8a7a3;
-  border: solid 4px #a8a7a3;
+  color: #58574f;
+  border: solid 4px #58574f;
 }
 .silver h4 {
-  background-color: #a8a7a3;
+  background-color: #58574f;
   color: #faffff;
   border-radius: 1.2em;
 }
@@ -516,30 +519,8 @@ h4 {
   color: #85660f;
   border-radius: 1.2em;
 }
+
 /*---------------------Images-------------*/
-
-.hero-image {
-  padding-top: 0;
-  background: url(images/bamboo.jpg) no-repeat bottom right fixed;
-  background-size: contain;
-  height: 100vmh;
-  width: 100vmh;
-}
-.hero-image2 {
-  padding-top: 0;
-  background: url(images/women.jpg) no-repeat bottom right fixed;
-  background-size: contain;
-  height: 30vmh;
-  width: 100vmh;
-}
-
-.hero-image3 {
-  padding-top: 0;
-  background: url(images/women.jpg) no-repeat bottom right fixed;
-  background-size: contain;
-  height: 40vmh;
-  width: 100vmh;
-}
 
 .three-women img {
   width: 80%;
@@ -680,7 +661,7 @@ video:hover {
 .gold-wrapper {
   height: auto;
   width: 100%;
-  background-color: #a87b00;
+  background-color: #e0a500;
   margin: 0;
   padding-left: 30px;
   padding-right: 30px;
@@ -690,7 +671,7 @@ video:hover {
 .thin-gold-wrapper {
   height: 320px;
   width: 100%;
-  background-color: #a87b00;
+  background-color: #e0a500;
 }
 
 .gallery {
@@ -856,9 +837,9 @@ textarea.form-control {
     float: left;
   }
 
-  .navbar i{
-      position: relative;
-      top: 0;
+  .navbar i {
+    position: relative;
+    top: 0;
   }
   .callout-container5 {
     height: auto;
@@ -911,8 +892,8 @@ textarea.form-control {
   .contact-form {
     text-align: right;
   }
-  .navbar{
-      height: 10em;
+  .navbar {
+    height: 10em;
   }
 }
 

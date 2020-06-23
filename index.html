@@ -10,15 +10,17 @@
 		integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 	<title>Bamboo Fitness | Home</title>
+    <meta name="description" content="A website advertising the services of Bamboo Fitness. A gym and fitness facility that donates to charity. Health, Fitness, Wellbeing! Made by Daniel Bradford. Full Stack Development Student @ Code Institute">
+    <meta name="theme-color" content="#228B22">
 </head>
 
 <body>
 	<header>
       <nav class="navbar navbar-expand-sm">
-        <a href="/" class="navbar-brand"><div class="col-5 inline">
+        <a href="index.html" class="navbar-brand"><div class="col-5 inline">
                 <img
                 class="logo"
-                src="assets/images/BF-LOGO.png"
+                src="assets/images/BF-LOGO.webP"
                 alt="Bamboo Fitness Logo"
                 />
             </div></a>
@@ -48,7 +50,7 @@
     </header>
 	<!--THIS IS THE REPEATING IMAGE ON ALL PAGES-->
 	<!--REF _ https://wallpaperaccess.com/chinese-bamboo -->
-	<div class="heroimage">
+	
 		<!--This format was borrowed from the Whiskey Project in the Bootstrap lessons: https://danielbradford.github.io/bootstrap/-->
 		<div class="container-fluid callout-container">
 			<div class="row">
@@ -59,7 +61,7 @@
 						<h1 class="jumbotron-header">Welcome to Bamboo Fitness</h1>
 						<hr class="block-divider">
 						<br>
-						<p>GIVE BACK TO YOURSELF AND THE ENVIRONMENT...</p><br>
+						<h2>GIVE BACK TO YOURSELF AND THE ENVIRONMENT...</h2><br>
 
 						<button type="button" class="btn-cta " data-toggle="modal" data-target="#exampleModal">
                             Join Us!
@@ -70,7 +72,7 @@
 			</div>
 		</div>
 
-	</div>
+	
 	<!-- FIRST CONTENT SECTION--------------->
 	<section>
 		<div class="row first-content">
@@ -78,16 +80,15 @@
 				<h2 class="about-heading uppercase">What we do <i class="fa fa-dumbbell"></i></h2>
 				<br>
 				<p class="about-text">
-					<h4>We are more than a <a href="">gym</a>! We are here to <a href="">help</a> you realise your
-						<strong>potential</strong> and to get 'you' back to <a href="#">YOU</a>. We provide <a
-							href="#"><strong>top of the line facilities</strong></a> for you to enhance your physical
+					<h3>We are more than a <span>gym</span>! We are here to <span>help</span> you realise your
+						<strong>potential</strong> and to get 'you' back to <span>YOU</span>. We provide <span><strong>top of the line facilities</strong></span> for you to enhance your physical
 						and mental
-						well-being.</h4>
+						well-being.</h3>
 				</p>
 			</div>
 			<!-- Photo by cottonbro from Pexels------->
 			<div class="col-lg-6 three-women inline">
-				<img class="three-women-photo d-none d-sm-block d-md-block" src="assets/images/three-women.jpg" alt="three women kneeling and smiling"/>
+				<img class="three-women-photo d-none d-sm-block d-md-block" src="assets/images/three-women.webP" alt="three women kneeling and smiling"/>
                 </div>
 			</div>
 	</section>
@@ -97,20 +98,19 @@
 	<section>
 		<div class="row container-fluid gold-wrapper">
 			<div class="col-6 charity">
-				<img class="charity-photo d-none d-sm-block" src="assets/images/charity.jpg" alt="money pot with plant in"/>
+				<img class="charity-photo d-none d-sm-block" src="assets/images/charity.webP" alt="money pot with plant in"/>
             </div>
 
 				
 			<div class="col-lg-6 col-sm-12 what-we-offer inline">
-            <a name="charity"></a>
 					<h2 class="membership-heading uppercase">What we offer <i class="fa fa-globe"></i></h2>
 
 					<p class="about-text">
-						<h4>At <a href="#">Bamboo Fitness</a> we pride ourselves on our <a href="#">care and
-								charity</a>. That is why we donate
-							<br><a href="#" style="size:xxl">10%</a> of your membership every month to a selected <a href="#">eco
-								charity</a>.
-                                </h4>
+						<h3>At <span>Bamboo</span> Fitness we pride ourselves on our <span>care</span> and
+								charity. That is why we donate
+							<br><span style="size:xl">10%</span> of your membership every month to a selected <span>eco
+								charity</span>.
+                                </h3>
 					</p>
 			</div>
 		</div>
@@ -128,54 +128,54 @@
 		<div class="col-lg-4 col-sm-12">
 			<div class="memberships bronze">
 				<i class="fa fa-leaf"></i>
-				<h4>Bronze leaf</h4>
-				<ul>
-					<li>Full Access to the Gym </li>
-					<li><strike>Including Weekends</strike></li>
-					<li>Free Parking</li>
-					<br>
-					<li class="text-muted"><strike>£24.99</strike></li>
-					<li class="price"><strong>£19.99</strong>
-						<h5 class="lowercase">per month</h5>
-					</li>
-				</ul>
+				<h3 class="uppercase">Bronze leaf</h3>
+                    <ul>
+                        <li>Full Access to the Gym </li>
+                        <li>Including Weekends</li>
+                        <li>Free Parking</li>
+                        <br>
+                <strike class="text-muted">£24.99</strike>
+                        <li class="price"><strong>£19.99</strong>
+                            <h5 class="lowercase">per month</h5>
+                        </li>
+                    </ul>
 			</div>
 		</div>
 		<div class="col-lg-4 col-sm-12">
 			<div class="memberships silver">
 				<i class="fa fa-leaf"></i>
-				<h4>Silver leaf</h4>
-				<ul>
-					<li>Full Access to the Gym </li>
-					<li>Including Weekends</li>
-					<li>Free Parking</li>
-					<li><strong>16</strong> Free Classes (per month)</li>
-					<li><strong>FREE</strong> Water Bottle</li>
-					<br>
-					<li class="text-muted"><strike>£29.99</strike></li>
-					<li class="price"><strong>£24.99</strong>
-						<h5 class="lowercase">per month</h5>
-					</li>
-				</ul>
+				<h3 class="uppercase">Silver leaf</h3>
+                    <ul>
+                        <li>Full Access to the Gym </li>
+                        <li>Including Weekends</li>
+                        <li>Free Parking</li>
+                        <li><strong>16</strong> Free Classes (per month)</li>
+                        <li><strong>FREE</strong> Water Bottle</li>
+                        <br>
+                <strike class="text-muted">£29.99</strike>
+                        <li class="price"><strong>£24.99</strong>
+                        <h5 class="lowercase">per month</h5>
+                        </li>
+                    </ul>
 			</div>
 
 		</div>
 		<div class="col-lg-4 col-sm-12">
 			<div class="memberships gold">
 				<i class="fa fa-leaf"></i>
-				<h4>Gold leaf</h4>
-				<ul>
-					<li>Full Access to the Gym </li>
-					<li>Including Weekends</li>
-					<li>Free Parking</li>
-					<li><strong>Unlimited</strong> Classes</li>
-					<li><strong>FREE</strong> Towel & Water Bottle</li>
-					<br>
-					<li class="text-muted"><strike>£44.99</strike></li>
-					<li class="price"><strong>£34.99</strong>
-						<h5 class="lowercase">per month</h5>
-					</li>
-				</ul>
+				<h3 class="uppercase">Gold leaf</h3>
+                    <ul>
+                        <li>Full Access to the Gym </li>
+                        <li>Including Weekends</li>
+                        <li>Free Parking</li>
+                        <li><strong>Unlimited</strong> Classes</li>
+                        <li><strong>FREE</strong> Towel & Water Bottle</li>
+                        <br>
+                <strike class="text-muted">£44.99</strike>
+                        <li class="price"><strong>£34.99</strong>
+                            <h5 class="lowercase">per month</h5>
+                        </li>
+                    </ul>
 			</div>
 		</div>
 	</div>
@@ -183,16 +183,16 @@
 		<br>
 		<div class="row social-links">
 			<span class="col-3 inline">
-                    <a target="_blank" href="https://www.facebook.com"><i class="fab fa-facebook"></i></a>
+                    <a target="_blank" href="https://www.facebook.com" rel="noreferrer"><i class="fab fa-facebook"></i></a>
                 </span>
 			<span class="col-3 inline">
-                    <a target="_blank" href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+                    <a target="_blank" href="https://www.instagram.com" rel="noreferrer"><i class="fab fa-instagram"></i></a>
                 </span>
 			<span class="col-3 inline">
-                    <a target="_blank" href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
+                    <a target="_blank" href="https://www.twitter.com" rel="noreferrer"><i class="fab fa-twitter"></i></a>
                 </span>
 			<span class="col-3 inline">
-                    <a target="_blank" href="https://www.youtube.com"><i class="fab fa-youtube"></i></a>
+                    <a target="_blank" href="https://www.youtube.com" rel="noreferrer"><i class="fab fa-youtube"></i></a>
                 <br>
                 <br>
             </span>
@@ -214,7 +214,7 @@
                     <br>
                     <br>
 						<div class="col-5 callout-container5">
-							<img class="form-logo" src="assets/images/BF-LOGO.png" alt="Bamboo Fitness Logo"/>
+							<img class="form-logo" src="assets/images/BF-LOGO.webP" alt="Bamboo Fitness Logo"/>
 
                 </div>
 							<!-- FORM TEMPLATE FROM BOOTSTRAP (SAME FORM AS CONTACT US PAGE)--------------->

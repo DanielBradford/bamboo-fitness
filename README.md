@@ -1,4 +1,4 @@
-<img style="width:50%; margin:auto;" src="assets/images/BF-LOGO.png" style="margin: 0;">
+<img style="width:50%; margin:auto;" src="assets/images/BF-LOGO.webP" style="margin: 0;">
 
 # **_Bamboo Fitness_**
 
@@ -48,6 +48,8 @@ Structure
 * ### HTML / HTML5
 * ### CSS / CSS3
 * ### Bootrap Version 4.7/5
+* ### Lighthouse Analytics (DevTools)
+* ### https://wave.webaim.org/ (Accessibility Testing)
 
 ### **USER STORIES**
 * As a new vistor, I want to join a gym, so that I can improve my fitness.
