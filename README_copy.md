@@ -1,4 +1,4 @@
-<img style="width:50%; margin:auto;" src="assets/images/BF-LOGO.webP style="margin: 0;">
+<img style="width:50%; margin:auto;" src="images/BF-LOGO.webP" style="margin: 0;">
 
 # **_Bamboo Fitness_**
 
