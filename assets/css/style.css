@@ -314,8 +314,12 @@ hr {
 
 .highlight-purple {
 color: #48008a;
-
 }
+
+.highlight-white {
+    color: #ffffff;
+}
+
 .alert a {
   color: #48008a;
 }
@@ -337,7 +341,7 @@ color: #48008a;
 .about-heading {
   font-family: "Amatic SC", cursive, sans-serif;
   font-size: 3.8em;
-  color: #674f08;
+  color: #4a3700;
   text-align: center;
 }
 .membership-heading {
@@ -601,7 +605,7 @@ h3 {
 .jumbotron i {
   color: #6845bd;
   background-color: transparent;
-  font-size: 1.3em;
+  font-size: 9em;
 }
 
 .btn-cta i {
@@ -639,9 +643,10 @@ video:hover {
   border: solid 2px #ffffff;
   letter-spacing: 0.6rem;
   height: auto;
-  width: 4em;
+  width: auto;
   text-align: center;
   border-radius: 2em;
+  padding: 1.5em;
 }
 
 .btn-cta {
@@ -653,6 +658,10 @@ video:hover {
   text-align: center;
 }
 
+.close-btn{
+margin-right: 100px;
+
+}
 .btn-cta:hover {
   background-color: #a87b00;
   color: #ffffff;
