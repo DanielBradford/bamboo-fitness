@@ -1,5 +1,4 @@
-<img style="width:50%; margin:auto;" src="assets/images/BF-LOGO.webP style="margin: 0;">
-
+![Bamboo Fitness Logo](https://github.com/DanielBradford/bamboo-fitness/blob/bb22b60aaff9c85db9c213ef11d611ba8d7ea59a/assets/images/BF-LOGO_copy.png)
 # **_Bamboo Fitness_**
 
 ### _A succint, accessible and expandable website for a gym and fitness company called 'Bamboo Fitness. The website allows current and potential members to access information about the gym while understanding the unique branding and ethos of the company._
@@ -45,7 +44,7 @@
 ### The website also caters for current members by providing features to stay up to date with imporrant gym information e.g. class schedules
 
 ## **SCOPE**
-### The scope of this project includes new users and current users. The website meets the needs of clients lookinf for a gym membership whilst giving to charity. This project has the potential to develop into an e-commerce store, fitness forum and class-booking system.
+### The scope of this project includes new users and current users. The website meets the needs of clients looking for a gym membership whilst giving to charity. This project has the potential to develop into an e-commerce store, fitness forum and class-booking system.
 ## **Structure**
 ### The structural sitemap is as follows:
 <a  href="https://github.com/DanielBradford/bamboo-fitness/blob/2a20394d781a12d19c5df0cf3f5d121ad3fb63f5/documents/wireframes/BAMBOO%20FITNESS%20SITEMAP.pdf" target="_blank">SITEMAP</a>
@@ -95,21 +94,28 @@ In addition, you may also use this section to discuss plans for additional featu
 
 ## Another feature idea
 
-### **Technologies Used**
+## **Technologies Used**
 * ### HTML / HTML5
+    * Used to create the structure of the pages 
 * ### CSS / CSS3
+    * Used to style the elements used. e.g. Color Schemes, design elements 
+* ### Javascript
+    * Breifly used for the modal button functionality via Bootstrap
 * ### Bootrap Version 4.7/5
+    * Used mainly for responsive design and layout. Other elements used were Tables and Modals
+* ### JQuery
+    * The project uses JQuery to simplify DOM manipulation.
 * ### Font Awesome
+    * All icons used in this project were from Font Awesome
 * ### Lighthouse Analytics (DevTools)
+    * This was used to analayse the performance, accessiblity, best practices and SEO scores of the site.
 * ### https://wave.webaim.org/ (Accessibility Testing)
 
-JQuery
-The project uses JQuery to simplify DOM manipulation.
+
 
 ## Testing
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+Use of Lighthouse
 
 For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
 
