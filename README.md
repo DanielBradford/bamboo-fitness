@@ -4,56 +4,56 @@
 ### _A succint, accessible and expandable website for a gym and fitness company called 'Bamboo Fitness. The website allows current and potential members to access information about the gym while understanding the unique branding and ethos of the company._
 ### _The site encourages the advertisement of its charitable donations taken from the membership fees. The website offers a number of pages that increases the flow of current and new business to the company._
 ### **BUSINESS GOALS OF WEBSITE**
-* ### To create an online presence for the gym as a service and unique brand
-* ### To generate new busines by advertising their services with attractive incentives
-* ### To maintian current business by providing full services information e.g class schedules & contact info
+*  To create an online presence for the gym as a service and unique brand
+*  To generate new busines by advertising their services with attractive incentives
+*   To maintian current business by providing full services information e.g class schedules & contact info
 ### **USER GOALS OF WEBSITE**
-* ### Users as **CURRENT** members of gym
-    * ### View opening hours of gym 
-    * ### View the types of classes available
-    * ### View information about the gym instructors and management
-    * ### View/Download the Class Timeable
-    * ### View Images and Videos from the gym in the Gallery
-    * ### Access to main channels of contact information
-* ### Users as **POTENTIAL** members of gym
-    * ### To learn about the gym and its services
-    * ### Direct link to pursuing a membership with the gym 
-    * ### To access information about the memberships available e.g. prices
-    * ### View Images and Videos of facilities and members of the gym
+* Users as **CURRENT** members of gym
+    * View opening hours of gym 
+    * View the types of classes available
+    * View information about the gym instructors and management
+    * View/Download the Class Timeable
+    * View Images and Videos from the gym in the Gallery
+    * Access to main channels of contact information
 
-
+* Users as **POTENTIAL** members of gym
+    * To learn about the gym and its services
+    * Direct link to pursuing a membership with the gym 
+    * To access information about the memberships available e.g. prices
+    * View Images and Videos of facilities and members of the gym
 
 ## **UX** 
 ### **Who is the website for?**
-### The ideal new client for Bamboo Fitness:
-* ### Has an interest in joining the gym and fitness
-* ### Has disposable Income
-* ### Local resident or within a reasonable travel radius
-* ### Wants to improve their fitness 
-* ### Likes to give to charity
-* ### Has an interest in the environment
+The ideal new client for Bamboo Fitness:
+* Has an interest in joining the gym and fitness
+* Has disposable Income
+* Local resident or within a reasonable travel radius
+* Wants to improve their fitness 
+* Likes to give to charity
+* Has an interest in the environment
 
 
 ### **What do the NEW visitors want?**
-### New visitors to Bamboo Fitnes want to know what the gym is and what it offers. They want to know about the memberships available and what makes the gym suitable for them i.e price, location, facilities, classes etc.
+New visitors to Bamboo Fitnes want to know what the gym is and what it offers. They want to know about the memberships available and what makes the gym suitable for them i.e price, location, facilities, classes etc.
+
 ### **What do the RETURNING visitors want?**
-### Returning visitors would be current members of the gym that want to check information about the gym e.g. class times, opening hours. 
+Returning visitors would be current members of the gym that want to check information about the gym e.g. class times, opening hours. 
 
 ### **What does the website do?**
-### The website's objective is to target potential clients and advertise their services on offer. This along with the additional incentives of giving to charity provides a strong USP for the gym. This then encourages the user to join by completing a short form that will allow for them to be contacted to get their membership started.
-### The website also caters for current members by providing features to stay up to date with imporrant gym information e.g. class schedules
+The website's objective is to target potential clients and advertise their services on offer. This along with the additional incentives of giving to charity provides a strong USP for the gym. This then encourages the user to join by completing a short form that will allow for them to be contacted to get their membership started. The website also caters for current members by providing features to stay up to date with imporrant gym information e.g. class schedules
 
 ## **SCOPE**
-### The scope of this project includes new users and current users. The website meets the needs of clients looking for a gym membership whilst giving to charity. This project has the potential to develop into an e-commerce store, fitness forum and class-booking system.
+The scope of this project includes new users and current users. The website meets the needs of clients looking for a gym membership whilst giving to charity. This project has the potential to develop into an e-commerce store, fitness forum and class-booking system.
+
 ## **Structure**
 ### The structural sitemap is as follows:
-<a  href="https://github.com/DanielBradford/bamboo-fitness/blob/2a20394d781a12d19c5df0cf3f5d121ad3fb63f5/documents/wireframes/BAMBOO%20FITNESS%20SITEMAP.pdf" target="_blank">SITEMAP</a>
+<a  href="https://github.com/DanielBradford/bamboo-fitness/blob/master/documents/wireframes/BAMBOO%20FITNESS%20SITEMAP.pdf" target="_blank">SITEMAP</a>
 
 ### **USER STORIES**
 1. As a new vistor, I want to join a gym, so that I can improve my fitness.
-1. As an interested visitor, I want information about gym membership prices, so that I can decide what suits my needs.
+1. As an new and potential member, I want information about gym membership prices, so that I can decide what suits my needs.
 1. As a new and potential member, I want to see images and videos of the gym, so that i can see what facilities they have.
-1. As an interested visitor, I want to get in contact with the gym, so that I can ask more specific questions with a representative of the gym.
+1. As an new and potential member, I want to get in contact with the gym, so that I can ask more specific questions with a representative of the gym.
 1. As a potential/current member, I want to check the opening times, so that i know when i can go to gym.
 1. As a current member, I want to check the class timetable, so that I know when my class is.
 1. As a current member, I want to get contact information, so i can ask a question about my membership
@@ -61,38 +61,64 @@
 
 ## **Wireframe Designs**
 ### Destktop
-* <a href="https://github.com/DanielBradford/bamboo-fitness/blob/2a20394d781a12d19c5df0cf3f5d121ad3fb63f5/documents/wireframes/LANDING%20PAGE%20WIREFRAME%20%28index.html%29%20.pdf" target="_blank">Home / Landing Page</a>
-* <a href="https://github.com/DanielBradford/bamboo-fitness/blob/2a20394d781a12d19c5df0cf3f5d121ad3fb63f5/documents/wireframes/CLASSES%20WIREFRAME%20%28classes.html%29%20.pdf" target="_blank">Classes Page</a>
-* <a href="https://github.com/DanielBradford/bamboo-fitness/blob/2a20394d781a12d19c5df0cf3f5d121ad3fb63f5/documents/wireframes/GALLERY%20WIREFRAME%20%28gallery.html%29%20.pdf" target="_blank">Gallery Page</a>
-* <a href="https://github.com/DanielBradford/bamboo-fitness/blob/2a20394d781a12d19c5df0cf3f5d121ad3fb63f5/documents/wireframes/CONTACT%20WIREFRAME%20%28contact.html%29%20.pdf" target="_blank">Contact Us Page</a>
+* <a href="https://github.com/DanielBradford/bamboo-fitness/blob/master/documents/wireframes/LANDING%20PAGE%20WIREFRAME%20(index.html)%20.pdf" target="_blank">Home / Landing Page</a>
+* <a href="https://github.com/DanielBradford/bamboo-fitness/blob/master/documents/wireframes/CLASSES%20WIREFRAME%20(classes.html)%20.pdf" target="_blank">Classes Page</a>
+* <a href="https://github.com/DanielBradford/bamboo-fitness/blob/master/documents/wireframes/GALLERY%20WIREFRAME%20(gallery.html)%20.pdf" target="_blank">Gallery Page</a>
+* <a href="https://github.com/DanielBradford/bamboo-fitness/blob/master/documents/wireframes/CONTACT%20US%20WIREFRAME%20(contact.html)%20.pdf" target="_blank">Contact Us Page</a>
 ### Mobile
-* <a href="https://github.com/DanielBradford/bamboo-fitness/blob/2a20394d781a12d19c5df0cf3f5d121ad3fb63f5/documents/wireframes/MOBILE%20WIREFRAMES%20%28All%20pages%29.pdf" target="_blank">Mobile Wireframes</a>
+* <a href="https://github.com/DanielBradford/bamboo-fitness/blob/master/documents/wireframes/MOBILE%20WIREFRAMES%20(All%20pages).pdf" target="_blank">Mobile Wireframes</a>
 
-
-This section is also where you would share links to any wireframes,
-These files should themselves either be included as a pdf file in the project itself
-
-## Features
+## **Features**
 ### The project is comprised of a number of features.
-These include:
-* **Call To Action Button on landing page** - This invites the user to JOIN the gym. The selection of this button opens a data capture form (via a Modal). This opens a channel of contact between the user and the gym.
-* **Membership Medals** - These display the 3 options of membership and detail what is included along with the price. 
-* **Class Timetable Modal** - This opens up the class timetable in pop-up window and displays the class schedule. This can also be downloaded and will open in a new tab.
-* **QR-CODE Feature** - This feature allows users of a desktop/laptop to scan with their mobile to have direct access to the class-timetable as a pdf.
-* **Opening Hours Modal** - This feature presents to user with a clear table of opening hours for the gym.
-* **Contact Us Features** -These features when clicked eases the process of contact by offering an imediate point of contact. 
-    * The phone icon/text opens a call option | The mail icon/text opens an email option | The address icon/text opens a google maps navigation
+* ### **Home Landing Page Feature**
+    * **'Join Us' Call To Action button** - This invites the user to JOIN the gym. The selection of this button opens a data capture form (via a Modal created through Bootstrap). 
+    * **Data Capture Form** - This allows the user to enter the following:
+        * First Name - This field is validated to ensure an entry is made
+        * Last Name - This field is validated to ensure an entry is made
+        * Email - This field is validated to ensure an entry is made and a valid email address is entered
+        * Membership Preference (Bronze, Silver or Gold)
+        * Text Area - For the user to write a breif message describing their enquiry
+        * The completion and sending of this form opens a channel of contact between the user and the gym.
+    * **Membership Medals** - These display the 3 options of membership and details of what is included e.g price. 
+* ### **Classes Page Features**
+    * **Class Timetable Button** - This opens up the class timetable in pop-up window (via a Modal) and displays the class schedule. This can also be downloaded and will open in a new tab.
+    * **QR-CODE Feature** - This feature allows users of a desktop/laptop to scan the code with their mobile to get directed to the class-timetable as a pdf.
+    * **Class Type Medals** - These medals show the variety of classes on offer in a clear and stylish format
+    * **Meet Our Team Medals** - These medals show infromation about the instructors and management of the gym. This creates a personal touch i.e. friendly faces of the company.
+* ### **Gallery Page Features**
+    * **Images** of the gym, members and facilities are clearly visible and when clicked will open as a full screen in a new window
+    * **Videos** of the gym, members and facilities are clearly displayed
 
-## Existing Features
-Feature 1 - allows users X to achieve Y, by having them fill out Z
-...
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+* ### **Contact Us Page Features**
+    * **Opening Hours Modal** - This feature (used via Bootstrap) presents the user with a clear table of opening hours for the gym.
+    * **Contact Us Features** - These features when clicked eases the process of contact by offering an imediate point of contact. 
+        * The phone icon/text opens a call option  
+        * The mail icon/text opens an email option  
+        * The address icon/text opens a google maps navigation
+    * **Data Capture Form** - This allows the user to enter the following:
+        * First Name - This field is validated to ensure an entry is made
+        * Last Name - This field is validated to ensure an entry is made
+        * Email - This field is validated to ensure an entry is made and a valid email address is entered
+        * Membership Preference (Bronze, Silver or Gold)
+        * Text Area - For the user to write a breif message describing their enquiry
+        * The completion and sending of this form opens a channel of contact between the user and the gym.
+## Repeating Features
+### The following features are repeated across the website allowing a constistant design format for the user to feel comfortable and familiar;
+* **Header**
+    *   **Navbar** is clear and accessible. It is also responsive in mobile.
+    *   **Logo** is clearly displayed in a user-friendly and stylish format
+    *   **Hero Image** is displayed across the full width of the screen displaying the image of bamboo. 
+* **Footer**  
+    *   **Social Media Icons**  
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
-## Features Left to Implement
-
-## Another feature idea
+## Extra Features
+* Animation of the Membership, Class and Team medals through CSS. I would make them spin on their Y-Axis to rotate and reveal additonal information.
+## Expansion Features
+* Live chat feature - Allows new users and potential members to discuss queries in a live chat with gym representatives
+* Log-in function for existing members who can access the following added features:
+    * Fitness Chat forum
+    * Online Class Booking System
+    * E-Commerce Store
 
 ## **Technologies Used**
 * ### HTML / HTML5
@@ -143,8 +169,7 @@ Separate git branch?
 In addition, if it is not obvious, you should also describe how to run your code locally.
 
 ## **Credits** 
-### * The structure of the site and certian features were influenced by the course material provided by Code Institute. 
-### * For example the navbar button in mobile was adopted from the "Whiskey Drop" Tutorial during the Bootstrap lessons.
+### * The LOGO used was made for free using https://www.canva.com/tools/logo-maker-q1
 ### * The QR CODE used was made with https://www.qr-code-generator.com
 ### * The photos used in this site were obtained from PEXELS and UNSPLASH as free images:
     Photo by cottonbro from Pexels (cupboard.webp))
