@@ -44,27 +44,30 @@
 ### The website's objective is to target potential clients and advertise their services on offer. This along with the additional incentives of giving to charity provides a strong USP for the gym. This then encourages the user to join by completing a short form that will allow for them to be contacted to get their membership started.
 ### The website also caters for current members by providing features to stay up to date with imporrant gym information e.g. class schedules
 
-## **SCOPE*
+## **SCOPE**
 ### The scope of this project includes new users and current users. The website meets the needs of clients lookinf for a gym membership whilst giving to charity. This project has the potential to develop into an e-commerce store, fitness forum and class-booking system.
 ## **Structure**
 ### The structural sitemap is as follows:
-
-### **Technologies Used**
-* ### HTML / HTML5
-* ### CSS / CSS3
-* ### Bootrap Version 4.7/5
-* ### Lighthouse Analytics (DevTools)
-* ### https://wave.webaim.org/ (Accessibility Testing)
+<a  href="https://github.com/DanielBradford/bamboo-fitness/blob/2a20394d781a12d19c5df0cf3f5d121ad3fb63f5/documents/wireframes/BAMBOO%20FITNESS%20SITEMAP.pdf" target="_blank">SITEMAP</a>
 
 ### **USER STORIES**
-* As a new vistor, I want to join a gym, so that I can improve my fitness.
-* As an interested visitor, I want information about gym membership prices, so that I can decide what suits my needs.
-* As a new and potential member, I want to see images and videos of the gym, so that i can see what facilities they have.
-* As an interested visitor, I want to get in contact with the gym, so that I can ask more specific questions with a representative of the gym.
-* As a potential/current member, I want to check the opening times, so that i know when i can go to gym.
-* As a current member, I want to check the class timetable, so that I know when my class is.
-* AS a current member, I want to get contact information, so i can ask a question about my membership
-* As a current member, I want to know where the gym is located, so that i can find it. 
+1. As a new vistor, I want to join a gym, so that I can improve my fitness.
+1. As an interested visitor, I want information about gym membership prices, so that I can decide what suits my needs.
+1. As a new and potential member, I want to see images and videos of the gym, so that i can see what facilities they have.
+1. As an interested visitor, I want to get in contact with the gym, so that I can ask more specific questions with a representative of the gym.
+1. As a potential/current member, I want to check the opening times, so that i know when i can go to gym.
+1. As a current member, I want to check the class timetable, so that I know when my class is.
+1. As a current member, I want to get contact information, so i can ask a question about my membership
+1. As a current member, I want to know where the gym is located, so that i can find it. 
+
+## **Wireframe Designs**
+### Destktop
+* <a href="https://github.com/DanielBradford/bamboo-fitness/blob/2a20394d781a12d19c5df0cf3f5d121ad3fb63f5/documents/wireframes/LANDING%20PAGE%20WIREFRAME%20%28index.html%29%20.pdf" target="_blank">Home / Landing Page</a>
+* <a href="https://github.com/DanielBradford/bamboo-fitness/blob/2a20394d781a12d19c5df0cf3f5d121ad3fb63f5/documents/wireframes/CLASSES%20WIREFRAME%20%28classes.html%29%20.pdf" target="_blank">Classes Page</a>
+* <a href="https://github.com/DanielBradford/bamboo-fitness/blob/2a20394d781a12d19c5df0cf3f5d121ad3fb63f5/documents/wireframes/GALLERY%20WIREFRAME%20%28gallery.html%29%20.pdf" target="_blank">Gallery Page</a>
+* <a href="https://github.com/DanielBradford/bamboo-fitness/blob/2a20394d781a12d19c5df0cf3f5d121ad3fb63f5/documents/wireframes/CONTACT%20WIREFRAME%20%28contact.html%29%20.pdf" target="_blank">Contact Us Page</a>
+### Mobile
+* <a href="https://github.com/DanielBradford/bamboo-fitness/blob/2a20394d781a12d19c5df0cf3f5d121ad3fb63f5/documents/wireframes/MOBILE%20WIREFRAMES%20%28All%20pages%29.pdf" target="_blank">Mobile Wireframes</a>
 
 
 This section is also where you would share links to any wireframes,
@@ -88,10 +91,17 @@ For some/all of your features, you may choose to reference the specific project 
 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
-Features Left to Implement
-Another feature idea
-Technologies Used
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+## Features Left to Implement
+
+## Another feature idea
+
+### **Technologies Used**
+* ### HTML / HTML5
+* ### CSS / CSS3
+* ### Bootrap Version 4.7/5
+* ### Font Awesome
+* ### Lighthouse Analytics (DevTools)
+* ### https://wave.webaim.org/ (Accessibility Testing)
 
 JQuery
 The project uses JQuery to simplify DOM manipulation.
@@ -129,6 +139,7 @@ In addition, if it is not obvious, you should also describe how to run your code
 ## **Credits** 
 ### * The structure of the site and certian features were influenced by the course material provided by Code Institute. 
 ### * For example the navbar button in mobile was adopted from the "Whiskey Drop" Tutorial during the Bootstrap lessons.
+### * The QR CODE used was made with https://www.qr-code-generator.com
 ### * The photos used in this site were obtained from PEXELS and UNSPLASH as free images:
     Photo by cottonbro from Pexels (cupboard.webp))
     Photo by William Choquette from Pexels (man running ON TREADMILL)
