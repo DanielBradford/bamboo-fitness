@@ -215,9 +215,9 @@ CSS VALIDATION
 
 
 
-### Logical Testing (MANUAL) of all functions and elements:
+## Logical Testing (MANUAL) of all functions and elements:
 
-**Home/Landing Page**
+### **Home/Landing Page**
 
 * Go to the "Home" page from a desktop.
     * **Alert Box**
@@ -240,7 +240,7 @@ CSS VALIDATION
     * **Background/Container Images**
         1. Verfiy all background images are well sized and do not obstruct the information presented.
         2. Check this on all screen sizes.
-      1. **"Join US" Button**
+    **"Join US" Button**
         1. Hover on button to verify CSS styling causes color change to allow user to see selection before clicking
         2. Click button to verify the enquiry form is displayed via a modal. 
     * **Enquiry Form**
@@ -261,16 +261,19 @@ CSS VALIDATION
     *  **Membership Medals**
         1. Hover over the item to verify the scaled transition to show user selection.
             *During testing i decided to keep the scale increase minimal to not disturb the user
-        2. Verfiy all information is centered and visible
-    * **Social Media Icons**
+        2. Verfiy all information is centered and visible.       
+    * **Footer**
         1. Hover over the icons to verify the hover color change is applied
         2. Click each of the Social Media Icons and verify the user is taken to the corresponding websites.
         3. Verfiy the icons are visible
             * During testing i altered the color of the icons to give a higher contrast rating to make them more visible 
+        4. Hover over each social media icon and confirm colour and size transitions expected.
+        5. Click "Return to Top" link to verify the user is returned to top of current page.
+        6. Reduce and expand width of window to verify that the footer is responsive and looks good on all device widths.
 
 
-* ### Classes Page
-    * Go to the "Classes" page from a desktop 
+### **Classes Page**
+* Go to the "Classes" page from a desktop 
     * **Alert-Box**
         1. Repeat verification steps done for alert-box on Home page.
         2. Confirm that alert-box code is identical on all html pages.
@@ -301,11 +304,17 @@ CSS VALIDATION
         1. Hover on Team Medals to verfiy they increase in scale
             *During testing i decided to keep the scale increase minimal to not disturb the user
         2. Verfiy all information is centered and visible
-    * **Social Media Icons**
-        1. Repeat verification steps done for social media icons on Home page.
+    * **Footer**
+        1. Hover over the icons to verify the hover color change is applied
+        2. Click each of the Social Media Icons and verify the user is taken to the corresponding websites.
+        3. Verfiy the icons are visible
+            * During testing i altered the color of the icons to give a higher contrast rating to make them more visible 
+        4. Hover over each social media icon and confirm colour and size transitions expected.
+        5. Click "Return to Top" link to verify the user is returned to top of current page.
+        6. Reduce and expand width of window to verify that the footer is responsive and looks good on all device widths.
   
 
-* Gallery Page
+### **Gallery Page**
    * Go to the "Gallery" page from a desktop 
     * **Alert-Box**
         1. Repeat verification steps done for alert-box on Home page.
@@ -326,13 +335,19 @@ CSS VALIDATION
     * **Videos**
         1. Verify all videos are displayed in a clear row format and respond to all screen sizes
         2. Click on each video to verify the controls function i.e. PLAY | PAUSE | FULL SCREEN 
-    * **Social Media Icons**
-        1. Repeat verification steps done for social media icons on Home page.
+    * **Footer**
+        1. Hover over the icons to verify the hover color change is applied
+        2. Click each of the Social Media Icons and verify the user is taken to the corresponding websites.
+        3. Verfiy the icons are visible
+            * During testing i altered the color of the icons to give a higher contrast rating to make them more visible 
+        4. Hover over each social media icon and confirm colour and size transitions expected.
+        5. Click "Return to Top" link to verify the user is returned to top of current page.
+        6. Reduce and expand width of window to verify that the footer is responsive and looks good on all device widths.
   
     
 
-* Contact Us Page
-    * Go to the "Contact Us" page from a desktop 
+### **Contact Us Page**
+* Go to the "Contact Us" page from a desktop 
     * **Alert-Box**
         1. Repeat verification steps done for alert-box on Home page.
         2. Confirm that alert-box code is identical on all html pages.
@@ -363,27 +378,36 @@ CSS VALIDATION
         2. Click on the link to verfiy google maps opens with the address of the gym presented
     * **Social Media Icons**
         1. Repeat verification steps done for social media icons on Home page.
+    * **Footer**
+        1. Hover over the icons to verify the hover color change is applied
+        2. Click each of the Social Media Icons and verify the user is taken to the corresponding websites.
+        3. Verfiy the icons are visible
+            * During testing i altered the color of the icons to give a higher contrast rating to make them more visible 
+        4. Hover over each social media icon and confirm colour and size transitions expected.
+        5. Click "Return to Top" link to verify the user is returned to top of current page.
+        6. Reduce and expand width of window to verify that the footer is responsive and looks good on all device widths.
   
 
-### Development Tools Testing
+### **Development Tools Testing**
 * From using the technologies of Wave and Lighthouse i was able to check the performance and accessiblity of the website. By utilisng this in DevTools i was able to generate reports for both desktop and mobile.
 By analysing these rerports i was able to make alterations in both the HTML and CSS code to improve the accessiblity of the site.
-**Performance**
+
+    **Performance**
 * In initial reports the website had an average Performance rating of **86**.
 * I changed changed the appropriate .jpg & .png files into webp format to minimalise memory usage and speed up loading and rendering times.
 * I streamlined the style.css file to lessen the date being loaded.
 * By  making these changes the current Performance rating is now **93**
 
-**Accessibility**
+    **Accessibility**
 * In initial reports the website had an average Accessibility rating of **84**
 * I altered color schemes of text vs. background to maximise the contrast score allowing information to be more visible to a wider group of users with accessiblity issues.
 * I resized icons and images to make them more visible
 * I re-assessed background image choices for their contrast score
 * By making these changes the current Performance rating is now **91**
 
-**Best Practices**
-*In initial reports the website had an average Best Practices Score of **91**
-*I added 'rel' attributes for links in anchor tags leading to external sites e.g. rel=noreferrer
+    **Best Practices**
+* In initial reports the website had an average Best Practices Score of **91**
+* I added 'rel' attributes for links in anchor tags leading to external sites e.g. rel=noreferrer
 * By making these changes the current Best Practices rating is now **93**
 
 **Search Engine Optimisation**
@@ -391,10 +415,9 @@ By analysing these rerports i was able to make alterations in both the HTML and 
 * I added in some META tags to give more information about the websites content and creator.
 * By making these changes the current SEO rating is now **100**
 
-**MOBILE REPORT SCREENSHOT**
-<img src="https://github.com/DanielBradford/bamboo-fitness/blob/master/documents/lighthouse-mobile.png" alt="Lighthouse Mobile Report">
-
 **DESKTOP REPORT SCREENSHOT**
+<img src="https://github.com/DanielBradford/bamboo-fitness/blob/master/documents/lighthouse-desktop.png" alt="Lighthouse Desktop Report">
+
 
 ## **Deployment** ##
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
@@ -409,7 +432,10 @@ In addition, if it is not obvious, you should also describe how to run your code
 ## **Credits** 
 ### * The LOGO used was made for free using https://www.canva.com/tools/logo-maker-q1
 ### * The QR CODE used was made with https://www.qr-code-generator.com
-### * The charities linked are Friends of the Earth: https://friendsoftheearth.uk/ , RSPB: https://www.rspb.org.uk/ and WWF: https://www.wwf.org.uk/
+### * The charities linked are:
+        * Friends of the Earth: https://friendsoftheearth.uk/
+        * RSPB: https://www.rspb.org.uk/ 
+        * WWF: https://www.wwf.org.uk/
 ### * The photos used in this site were obtained from PEXELS and UNSPLASH as free images:
     Photo by cottonbro from Pexels (cupboard.webp))
     Photo by William Choquette from Pexels (man running ON TREADMILL)
