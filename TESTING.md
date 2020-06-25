@@ -70,6 +70,7 @@ CSS VALIDATION - https://jigsaw.w3.org/css-validator/
 ### **Home/Landing Page**
 
 * Go to the "Home" page from a desktop.
+
     * **Alert Box**
         1. Verify the sizing of the box adjusts from desktop > tablet > mobile and that no over flow distorts the layout:
             * _During testing i decided to only make the alert box visible on desktop versions._
@@ -125,6 +126,7 @@ CSS VALIDATION - https://jigsaw.w3.org/css-validator/
 
 ### **Classes Page**
 * Go to the "Classes" page from a desktop 
+
     * **Alert-Box**
         1. Repeat verification steps done for alert-box on Home page.
         2. Confirm that alert-box code is identical on all html pages.
@@ -166,7 +168,8 @@ CSS VALIDATION - https://jigsaw.w3.org/css-validator/
   
 
 ### **Gallery Page**
-    * Go to the "Gallery" page from a desktop 
+* Go to the "Gallery" page from a desktop 
+
     * **Alert-Box**
         1. Repeat verification steps done for alert-box on Home page.
         2. Confirm that alert-box code is identical on all html pages.
@@ -199,6 +202,7 @@ CSS VALIDATION - https://jigsaw.w3.org/css-validator/
 
 ### **Contact Us Page**
 * Go to the "Contact Us" page from a desktop 
+
     * **Alert-Box**
         1. Repeat verification steps done for alert-box on Home page.
         2. Confirm that alert-box code is identical on all html pages.
