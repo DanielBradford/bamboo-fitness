@@ -62,7 +62,7 @@
                         <hr class="block-divider">
                         <br>
                         <h2>GIVE BACK TO YOURSELF AND THE ENVIRONMENT...</h2><br>
-                        <button type="button" class="btn btn-cta " data-toggle="modal" data-target="#exampleModal">
+                        <button type="button" class="btn btn-cta " data-toggle="modal" data-target="#enquiry-form">
                                 Join Us <i class="far fa-hand-point-left"></i>
                         </button>
                         <br>
@@ -93,16 +93,16 @@
         <!-- SECOND CONTENT SECTION--------------->
         <section id="about-charity">
             <div class="row container-fluid gold-wrapper">
-                <div class="col-5 charity">
+                <div class="col-6 charity">
                     <img class="charity-photo d-none d-sm-block" src="assets/images/charity.webP" alt="money pot with plant in"/>
                 </div>  
-                <div class="col-lg-2 col-sm-12 charities">
+                <div class="col-lg-1 col-sm-12 charities d-none d-sm-block">
                     <a href="https://www.rspb.org.uk/" target="_blank"><img class="RSPB" src="assets/images/rspb.png"  alt="RSPB Logo"></a>
                     <a href="https://cdn.friendsoftheearth.uk" target="_blank"><img class="friends" src="assets/images/FOElogo.svg"  alt="Friends of the Earth Logo"></a>
                     <a href="https://www.wwf.org.uk/" target="_blank"><img class="wwf" src="assets/images/wwf.svg"  alt="WWF Logo"></a>
                 </div>
                 <div class="col-lg-5 col-sm-12 what-we-offer inline">
-                    <h2 class="membership-heading uppercase">What we offer <i class="fa fa-globe"></i>
+                    <h2 class="membership-heading uppercase">What we offer <i class="fas fa-hand-holding-usd"></i>
                     </h2>
                     <h3 class="about-text">At <span class="highlight-white">Bamboo</span> Fitness we pride ourselves on our <span class="highlight-white">care</span> and
                                     charity. That is why we <span class="highlight-white" style="size:xl">donate
@@ -113,21 +113,18 @@
                 
             </div>
         </section>
-        <div class="indexfooter">
-            <div>
-                <h2 class="membership-title-gold uppercase">Memberships <i class="fa fa-user-shield"></i></h2>
-            </div>
-        </div>
         <!--Memberships Section-->
         <div class="row callout-container5">
-            <br>
-            <br>
-            <br>
+            <div class="col-lg-4 col-sm-12">
+                <h2 class="membership-title-white uppercase">Memberships <i class="fa fa-user-shield"></i></h2>
+            </div>
+        </div>
+        <div class="row container-fluid callout-container5">
             <div class="col-lg-4 col-sm-12">
                 <div class="memberships bronze">
                     <i class="fa fa-leaf"></i>
                     <h3 class="uppercase">Bronze leaf</h3>
-                        <ul>
+                        <ul style="padding-left:0px;">
                             <li>Full Access to the Gym </li>
                             <li>Including Weekends</li>
                             <li>Free Parking</li>
@@ -142,7 +139,7 @@
                 <div class="memberships silver">
                     <i class="fa fa-leaf"></i>
                     <h3 class="uppercase">Silver leaf</h3>
-                        <ul>
+                        <ul style="padding-left:0px;">
                             <li>Full Access to the Gym </li>
                             <li>Including Weekends</li>
                             <li>Free Parking</li>
@@ -159,7 +156,7 @@
                 <div class="memberships gold">
                     <i class="fa fa-leaf"></i>
                     <h3 class="uppercase">Gold leaf</h3>
-                        <ul>
+                        <ul style="padding-left:0px;">
                             <li>Full Access to the Gym </li>
                             <li>Including Weekends</li>
                             <li>Free Parking</li>
@@ -198,8 +195,8 @@
                 <br>
             </div>
         </footer>
-        <!-- Modal -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        <!-- Modal for Data Entry Form -->
+        <div class="modal fade" id="enquiry-form" tabindex="-1" role="dialog" aria-labelledby="enquiry-form"
             aria-hidden="true">
             <div class="modal-dialog modal-xl modal-dialog-centered">
                 <div class="modal-content">
@@ -214,7 +211,7 @@
                                 <!-- FORM TEMPLATE FROM BOOTSTRAP (SAME FORM AS CONTACT US PAGE)--------------->
                                 <div class="col-lg-7 callout-container5 col-sm-12 contact-form">
                                     <section class="form-section">
-                                        <form class="form-group">
+                                        <form class="form-group" onsubmit="SUCCESS! Your message has been sent!">
                                             <br>
                                             <label for="fname">FIRST NAME: </label>
                                             <input
@@ -284,7 +281,7 @@
 
                             </div>
                             <div class="modal-footer">
-                                <button type="button" class="btn btn-cta" data-dismiss="modal">Close <i class="fas fa-times"></i></button>
+                                <button type="button" class="btn" data-dismiss="modal">Close <i class="fas fa-times"></i></button>
                             </div>
                         </div>
                     </div>
