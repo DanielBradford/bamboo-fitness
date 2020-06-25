@@ -11,9 +11,11 @@ body {
   overflow-x: hidden;
 }
 
+
 .logo {
   width: 18em;
   position: relative;
+  bottom: 60px;
   z-index: 2;
   border-radius: 40%;
   border-bottom-right-radius: 60%;
@@ -88,7 +90,7 @@ header {
   background-color: #ffffff86;
   position: relative;
   left: 100px;
-  bottom: 70px;
+  bottom: 120px;
   text-align: center;
 
   font-family: "Oswald", cursive, sans-serif;
@@ -164,6 +166,7 @@ header {
   align-items: center;
   justify-content: center;
   position: relative;
+  padding-top: 50px;
 }
 
 .galleryfooter {
@@ -223,7 +226,7 @@ header {
   align-items: center;
   justify-content: center;
   position: relative;
-  padding-top: 100px;
+  padding-top: 60px;
 }
 
 .callout-container2 {
@@ -320,6 +323,12 @@ color: #48008a;
     color: #ffffff;
 }
 
+.highlight-white:hover,
+.highlight-purple:hover{
+    font-size: 2em;
+    cursor: pointer
+}
+
 .alert a {
   color: #48008a;
 }
@@ -381,6 +390,11 @@ h3 {
 
 .membership {
   color: #ffffff;
+  z-index: 100;
+}
+
+.memberships ul{
+    padding-left: 0;
 }
 
 .memberships .price {
@@ -416,11 +430,11 @@ h3 {
 .membership-title-white {
   font-family: "Amatic SC", cursive, sans-serif;
   font-size: 3.8em;
-  color: #4a3700;
+  color: #48008a;
   text-align: center;
   background-color: #ffffff;
-  border-bottom-left-radius: 1em;
-  border-bottom-right-radius: 1em;
+  border: solid 4px #48008a;
+  border-radius: 2em;
   width: 6em;
   margin-bottom: 40px;
 }
@@ -515,25 +529,25 @@ h3 {
 }
 /*---------------------TEAM MEDALS-------------*/
 .team-medals {
-  color: #715402;
-  border: solid 4px #c99918;
+  color: #4a3700;
+  border: solid 4px #4a3700;
 }
 .team-medals h4 {
-  background-color: #715402;
+  background-color: #4a3700;
   color: #ffffff;
   border-radius: 1.2em;
 }
 /*---------------------CLASS TYPE MEDALS-------------*/
 
 .class-type {
-  color: #715402;
-  border: solid 4px #c99918;
+  color: #4a3700;
+  border: solid 4px #e0a500;
   border-radius: 45%;
 }
 
 .class.type h4 {
   background-color: #ffffff;
-  color: #85660f;
+  color: #4a3700;
   border-radius: 1.2em;
 }
 
@@ -544,16 +558,28 @@ h3 {
   margin-top: 100px;
   border-top-left-radius: 70%;
   border-bottom-right-radius: 70%;
-  border: solid #a87b00 2px;
+  border: solid #a87b00 4px;
 }
 
 .charity img {
   width: 80%;
-  margin-top: 100px;
+  margin-top: 130px;
   border-top-right-radius: 70%;
   border-bottom-left-radius: 70%;
   margin-left: 70px;
-  border: solid #fafafa 2px;
+  border: solid #fafafa 4px;
+}
+
+.charities img{
+
+    padding-bottom: 35px;
+    width: 6em;
+    opacity: .9;
+    border-radius: 40%;
+}
+
+.charities img:hover{
+    opacity: 10;
 }
 
 .id-photo {
@@ -597,13 +623,8 @@ h3 {
 
 /*------ICONS--------*/
 
-.modal-footer i {
-  color: white;
-
-}
-
 .jumbotron i {
-  color: #6845bd;
+  color: #48008a;
   background-color: transparent;
   font-size: 9em;
 }
@@ -637,17 +658,18 @@ video:hover {
   font-size: 1.4em;
 }
 
-.callout .btn-cta {
+.btn-cta {
   color: #fff;
-  background-color: #6845bd;
-  border: solid 2px #ffffff;
+  background-color: #48008a;
+  border: solid 4px #ffffff;
   letter-spacing: 0.6rem;
   height: auto;
   width: auto;
   text-align: center;
   border-radius: 2em;
-  padding: 1.5em;
+  padding: .7em;
 }
+/* 
 
 .btn-cta {
   color: #fff;
@@ -656,7 +678,7 @@ video:hover {
   letter-spacing: 0.6rem;
   height: auto;
   text-align: center;
-}
+} */
 
 .close-btn{
 margin-right: 100px;
@@ -714,6 +736,12 @@ margin-right: 100px;
   background-color: #e0a500;
 }
 
+.charities{
+    padding-top: 180px;
+    text-align: center;
+    opacity: .5;
+
+}
 .gallery {
   padding: 40px;
 }
@@ -768,7 +796,7 @@ textarea.form-control {
 }
 
 .form-section h2 {
-  color: #674f08;
+  color: #4a3700;
 }
 
 /*--------------------CONTACT US items-------------*/
@@ -793,6 +821,10 @@ textarea.form-control {
 
 /*---------------------Footer-------------*/
 
+.social-links{
+    padding-top: 80px;
+}
+
 .social-links i:hover {
   color: rgb(209, 160, 0);
 }
@@ -815,10 +847,7 @@ textarea.form-control {
   body {
     position: relative;
   }
-  footer {
-    flex-shrink: 0;
-    max-height: 40px;
-  }
+
   #menu {
     padding-left: 0px;
     padding-right: 0px;
@@ -852,6 +881,8 @@ textarea.form-control {
     width: 10em;
     position: relative;
     left: 14px;
+    top: 20px;
+    
   }
 
   .jumbotron-header {
@@ -869,11 +900,20 @@ textarea.form-control {
     width: 100vw;
   }
 
+   .what-we-offer h3 {
+    margin-left: 30px;
+    color: #4a3700;
+    width: 80%;
+    text-align: center;
+    padding: 0;
+    margin-top: 40px;
+   }
+
   .gold-wrapper {
     height: auto;
   }
 
-  .thin-first-content {
+  .thin-first-content ß{
     height: auto;
   }
   .callout-container5 {
@@ -884,5 +924,8 @@ textarea.form-control {
   }
   .navbar {
     height: 10em;
+  }
+  footer {
+      padding-top: 0;
   }
 }

@@ -16,12 +16,22 @@
     />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <title>Bamboo Fitness | Contact Us</title>
-    <meta name="description" content="A website advertising the services of Bamboo Fitness. A gym and fitness facility that donates to charity. Made by Daniel Bradford. Full Stack Development Student @ Code Institute">
-    <meta name="theme-color" content="#228B22">
+    <meta
+      name="description"
+      content="A website advertising the services of Bamboo Fitness. A gym and fitness facility that donates to charity. Made by Daniel Bradford. Full Stack Development Student @ Code Institute"
+    />
+    <meta name="theme-color" content="#228B22" />
   </head>
   <div class="full-jacket">
     <body>
       <header>
+      <div class="row">
+        <div class="col-lg-4 d-none d-sm-block"></div>
+        <div class="col-lg-6 d-none d-sm-block alert alert-success" role="alert">
+          We donate 10% of your membership to charity.
+          <a href="#">Click for more info!</a>
+        </div>
+    </div>
         <nav class="navbar navbar-expand-sm">
           <a href="index.html" class="navbar-brand"
             ><div class="col-5 inline">
@@ -55,7 +65,7 @@
               <li class="nav-item mr-2">
                 <a class="nav-link" href="gallery.html">Gallery</a>
               </li>
-              <li class=" active nav-item mr-2">
+              <li class="active nav-item mr-2">
                 <a class="nav-link" href="contact.html">Contact Us</a>
               </li>
             </ul>
@@ -79,7 +89,7 @@
                   type="button"
                   class="btn btn-cta"
                   data-toggle="modal"
-                  data-target="#exampleModal"
+                  data-target="#opening-hours"
                 >
                   Opening Hours
                   <i class="fa fa-clock"></i>
@@ -90,127 +100,129 @@
         </div>
       </div>
       <main>
-      <div class="row thin-first-content">
-        <div class="col-lg-4 col-sm-12 contact-item">
-          <a href="tel:+44151637987">
-            <i class="fa fa-phone-square"></i> <br />+44 (0151) 637 9872</a
-          >
+        <div class="row thin-first-content">
+          <div class="col-lg-4 col-sm-12 contact-item">
+            <a href="tel:+44151637987">
+              <i class="fa fa-phone-square"></i> <br />+44 (0151) 637 9872</a
+            >
+          </div>
+          <div class="col-lg-4 col-sm-12 contact-item">
+            <a href="mailto:info@bamboofitness.co.uk"
+              ><i class="fa fa-envelope-square"></i>
+              <br />
+              info@bamboofitness.co.uk</a
+            >
+          </div>
+          <div class="col-lg-4 col-sm-12 contact-item">
+            <a
+              target="_blank"
+              href="http://maps.google.com/?q=22-24 Parkside Cl, Birkenhead, Bebington, Wirral CH63 7RY"
+              ><i class="fa fa-home"></i> <br />22 Parkside Cl, CH63 7RY</a
+            >
+          </div>
         </div>
-        <div class="col-lg-4 col-sm-12 contact-item">
-          <a href="mailto:info@bamboofitness.co.uk"
-            ><i class="fa fa-envelope-square"></i>
-            <br />
-            info@bamboofitness.co.uk</a
-          >
-        </div>
-        <div class="col-lg-4 col-sm-12 contact-item">
-          <a
-            target="_blank"
-            href="http://maps.google.com/?q=22-24 Parkside Cl, Birkenhead, Bebington, Wirral CH63 7RY"
-            ><i class="fa fa-home"></i> <br />22 Parkside Cl, CH63 7RY</a
-          >
-        </div>
-      </div>
-      <!--THIS IS THE REPEATING IMAGE ON ALL PAGES-->
-      <!--REF _ https://wallpaperaccess.com/chinese-bamboo -->
+        <!--THIS IS THE REPEATING IMAGE ON ALL PAGES-->
+        <!--REF _ https://wallpaperaccess.com/chinese-bamboo -->
 
-      <!-- FIRST CONTENT SECTION--------------->
-      <button class="col-12 btn join-us-btn d-none d-sm-block d-md-none">
-        <h4 class="join-us">Join Us</h4>
-      </button>
+        <!-- FIRST CONTENT SECTION--------------->
+        <button class="col-12 btn join-us-btn d-none d-sm-block d-md-none">
+          <h4 class="join-us">Join Us</h4>
+        </button>
 
-      <div class="row">
-        <div class="col-lg-3 col-sm-1 callout-container3"></div>
-        <!-- FORM TEMPLATE FROM BOOTSTRAP--------------->
-        <div class="col-lg-6 col-sm-12 gold-wrapper contact-form">
-          <section class="form-section">
-            <form onsubmit="FORM SUBMITTED THANK YOU!" class="form-group">
-              <br />
-              <h2>Get in touch... <i class="fa fa-heartbeat"></i></h2>
-              <br />
-              <label for="fname">FIRST NAME *: </label>
-              <input
-                class="text-input"
-                type="text"
-                name="first_name"
-                id="fname"
-                required
-              /><br />
-              <br />
-              <label for="lname">LAST NAME *: </label>
-              <input
-                class="text-input"
-                type="text"
-                name="last_name"
-                id="lname"
-                required
-              /><br />
-              <br />
-              <label for="email">EMAIL *: </label>
-              <input
-                class="text-input"
-                type="email"
-                name="email_address"
-                id="email"
-                required
-              />
-              <br />
-              <h4 class="uppercase">
-                Please select the membership type you are interested in:
-              </h4>
-              <label class="uppercase" for="bronze"> Bronze Leaf </label>
-              <input
-                type="checkbox"
-                name="membership_preference"
-                value="bronze"
-                id="bronze"
-              />
-              <label class="uppercase" for="silver"> Silver Leaf </label>
-              <input
-                type="checkbox"
-                name="membership_preference"
-                value="silver"
-                id="silver"
-              />
-              <label class="uppercase" for="gold"> Gold Leaf </label>
-              <input
-                type="checkbox"
-                name="membership_preference"
-                value="gold"
-                id="gold"
-              />
-              <br />
-              <label for="enquiry">How can we help?</label>
-              <textarea
-                name="enquiry"
-                class="form-control textarea"
-                id="enquiry"
-                rows="3"
-              ></textarea>
-              <br />
-              <br />
-              <br />
-              <br />
-              <button class="btn btn-cta">SEND</button>
-            </form>
-          </section>
+        <div class="row">
+          <div class="col-lg-3 col-sm-1 callout-container3"></div>
+          <!-- FORM TEMPLATE FROM BOOTSTRAP--------------->
+          <div class="col-lg-6 col-sm-12 gold-wrapper contact-form">
+            <section class="form-section">
+              <form onsubmit="FORM SUBMITTED THANK YOU!" class="form-group">
+                <br />
+                <h2>Get in touch... <i class="fa fa-heartbeat"></i></h2>
+                <br />
+                <label for="fname">FIRST NAME *: </label>
+                <input
+                  class="text-input"
+                  type="text"
+                  name="first_name"
+                  id="fname"
+                  required
+                /><br />
+                <br />
+                <label for="lname">LAST NAME *: </label>
+                <input
+                  class="text-input"
+                  type="text"
+                  name="last_name"
+                  id="lname"
+                  required
+                /><br />
+                <br />
+                <label for="email">EMAIL *: </label>
+                <input
+                  class="text-input"
+                  type="email"
+                  name="email_address"
+                  id="email"
+                  required
+                />
+                <br />
+                <h4 class="uppercase">
+                  Please select the membership type you are interested in:
+                </h4>
+                <label class="uppercase" for="bronze"> Bronze Leaf </label>
+                <input
+                  type="checkbox"
+                  name="membership_preference"
+                  value="bronze"
+                  id="bronze"
+                />
+                <label class="uppercase" for="silver"> Silver Leaf </label>
+                <input
+                  type="checkbox"
+                  name="membership_preference"
+                  value="silver"
+                  id="silver"
+                />
+                <label class="uppercase" for="gold"> Gold Leaf </label>
+                <input
+                  type="checkbox"
+                  name="membership_preference"
+                  value="gold"
+                  id="gold"
+                />
+                <br />
+                <label for="enquiry">How can we help?</label>
+                <textarea
+                  name="enquiry"
+                  class="form-control textarea"
+                  id="enquiry"
+                  rows="3"
+                ></textarea>
+                <br />
+                <br />
+                <br />
+                <br />
+                <button class="btn btn-cta">
+                  SEND <i class="fas fa-paper-plane"></i>
+                </button>
+              </form>
+            </section>
+          </div>
+          <div class="col-lg-3 col-sm-1 callout-container3"></div>
         </div>
-        <div class="col-lg-3 col-sm-1 callout-container3"></div>
-      </div>
       </main>
       <!-- FIRST CONTENT SECTION--------------->
       <div
         class="modal fade"
-        id="exampleModal"
+        id="opening-hours"
         tabindex="-1"
         role="dialog"
-        aria-labelledby="exampleModalLabel"
+        aria-labelledby="OpeningHours"
         aria-hidden="true"
       >
         <div class="modal-dialog modal-lg modal-dialog-centered">
           <div class="modal-content">
             <div class="modal-header about-heading">
-              <h5 class="modal-title" id="exampleModalLabel">
+              <h5 class="modal-title">
                 <h2>Opening Hours <i class="far fa-clock"></i></h2>
               </h5>
             </div>
@@ -274,11 +286,7 @@
                 </div>
               </div>
               <div class="modal-footer">
-                <button
-                  type="button"
-                  class="btn btn-cta"
-                  data-dismiss="modal"
-                >
+                <button type="button" class="btn" data-dismiss="modal">
                   Close <i class="fas fa-times"></i>
                 </button>
               </div>

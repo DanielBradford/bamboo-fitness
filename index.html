@@ -1,302 +1,398 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <title>Bamboo Fitness | Home</title>
+    <meta
+      name="description"
+      content="A website advertising the services of Bamboo Fitness. A gym and fitness facility that donates to charity. Health, Fitness, Wellbeing!"
+    />
+    <meta
+      name="author"
+      content="Made by Daniel Bradford. Full Stack Development Student @ Code Institute"
+    />
+    <meta name="theme-color" content="#228B22" />
+  </head>
 
-<head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-            type="text/css" />
-        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-            integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-        <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-        <title>Bamboo Fitness | Home</title>
-        <meta name="description" content="A website advertising the services of Bamboo Fitness. A gym and fitness facility that donates to charity. Health, Fitness, Wellbeing!">
-        <meta name="author" content="Made by Daniel Bradford. Full Stack Development Student @ Code Institute">
-        <meta name="theme-color" content="#228B22">
-</head>
-
-<body>
+  <body>
     <header>
-        <nav class="navbar navbar-expand-sm">
-            <a href="index.html" class="navbar-brand">
-            <div class="col-5 inline">
-                        <img
-                        class="logo"
-                        src="assets/images/BF-LOGO.webP"
-                        alt="Bamboo Fitness Logo"
-                        />
-            </div></a>
+        <div class="row">
+        <div class="col-lg-4 d-none d-sm-block"></div>
+        <div class="col-lg-6 d-none d-sm-block alert alert-success" role="alert">
+          We donate 10% of your membership to charity.
+          <a href="index.html#about-charity">Click for more info!</a>
+        </div>
+    </div>
+      <nav class="navbar navbar-expand-sm">
+        <a href="index.html" class="navbar-brand">
+          <div class="col-5 inline">
+            <img
+              class="logo"
+              src="assets/images/BF-LOGO.webP"
+              alt="Bamboo Fitness Logo"
+            /></div
+        ></a>
 
-                <button
-                class="navbar-toggler ml-auto"
-                type="button"
-                data-toggle="collapse"
-                data-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-                ><span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
-                </button>
+        <button
+          class="navbar-toggler ml-auto"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+        </button>
 
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul id="menu" class="navbar-nav mr-auto">
-                    <li class="active nav-item mr-2">
-                    <a class="active nav-link" href="/">Home</a>
-                    </li>
-                    <li class="nav-item mr-2"><a class="nav-link" href="classes.html">Classes</a></li>
-                    <li class="nav-item mr-2"><a class="nav-link" href="gallery.html">Gallery</a></li>
-                    <li class="nav-item mr-2"><a class="nav-link" href="contact.html">Contact Us</a></li>
-                </ul>
-                </div>
-        </nav>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul id="menu" class="navbar-nav mr-auto">
+            <li class="active nav-item mr-2">
+              <a class="active nav-link" href="/">Home</a>
+            </li>
+            <li class="nav-item mr-2">
+              <a class="nav-link" href="classes.html">Classes</a>
+            </li>
+            <li class="nav-item mr-2">
+              <a class="nav-link" href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item mr-2">
+              <a class="nav-link" href="contact.html">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </header>
-        <!--THIS IS THE REPEATING IMAGE ON ALL PAGES-->
-        <!--REF _ https://wallpaperaccess.com/chinese-bamboo --><!--This format was inspired from the Whiskey Project in the Bootstrap lessons: https://danielbradford.github.io/bootstrap/-->
-        <div class="container-fluid callout-container">
+    <!--THIS IS THE REPEATING IMAGE ON ALL PAGES-->
+    <!--REF _ https://wallpaperaccess.com/chinese-bamboo --><!--This format was inspired from the Whiskey Project in the Bootstrap lessons: https://danielbradford.github.io/bootstrap/-->
+    <div class="container-fluid callout-container">
+      <div class="row">
+        <div class="col-lg-2 col-sm-12"></div>
+        <div class="col-lg-12 col-sm-12">
+          <section class="callout jumbotron text-center">
+            <h1 class="jumbotron-header">Welcome to Bamboo Fitness</h1>
+            <hr class="block-divider" />
+            <br />
+            <h2>GIVE BACK TO YOURSELF AND THE ENVIRONMENT...</h2>
+            <br />
+            <button
+              type="button"
+              class="btn btn-cta"
+              data-toggle="modal"
+              data-target="#enquiry-form"
+            >
+              Join Us <i class="far fa-hand-point-left"></i>
+            </button>
+            <br />
+          </section>
+        </div>
+      </div>
+    </div>
+    <!-- FIRST CONTENT SECTION--------------->
+    <main>
+      <section id="about-gym">
+        <div class="row first-content">
+          <div class="col-lg-6 col-sm-12 what-we-do inline">
+            <h2 class="about-heading uppercase">
+              What we do <i class="fa fa-dumbbell"></i>
+            </h2>
+            <br />
+            <h3 class="about-text">
+              We are more than a <span class="highlight-purple">gym</span>! We
+              are here to <span class="highlight-purple">help</span> you realise
+              your <span class="highlight-purple">potential</span> and to get
+              <span class="highlight-purple">you</span> back to YOU. We provide
+              <span class="highlight-purple"
+                ><strong>top of the line fitness facilities</strong></span
+              >
+              for you to enhance your physical and mental well-being.
+            </h3>
+          </div>
+          <!-- Photo by cottonbro from Pexels-->
+          <div class="col-lg-6 three-women inline">
+            <img
+              class="three-women-photo d-none d-sm-block d-md-block"
+              src="assets/images/three-women.webP"
+              alt="three women kneeling and smiling"
+            />
+          </div>
+        </div>
+      </section>
+      <!--IMAGE DIVIDER Photo by Adam Wilson on Unsplash -->
+      <div class="container-fluid callout-container7"></div>
+      <!-- SECOND CONTENT SECTION--------------->
+      <section id="about-charity">
+        <div class="row container-fluid gold-wrapper">
+          <div class="col-6 charity">
+            <img
+              class="charity-photo d-none d-sm-block"
+              src="assets/images/charity.webP"
+              alt="money pot with plant in"
+            />
+          </div>
+          <div class="col-lg-1 col-sm-12 charities d-none d-sm-block">
+            <a href="https://www.rspb.org.uk/" target="_blank"
+              ><img class="RSPB" src="assets/images/rspb.png" alt="RSPB Logo"
+            /></a>
+            <a href="https://cdn.friendsoftheearth.uk" target="_blank"
+              ><img
+                class="friends"
+                src="assets/images/FOElogo.svg"
+                alt="Friends of the Earth Logo"
+            /></a>
+            <a href="https://www.wwf.org.uk/" target="_blank"
+              ><img class="wwf" src="assets/images/wwf.svg" alt="WWF Logo"
+            /></a>
+          </div>
+          <div class="col-lg-5 col-sm-12 what-we-offer inline">
+            <h2 class="membership-heading uppercase">
+              What we offer <i class="fas fa-hand-holding-usd"></i>
+            </h2>
+            <h3 class="about-text">
+              At <span class="highlight-white">Bamboo</span> Fitness we pride
+              ourselves on our <span class="highlight-white">care</span> and
+              charity. That is why we
+              <span class="highlight-white" style="size: xl;"
+                >donate <br />10%</span
+              >
+              of your membership every month to a selected
+              <a href="https://friendsoftheearth.uk/" target="_blank"
+                ><span class="highlight-white">eco charity</span></a
+              >.
+            </h3>
+          </div>
+        </div>
+      </section>
+      <!--Memberships Section-->
+      <div class="row callout-container5">
+        <div class="col-lg-4 col-sm-12">
+          <h2 class="membership-title-white uppercase">
+            Memberships <i class="fa fa-user-shield"></i>
+          </h2>
+        </div>
+      </div>
+      <div class="row container-fluid callout-container5">
+        <div class="col-lg-4 col-sm-12">
+          <div class="memberships bronze">
+            <i class="fa fa-leaf"></i>
+            <h3 class="uppercase">Bronze leaf</h3>
+            <ul style="padding-left: 0px;">
+              <li>Full Access to the Gym</li>
+              <li>Including Weekends</li>
+              <li>Free Parking</li>
+              <br />
+              <li class="price">
+                <strong>£19.99</strong>
+                <h5 class="lowercase">per month</h5>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-12">
+          <div class="memberships silver">
+            <i class="fa fa-leaf"></i>
+            <h3 class="uppercase">Silver leaf</h3>
+            <ul style="padding-left: 0px;">
+              <li>Full Access to the Gym</li>
+              <li>Including Weekends</li>
+              <li>Free Parking</li>
+              <li><strong>16</strong> Free Classes (per month)</li>
+              <li><strong>FREE</strong> Water Bottle</li>
+              <br />
+              <li class="price">
+                <strong>£24.99</strong>
+                <h5 class="lowercase">per month</h5>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-12">
+          <div class="memberships gold">
+            <i class="fa fa-leaf"></i>
+            <h3 class="uppercase">Gold leaf</h3>
+            <ul style="padding-left: 0px;">
+              <li>Full Access to the Gym</li>
+              <li>Including Weekends</li>
+              <li>Free Parking</li>
+              <li><strong>Unlimited</strong> Classes</li>
+              <li><strong>FREE</strong> Towel & Water Bottle</li>
+              <br />
+              <li class="price">
+                <strong>£34.99</strong>
+                <h5 class="lowercase">per month</h5>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="container-fluid indexfooter">
+      <br />
+      <div class="row social-links indexfooter">
+        <span class="col-3 inline">
+          <a target="_blank" href="https://www.facebook.com" rel="noreferrer"
+            ><i class="fab fa-facebook"></i
+          ></a>
+        </span>
+        <span class="col-3 inline">
+          <a target="_blank" href="https://www.instagram.com" rel="noreferrer"
+            ><i class="fab fa-instagram"></i
+          ></a>
+        </span>
+        <span class="col-3 inline">
+          <a target="_blank" href="https://www.twitter.com" rel="noreferrer"
+            ><i class="fab fa-twitter"></i
+          ></a>
+        </span>
+        <span class="col-3 inline">
+          <a target="_blank" href="https://www.youtube.com" rel="noreferrer"
+            ><i class="fab fa-youtube"></i
+          ></a>
+          <br />
+          <br />
+        </span>
+        <br />
+        <div class="container-fluid top-return indexfooter">
+          <a href="#">Back to top</a>
+        </div>
+        <br />
+      </div>
+    </footer>
+    <!-- Modal for Data Entry Form -->
+    <div
+      class="modal fade"
+      id="enquiry-form"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="enquiry-form"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-xl modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-body">
             <div class="row">
-                <div class="col-lg-2 col-sm-12">
-                </div>
-                <div class="col-lg-12 col-sm-12">
-                    <section class="callout jumbotron text-center">
-                        <h1 class="jumbotron-header">Welcome to Bamboo Fitness</h1>
-                        <hr class="block-divider">
-                        <br>
-                        <h2>GIVE BACK TO YOURSELF AND THE ENVIRONMENT...</h2><br>
-                        <button type="button" class="btn btn-cta " data-toggle="modal" data-target="#enquiry-form">
-                                Join Us <i class="far fa-hand-point-left"></i>
-                        </button>
-                        <br>
-                    </section>
-                </div>
-            </div>
-        </div>
-        <!-- FIRST CONTENT SECTION--------------->
-        <main>
-        <section id="about-gym">
-            <div class="row first-content">
-                <div class="col-lg-6 col-sm-12 what-we-do inline">
-                    <h2 class="about-heading uppercase">What we do <i class="fa fa-dumbbell"></i></h2>
-                    <br>
-                        <h3 class="about-text">We are more than a <span class="highlight-purple">gym</span>! We are here to <span class="highlight-purple">help</span> you realise your
-                            <span class="highlight-purple">potential</span> and to get <span class="highlight-purple">you</span> back to YOU. We provide <span class="highlight-purple"><strong>top of the line fitness facilities</strong></span> for you to enhance your physical
-                            and mental
-                            well-being.</h3>
-                </div>
-                <!-- Photo by cottonbro from Pexels-->
-                <div class="col-lg-6 three-women inline">
-                    <img class="three-women-photo d-none d-sm-block d-md-block" src="assets/images/three-women.webP" alt="three women kneeling and smiling"/>
+              <br />
+              <br />
+              <div class="col-lg-5 d-none d-sm-block callout-container5">
+                <img
+                  class="form-logo"
+                  src="assets/images/BF-LOGO.webP"
+                  alt="Bamboo Fitness Logo"
+                />
+              </div>
+              <!-- FORM TEMPLATE FROM BOOTSTRAP (SAME FORM AS CONTACT US PAGE)--------------->
+              <div class="col-lg-7 callout-container5 col-sm-12 contact-form">
+                <section class="form-section">
+                  <form
+                    class="form-group"
+                    onsubmit="SUCCESS! Your message has been sent!"
+                  >
+                    <br />
+                    <label for="fname">FIRST NAME: </label>
+                    <input
+                      class="text-input"
+                      type="text"
+                      name="first_name"
+                      id="fname"
+                      required
+                    /><br />
+                    <br />
+                    <label for="lname">LAST NAME: </label>
+                    <input
+                      class="text-input"
+                      type="text"
+                      name="last_name"
+                      id="lname"
+                      required
+                    /><br />
+                    <br />
+                    <label for="email">EMAIL: </label>
+                    <input
+                      class="text-input"
+                      type="email"
+                      name="email_address"
+                      id="email"
+                      required
+                    />
+                    <br />
+                    <h4 class="uppercase">
+                      Please select the membership type you are interested in:
+                    </h4>
+                    <label class="uppercase" for="bronze"> Bronze Leaf </label>
+                    <input
+                      type="checkbox"
+                      name="membership_preference"
+                      value="bronze"
+                      id="bronze"
+                    />
+                    <label class="uppercase" for="silver"> Silver Leaf </label>
+                    <input
+                      type="checkbox"
+                      name="membership_preference"
+                      value="silver"
+                      id="silver"
+                    />
+                    <label class="uppercase" for="gold"> Gold Leaf </label>
+                    <input
+                      type="checkbox"
+                      name="membership_preference"
+                      value="gold"
+                      id="gold"
+                    />
+                    <div class="form-group">
+                      <label for="enquiry">How can we help?</label>
+                      <textarea
+                        name="enquiry"
+                        class="form-control textarea"
+                        id="enquiry"
+                        rows="3"
+                      ></textarea>
                     </div>
-                </div>
-        </section>
-        <!--IMAGE DIVIDER Photo by Adam Wilson on Unsplash -->
-        <div class="container-fluid callout-container7"></div>
-        <!-- SECOND CONTENT SECTION--------------->
-        <section id="about-charity">
-            <div class="row container-fluid gold-wrapper">
-                <div class="col-6 charity">
-                    <img class="charity-photo d-none d-sm-block" src="assets/images/charity.webP" alt="money pot with plant in"/>
-                </div>  
-                <div class="col-lg-1 col-sm-12 charities d-none d-sm-block">
-                    <a href="https://www.rspb.org.uk/" target="_blank"><img class="RSPB" src="assets/images/rspb.png"  alt="RSPB Logo"></a>
-                    <a href="https://cdn.friendsoftheearth.uk" target="_blank"><img class="friends" src="assets/images/FOElogo.svg"  alt="Friends of the Earth Logo"></a>
-                    <a href="https://www.wwf.org.uk/" target="_blank"><img class="wwf" src="assets/images/wwf.svg"  alt="WWF Logo"></a>
-                </div>
-                <div class="col-lg-5 col-sm-12 what-we-offer inline">
-                    <h2 class="membership-heading uppercase">What we offer <i class="fas fa-hand-holding-usd"></i>
-                    </h2>
-                    <h3 class="about-text">At <span class="highlight-white">Bamboo</span> Fitness we pride ourselves on our <span class="highlight-white">care</span> and
-                                    charity. That is why we <span class="highlight-white" style="size:xl">donate
-                             <br>10%</span> of your membership every month to a selected <a href="https://friendsoftheearth.uk/" target="_blank"><span class="highlight-white">eco
-                                    charity</span></a>.
-                    </h3>
-                </div>
-                
+                    <br />
+                    <button class="btn btn-cta">
+                      SEND <i class="fas fa-paper-plane"></i>
+                    </button>
+                  </form>
+                </section>
+              </div>
             </div>
-        </section>
-        <!--Memberships Section-->
-        <div class="row callout-container5">
-            <div class="col-lg-4 col-sm-12">
-                <h2 class="membership-title-white uppercase">Memberships <i class="fa fa-user-shield"></i></h2>
+            <div class="modal-footer">
+              <button type="button" class="btn" data-dismiss="modal">
+                Close <i class="fas fa-times"></i>
+              </button>
             </div>
+          </div>
         </div>
-        <div class="row container-fluid callout-container5">
-            <div class="col-lg-4 col-sm-12">
-                <div class="memberships bronze">
-                    <i class="fa fa-leaf"></i>
-                    <h3 class="uppercase">Bronze leaf</h3>
-                        <ul style="padding-left:0px;">
-                            <li>Full Access to the Gym </li>
-                            <li>Including Weekends</li>
-                            <li>Free Parking</li>
-                            <br>
-                            <li class="price"><strong>£19.99</strong>
-                                <h5 class="lowercase">per month</h5>
-                            </li>
-                        </ul>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-12">
-                <div class="memberships silver">
-                    <i class="fa fa-leaf"></i>
-                    <h3 class="uppercase">Silver leaf</h3>
-                        <ul style="padding-left:0px;">
-                            <li>Full Access to the Gym </li>
-                            <li>Including Weekends</li>
-                            <li>Free Parking</li>
-                            <li><strong>16</strong> Free Classes (per month)</li>
-                            <li><strong>FREE</strong> Water Bottle</li>
-                            <br>
-                            <li class="price"><strong>£24.99</strong>
-                            <h5 class="lowercase">per month</h5>
-                            </li>
-                        </ul>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-12">
-                <div class="memberships gold">
-                    <i class="fa fa-leaf"></i>
-                    <h3 class="uppercase">Gold leaf</h3>
-                        <ul style="padding-left:0px;">
-                            <li>Full Access to the Gym </li>
-                            <li>Including Weekends</li>
-                            <li>Free Parking</li>
-                            <li><strong>Unlimited</strong> Classes</li>
-                            <li><strong>FREE</strong> Towel & Water Bottle</li>
-                            <br>
-                            <li class="price"><strong>£34.99</strong>
-                                <h5 class="lowercase">per month</h5>
-                            </li>
-                        </ul>
-                </div>
-            </div>
-        </div>
-        </main>
-        <footer class="container-fluid indexfooter">
-            <br>
-            <div class="row social-links">
-                <span class="col-3 inline">
-                        <a target="_blank" href="https://www.facebook.com" rel="noreferrer"><i class="fab fa-facebook"></i></a>
-                    </span>
-                <span class="col-3 inline">
-                        <a target="_blank" href="https://www.instagram.com" rel="noreferrer"><i class="fab fa-instagram"></i></a>
-                    </span>
-                <span class="col-3 inline">
-                        <a target="_blank" href="https://www.twitter.com" rel="noreferrer"><i class="fab fa-twitter"></i></a>
-                    </span>
-                <span class="col-3 inline">
-                        <a target="_blank" href="https://www.youtube.com" rel="noreferrer"><i class="fab fa-youtube"></i></a>
-                    <br>
-                    <br>
-                </span>
-                <br>
-                <div class="container-fluid top-return indexfooter">
-                    <a href="#">Back to top</a>
-                </div>
-                <br>
-            </div>
-        </footer>
-        <!-- Modal for Data Entry Form -->
-        <div class="modal fade" id="enquiry-form" tabindex="-1" role="dialog" aria-labelledby="enquiry-form"
-            aria-hidden="true">
-            <div class="modal-dialog modal-xl modal-dialog-centered">
-                <div class="modal-content">
-                    <div class="modal-body">
-                        <div class="row">
-                        <br>
-                        <br>
-                            <div class="col-lg-5 d-none d-sm-block callout-container5">
-                                <img class="form-logo" src="assets/images/BF-LOGO.webP" alt="Bamboo Fitness Logo"/>
-
-                    </div>
-                                <!-- FORM TEMPLATE FROM BOOTSTRAP (SAME FORM AS CONTACT US PAGE)--------------->
-                                <div class="col-lg-7 callout-container5 col-sm-12 contact-form">
-                                    <section class="form-section">
-                                        <form class="form-group" onsubmit="SUCCESS! Your message has been sent!">
-                                            <br>
-                                            <label for="fname">FIRST NAME: </label>
-                                            <input
-                                class="text-input"
-                                type="text"
-                                name="first_name"
-                                id="fname"
-                                required
-                            /><br />
-                                            <br />
-                                            <label for="lname">LAST NAME: </label>
-                                            <input
-                                class="text-input"
-                                type="text"
-                                name="last_name"
-                                id="lname"
-                                required
-                            /><br />
-                                            <br />
-                                            <label for="email">EMAIL: </label>
-                                            <input
-                                class="text-input"
-                                type="email"
-                                name="email_address"
-                                id="email"
-                                required
-                            />
-                                            <br />
-                                            <h4 class="uppercase">
-                                                Please select the membership type you are interested in:
-                                            </h4>
-                                            <label class="uppercase" for="bronze"> Bronze Leaf </label>
-                                            <input
-                                type="checkbox"
-                                name="membership_preference"
-                                value="bronze"
-                                id="bronze"
-                            />
-                                            <label class="uppercase" for="silver"> Silver Leaf </label>
-                                            <input
-                                type="checkbox"
-                                name="membership_preference"
-                                value="silver"
-                                id="silver"
-                            />
-                                            <label class="uppercase" for="gold"> Gold Leaf </label>
-                                            <input
-                                type="checkbox"
-                                name="membership_preference"
-                                value="gold"
-                                id="gold"
-                            />
-                                            <div class="form-group">
-                                                <label for="enquiry">How can we help?</label>
-                                                <textarea
-                                name="enquiry"
-                                class="form-control textarea"
-                                id="enquiry"
-                                rows="3"
-                                ></textarea>
-                                            </div>
-                                            <br />
-                                            <button class="btn btn-cta">SEND <i class="fas fa-paper-plane"></i></button>
-                            </form>
-                                    </section>
-                                </div>
-
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn" data-dismiss="modal">Close <i class="fas fa-times"></i></button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-                integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-            </script>
-            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-                integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-            </script>
-            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-                integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
-            </script>
-            <!-- FOOTER SECTION-------MODELLED OFF OF THE RESUME PROJECT--------------->
-</body>
-
+      </div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <!-- FOOTER SECTION-------MODELLED OFF OF THE RESUME PROJECT--------------->
+  </body>
 </html>
