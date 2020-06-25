@@ -166,7 +166,7 @@ CSS VALIDATION - https://jigsaw.w3.org/css-validator/
   
 
 ### **Gallery Page**
-   * Go to the "Gallery" page from a desktop 
+    * Go to the "Gallery" page from a desktop 
     * **Alert-Box**
         1. Repeat verification steps done for alert-box on Home page.
         2. Confirm that alert-box code is identical on all html pages.
