@@ -66,17 +66,17 @@ The scope of this project includes new users and current users. The website meet
 1. As a current client, I want to know where the gym is located, so that i can find it. 
 
 ## **Wireframe Designs**
-### Desktop
+### **Desktop**
 * <a href="https://github.com/DanielBradford/bamboo-fitness/blob/master/documents/wireframes/LANDING%20PAGE%20WIREFRAME%20(index.html)%20.pdf" target="_blank">Home / Landing Page</a>
 * <a href="https://github.com/DanielBradford/bamboo-fitness/blob/master/documents/wireframes/CLASSES%20WIREFRAME%20(classes.html)%20.pdf" target="_blank">Classes Page</a>
 * <a href="https://github.com/DanielBradford/bamboo-fitness/blob/master/documents/wireframes/GALLERY%20WIREFRAME%20(gallery.html)%20.pdf" target="_blank">Gallery Page</a>
 * <a href="https://github.com/DanielBradford/bamboo-fitness/blob/master/documents/wireframes/CONTACT%20US%20WIREFRAME%20(contact.html)%20.pdf" target="_blank">Contact Us Page</a>
-### Mobile
+### **Mobile**
 * <a href="https://github.com/DanielBradford/bamboo-fitness/blob/master/documents/wireframes/MOBILE%20WIREFRAMES%20(All%20pages).pdf" target="_blank">Mobile Wireframes</a>
 
 ## **Features**
 
-* ### **Home Landing Page Feature**
+* ### **Home Landing Page Features**
     * **'Join Us' Call To Action button** - This invites the user to JOIN the gym. The selection of this button opens a data capture form (via a Modal created through Bootstrap). 
     * **Data Capture Form** - This allows the user to enter the following:
         * First Name - This field is validated to ensure an entry is made
@@ -110,7 +110,7 @@ The scope of this project includes new users and current users. The website meet
         * Membership Preference (Bronze, Silver or Gold)
         * Text Area - For the user to write a breif message describing their enquiry
         * The completion and sending of this form opens a channel of contact between the user and the gym.
-## Repeating Features
+## **Repeating Features**
 ### The following features are repeated across the website allowing a constistant design format for the user to feel comfortable and familiar;
 * **Header**
     *   **Alert-box** This advertises the companies chairty donations and has a clickable link more information.
@@ -120,37 +120,37 @@ The scope of this project includes new users and current users. The website meet
 * **Footer**  
     *   **Social Media Icons** - These icons when clicked take the user (on a new page) to the corresponding website for that social media
     *   **Back to top link** - takes user to the top of the current page
-## Extra Features
+## **Extra Features**
 * Animation of the Membership, Class and Team medals through CSS. I would make them spin on their Y-Axis to rotate and reveal additonal information.
 * Confirmation of form sending
 * Imediate reply email to confirm reciept of enquiry
 * Database storage of enquiries 
-## Expansion Ideas
-* Live chat feature - Allows new users and potential members to discuss queries in a live chat with gym representatives
-* Log-in function for existing members who can access the following added features:
-    * Fitness Chat forum
-    * Online Class Booking System
-    * E-Commerce Store
+## **Expansion Ideas**
+* **Live chat feature** - Allows new users and potential members to discuss queries in a live chat with gym representatives
+* **Log-in function** for existing members who can access the following added features:
+    * **Fitness Chat forum** - Offers to platform to discuss training, technqiues, tips and advice with staff and members of gym
+    * **Online Class Booking System** - Offers the option to book specific classes online
+    * **E-Commerce Store** - Offers the online purchasing of Bamboo Fitness merchandise
 
 ## **Technologies Used**
-* ### HTML / HTML5
+* ### **HTML / HTML5**
     * Used to create the structure of the pages 
-* ### CSS / CSS3
+* ### **CSS / CSS3**
     * Used to style the elements used. e.g. Color Schemes, design elements 
-* ### Javascript
+* ### **Javascript**
     * Breifly used for the modal button functionality via Bootstrap
-* ### Bootrap Version 4.7/5
+* ### **Bootrap Version 4.7/5**
     * Used mainly for responsive design and layout. Other elements used were Tables and Modals
-* ### JQuery
+* ### **JQuery**
     * The project uses JQuery to simplify DOM manipulation.
-* ### Font Awesome
+* ### **Font Awesome** - https://fontawesome.com/
     * All icons used in this project were from Font Awesome
-* ### Lighthouse Analytics (DevTools)
+* ### **Lighthouse Analytics** (DevTools)
     * This was used to analayse the performance, accessiblity, best practices and SEO scores of the site.
-* ### https://wave.webaim.org/ (Accessibility Testing)
+* ### **WAVE** https://wave.webaim.org/ (Accessibility Testing)
 
-## Testing
-### Please refer to <a href="documents/TESTING.md">TESTING.md</a> for a full testing breakdown
+## **Testing**
+### Please refer to <a href="https://github.com/DanielBradford/bamboo-fitness/blob/f33fecb42719c9c2d8a5a65216cbef895ad1d070/TESTING.md">TESTING.md</a> for a full testing breakdown
 
 ## **Deployment** ##
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
