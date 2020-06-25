@@ -402,14 +402,15 @@ h3 {
   font-family: "Oswald", cursive, sans-serif;
 }
 .top-return {
-  text-align: center;
+  margin: auto 0;
   text-transform: uppercase;
   text-decoration: underline;
-  padding: 0;
+  padding-top: 30px;
 }
 
 .top-return a {
   color: #ffffff;
+  text-align: center;
 }
 
 /*---------------------Membership Types-------------*/
@@ -914,8 +915,8 @@ textarea.form-control {
   .callout-container5 {
     height: auto;
   }
-  .indexfooter{
-      padding-top: 0;
+  .indexfooter {
+    padding-top: 0;
   }
   .contact-form {
     text-align: right;
