@@ -168,30 +168,31 @@ This project was **deployed** using GitHub Pages.
 
 To deploy this page to GitHub Pages from its GitHub repository, the following steps can be taken:
 
-1. Log into GitHub.
-1. From the list of repositories on the screen, select DanielBradford/bamboo-fitness.
-1. From the menu items near the top of the page, select Settings.
-1. Scroll down to the GitHub Pages section.
-1. Under Source click the drop-down menu labelled None and select Master Branch
-1. On selecting Master Branch the page is automatically refreshed, the website is now deployed.
-1. Scroll back down to the GitHub Pages section to retrieve the link to the deployed website.
+1. Log into GitHub (https://github.com/DanielBradford).
+1. From the list of repositories on the screen, select **DanielBradford/bamboo-fitness**
+1. From the menu items near the top of the page, select _**Settings**_
+1. Scroll down to the _**GitHub Pages**_ section
+1. Under Source click the drop-down menu labelled None and select _**Master Branch**_
+1. On selecting Master Branch the page is **automatically refreshed**, the website is now deployed.
+1. Scroll back down to the GitHub Pages section to _**retrieve the link**_ to the deployed website.
 1. At the moment of submitting this Milestone project the Development Branch and Master Branch are identical.
 
-To run locally:
+### **To run locally:**
 
 To clone this project from GitHub:
 
 1. Follow this link to the <a href="https://github.com/DanielBradford/bamboo-fitness">Project GitHub repository</a>.
-1. Under the repository name, click "Clone or download".
+1. Under the repository name, click **"Clone or download"**.
 1. In the Clone with HTTPs section, copy the clone URL for the repository.
 1. In your local IDE open Terminal/Git Bash.
 1. Change the current working directory to the location where you want the cloned directory to be made.
 1. Type git clone, and then paste the URL you copied in Step 3.
-    git clone https://github.com/USERNAME/REPOSITORY
-1. Press Enter. Your local clone will be created.
+    * **e.g. "git clone https://github.com/DanielBradford/bamboo-fitness"**
+1. Press _**Enter**_. Your local clone will be created.
+1. To cut ties with this GitHub repository, type git remote rm origin into the terminal.
 
 
-Further reading and troubleshooting on cloning a repository from <a href="https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository">GitHub here.</a>
+**Further reading and troubleshooting on <a href="https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository">cloning a repository from GitHub here.</a>**
 
 ## **Credits** 
 ### * The LOGO used was made for free using https://www.canva.com/tools/logo-maker-q1
@@ -214,3 +215,6 @@ Further reading and troubleshooting on cloning a repository from <a href="https:
     Photo by Luis Quintero from Pexels (founder.webp)
     Photo by Micheile Henderson on Unsplash(charity.webp)
 ### * The videos used in this site were obtained from UNSPLASH as free videos
+### * Inspiration and Structural guidance for the README.md file was taken from:
+*   https://github.com/AJGreaves/portrait-artist/blob/master/README.md
+*   https://github.com/Code-Institute-Solutions/StudentExampleProjectGradeFive/blob/master/README.md
