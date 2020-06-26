@@ -133,16 +133,18 @@ The scope of this project includes new users and current users. The website meet
     * **E-Commerce Store** - Offers the online purchasing of Bamboo Fitness merchandise
 
 ## **Technologies Used**
+* ### **MacBook Pro (Retina, 13-inch, Mid 2014)**
+* ### **Gitpod** - https://gitpod.io/
 * ### **HTML / HTML5**
     * Used to create the structure of the pages 
 * ### **CSS / CSS3**
-    * Used to style the elements used. e.g. Color Schemes, design elements 
-* ### **Javascript**
-    * Breifly used for the modal button functionality via Bootstrap
+    * Used to style the elements and customise layout. e.g. Color Schemes, design elements 
 * ### **Bootrap Version 4.7/5**
     * Used mainly for responsive design and layout. Other elements used were Tables and Modals
-* ### **JQuery**
-    * The project uses JQuery to simplify DOM manipulation.
+* ### **Javascript/JQuery**
+    * Breifly used for the modal button functionality via Bootstrap
+* ### **Popper.js**
+    * The project uses Popper,js reference Javascript needed for the responsive navbar.
 * ### **Font Awesome** - https://fontawesome.com/
     * All icons used in this project were from Font Awesome
 * ### **Lighthouse Analytics** (DevTools)
