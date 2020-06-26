@@ -29,9 +29,9 @@
   <body>
     <header>
       <div class="row">
-        <div class="col-lg-4 d-none d-sm-block"></div>
+        <div class="col-lg-4 col-md-4 d-none d-sm-block"></div>
         <div
-          class="col-lg-6 d-none d-sm-block alert alert-success"
+          class="col-lg-6 col-md-8 d-none d-sm-block alert alert-success"
           role="alert"
         >
           We donate 10% of your membership to charity.
@@ -114,8 +114,8 @@
 
       <section class="class-info">
         <div class="row class-info-container">
-          <div class="col-lg-3 col-sm-6"></div>
-          <div class="col-lg-3 col-sm-6">
+          <div class="col-lg-3 col-sm-6 d-md-none d-lg-block"></div>
+          <div class="col-lg-3 col-sm-6 col-md-6">
             <div class="memberships class-type pilates">
               <i style="color: brown;" class="fas fa-balance-scale"></i>
               <h4 style="color: brown;">Pilates</h4>
@@ -127,7 +127,7 @@
               </ul>
             </div>
           </div>
-          <div class="col-lg-3 col-sm-6">
+          <div class="col-lg-3 col-sm-6 col-md-6">
             <div class="memberships class-type yoga">
               <i style="color: green;" class="fas fa-fire-alt"></i>
               <h4 style="color: green;">Yoga</h4>
@@ -139,10 +139,10 @@
               </ul>
             </div>
           </div>
-          <div class="col-lg-3 col-sm-6"></div>
+          <div class="col-lg-3 col-sm-6 d-md-none d-lg-block"></div>
         </div>
         <div class="row class-info-container">
-          <div class="col-lg-3 col-sm-6">
+          <div class="col-lg-3 col-md-6 col-sm-6">
             <div class="memberships class-type spinning">
               <i style="color: cornflowerblue;" class="fas fa-biking"></i>
               <h4 style="color: cornflowerblue;">Spinning</h4>
@@ -154,8 +154,8 @@
               </ul>
             </div>
           </div>
-          <div class="col-lg-3 col-sm-6"></div>
-          <div class="col-lg-3 col-sm-6">
+          <div class="col-lg-3 col-sm-6 d-md-none d-lg-block"></div>
+          <div class="col-lg-3 col-md-6 col-sm-6">
             <div class="memberships class-type hiit">
               <i style="color: orange;" class="fas fa-fire"></i>
               <h4 style="color: orange;">HIIT</h4>
@@ -169,8 +169,8 @@
           </div>
         </div>
         <div class="row class-info-container">
-          <div class="col-lg-3 col-sm-6"></div>
-          <div class="col-lg-3 col-sm-6">
+          <div class="col-lg-3 col-sm-6 d-md-none d-lg-block"></div>
+          <div class="col-lg-3 col-md-6 col-sm-6">
             <div class="memberships class-type aerobics">
               <i style="color: red;" class="fas fa-lungs"></i>
               <h4 style="color: red;">Aerobics</h4>
@@ -182,7 +182,7 @@
               </ul>
             </div>
           </div>
-          <div class="col-lg-3 col-sm-6">
+          <div class="col-lg-3 col-md-6 col-sm-6">
             <div class="memberships class-type conditioning">
               <i style="color: teal;" class="fas fa-tools"></i>
               <h4 style="color: teal;">Conditioning</h4>
@@ -194,13 +194,13 @@
               </ul>
             </div>
           </div>
-          <div class="col-lg-3 col-sm-6"></div>
+          <div class="col-lg-3 col-sm-6 d-md-none d-lg-block"></div>
         </div>
       </section>
       <!-- MEET TEAM HEADING SECTION--------------->
       <section>
-        <div class="row container-fluid classes">
-          <div class="col-12 d-none d-sm-block">
+        <div class="row container-fluid classes d-none d-sm-block">
+          <div class="col-lg-12 col-md-6">
             <div class="middle-block">
               <h2 class="about-heading">Meet our Team</h2>
             </div>
@@ -210,9 +210,9 @@
       <!-- MEET OUR TEAM SECTION--------------->
       <section>
         <div class="row container-fluid gold-wrapper d-none d-sm-block">
-          <div class="col membership d-none d-lg-block">
+          <div class="col membership d-none d-sm-block">
             <div class="row">
-              <div class="col-lg-3 col-sm-12">
+              <div class="col-lg-3 col-sm-12 col-md-6">
                 <div class="memberships team-medals">
                   <img
                     class="id-photo"
@@ -228,7 +228,7 @@
                   </ul>
                 </div>
               </div>
-              <div class="col-lg-3 col-sm-12">
+              <div class="col-lg-3 col-sm-12 col-md-6">
                 <div class="memberships team-medals">
                   <img
                     class="id-photo"
@@ -244,7 +244,7 @@
                   </ul>
                 </div>
               </div>
-              <div class="col-lg-3 col-sm-12">
+              <div class="col-lg-3 col-sm-12 col-md-6">
                 <div class="memberships team-medals">
                   <img
                     class="id-photo"
@@ -260,7 +260,7 @@
                   </ul>
                 </div>
               </div>
-              <div class="col-lg-3 col-sm-12">
+              <div class="col-lg-3 col-sm-12 col-md-6">
                 <div class="memberships team-medals">
                   <img
                     class="id-photo"
@@ -284,23 +284,39 @@
     <!-- FOOTER SECTION-------MODELLED OFF THE RESUME PROJECT--------------->
     <footer class="container-fluid classesfooter">
       <div class="row social-links">
-        <span class="col-3 inline" aria-label="Facebook Hyperlink">
-          <a target="_blank" href="https://www.facebook.com"
+        <span class="col-3 inline">
+          <a
+            target="_blank"
+            href="https://www.facebook.com"
+            rel="noreferrer"
+            aria-label="Facebook icon"
             ><i class="fab fa-facebook"></i
           ></a>
         </span>
-        <span class="col-3 inline" aria-label="Instagram Hyperlink">
-          <a target="_blank" href="https://www.instagram.com"
+        <span class="col-3 inline">
+          <a
+            target="_blank"
+            href="https://www.instagram.com"
+            rel="noreferrer"
+            aria-label="Instagram icon"
             ><i class="fab fa-instagram"></i
           ></a>
         </span>
-        <span class="col-3 inline" aria-label="Twitter Hyperlink">
-          <a target="_blank" href="https://www.twitter.com"
+        <span class="col-3 inline">
+          <a
+            target="_blank"
+            href="https://www.twitter.com"
+            rel="noreferrer"
+            aria-label="Twitter icon"
             ><i class="fab fa-twitter"></i
           ></a>
         </span>
-        <span class="col-3 inline" aria-label="Youtube Hyperlink">
-          <a target="_blank" href="https://www.youtube.com"
+        <span class="col-3 inline">
+          <a
+            target="_blank"
+            href="https://www.youtube.com"
+            rel="noreferrer"
+            aria-label="Youtube Icon"
             ><i class="fab fa-youtube"></i
           ></a>
         </span>
@@ -331,14 +347,14 @@
           </div>
           <div class="modal-body">
             <div class="row">
-              <div class="col-lg-4 col-md-6 d-none d-sm-block">
+              <div class="col-lg-4 col-md-4 d-none d-sm-block">
                 <img
                   class="qrcode"
                   src="assets/images/qr-code.webP"
                   alt="qr code for classes"
                 />
               </div>
-              <div class="col-lg-8 col-md-6 col-sm-12">
+              <div class="col-lg-8 col-md-12 col-sm-12">
                 <table class="table">
                   <thead>
                     <!-- TABLE HEADINGS -->
