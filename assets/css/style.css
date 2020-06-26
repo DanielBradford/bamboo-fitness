@@ -611,6 +611,14 @@ h3 {
   justify-content: center;
 }
 
+.modal-footer a{
+    color: #ffffff;
+    background-color: #48008a;
+    border-radius: 2em;
+    font-size: 1.8em;
+    padding: 5px;
+}
+
 /*------ICONS--------*/
 
 .jumbotron i {
@@ -659,20 +667,7 @@ video:hover {
   border-radius: 2em;
   padding: 0.7em;
 }
-/* 
 
-.btn-cta {
-  color: #fff;
-  background-color: #6845bd;
-  border-color: #ffffff;
-  letter-spacing: 0.6rem;
-  height: auto;
-  text-align: center;
-} */
-
-.close-btn {
-  margin-right: 100px;
-}
 .btn-cta:hover {
   background-color: #a87b00;
   color: #ffffff;
