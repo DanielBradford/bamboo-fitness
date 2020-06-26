@@ -283,3 +283,7 @@ Lighthouse Desktop Reports:
 <img src="https://github.com/DanielBradford/bamboo-fitness/blob/5e1a9747eb6cdad697dbe29864a69c005cd5dc92/assets/images/TESTING%20SCREENSHOTS/Contact%20Us%20-%20Testing%20Screenshot.png" alt="Contact Us Page - LIGHTHOUSE REPORT">
 * Gallery Page:
 <img src="https://github.com/DanielBradford/bamboo-fitness/blob/master/assets/images/TESTING%20SCREENSHOTS/Gallery%20-%20Testing.png" alt="Gallery Page - LIGHTHOUSE REPORT">
+
+## Further Testing
+I completed further testing by asking family and friends to view the website and give me feedback.
+This stage of testing allowed me to understand a more realistic client/user impression of the website and guided me to altering some stylistic choices. e.g. bigger text in places and more breathing space between elements.
