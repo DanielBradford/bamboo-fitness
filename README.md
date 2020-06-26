@@ -128,7 +128,7 @@ The scope of this project includes new users and current users. The website meet
 ## **Expansion Ideas**
 * **Live chat feature** - Allows new users and potential members to discuss queries in a live chat with gym representatives
 * **Log-in function** for existing members who can access the following added features:
-    * **Fitness Chat forum** - Offers to platform to discuss training, technqiues, tips and advice with staff and members of gym
+    * **Fitness Chat forum** - Offers a platform to discuss training, technqiues, tips and advice with staff and members of gym
     * **Online Class Booking System** - Offers the option to book specific classes online
     * **E-Commerce Store** - Offers the online purchasing of Bamboo Fitness merchandise
 
@@ -155,14 +155,43 @@ The scope of this project includes new users and current users. The website meet
 ### Please refer to <a href="https://github.com/DanielBradford/bamboo-fitness/blob/f33fecb42719c9c2d8a5a65216cbef895ad1d070/TESTING.md">TESTING.md</a> for a full testing breakdown
 
 ## **Deployment** ##
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
+This project was **developed** using a <a href="https://gitpod.io/">GITPOD IDE</a>, committed to git and pushed to <a href"https://github.com/">GitHub</a> using the built in terminal feature.
+* To add:
+    * git add "filename"
+* To commit:
+    * git commit "filename" -m "unique message for commit"
+* To push:
+    * git push
 
-Different values for environment variables (Heroku Config Vars)?
-Different configuration files?
-Separate git branch?
-In addition, if it is not obvious, you should also describe how to run your code locally.
+This project was **deployed** using GitHub Pages.
+
+To deploy this page to GitHub Pages from its GitHub repository, the following steps can be taken:
+
+1. Log into GitHub.
+1. From the list of repositories on the screen, select DanielBradford/bamboo-fitness.
+1. From the menu items near the top of the page, select Settings.
+1. Scroll down to the GitHub Pages section.
+1. Under Source click the drop-down menu labelled None and select Master Branch
+1. On selecting Master Branch the page is automatically refreshed, the website is now deployed.
+1. Scroll back down to the GitHub Pages section to retrieve the link to the deployed website.
+1. At the moment of submitting this Milestone project the Development Branch and Master Branch are identical.
+
+To run locally:
+
+To clone this project from GitHub:
+
+1. Follow this link to the <a href="https://github.com/DanielBradford/bamboo-fitness">Project GitHub repository</a>.
+1. Under the repository name, click "Clone or download".
+1. In the Clone with HTTPs section, copy the clone URL for the repository.
+1. In your local IDE open Terminal/Git Bash.
+1. Change the current working directory to the location where you want the cloned directory to be made.
+1. Type git clone, and then paste the URL you copied in Step 3.
+    git clone https://github.com/USERNAME/REPOSITORY
+1. Press Enter. Your local clone will be created.
+
+
+Further reading and troubleshooting on cloning a repository from <a href="https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository">GitHub here.</a>
 
 ## **Credits** 
 ### * The LOGO used was made for free using https://www.canva.com/tools/logo-maker-q1
