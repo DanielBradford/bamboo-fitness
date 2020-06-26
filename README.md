@@ -1,4 +1,8 @@
-![Bamboo Fitness Logo](https://github.com/DanielBradford/bamboo-fitness/blob/bb22b60aaff9c85db9c213ef11d611ba8d7ea59a/assets/images/BF-LOGO_copy.png)
+
+<div style="text-align:center">
+    <img src="https://github.com/DanielBradford/bamboo-fitness/blob/bb22b60aaff9c85db9c213ef11d611ba8d7ea59a/assets/images/BF-LOGO_copy.png">
+</div>
+
 # **_Bamboo Fitness_**
 
 ### _A user-friendly, accessible and informative website adevrtising a gym and fitness company called 'Bamboo Fitness. The website allows current and potential members to access information about the gym, memberships and facilities, while understanding the unique branding and ethos of the company._
