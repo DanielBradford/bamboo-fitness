@@ -2,9 +2,11 @@
 
 HTML VALIDATION - https://validator.w3.org/
 * All HTML written in this project has been submitted for validation via the above software
+* ALL pages returned the vaildation that "Document checking completed. No errors or warnings to show."
 
 CSS VALIDATION - https://jigsaw.w3.org/css-validator/
 * All CSS writted in this project has been submitted for validation via the above software
+<img src="https://github.com/DanielBradford/bamboo-fitness/blob/master/assets/images/TESTING%20SCREENSHOTS/CSS%20-%20Validation.png" alt="CSS Validation">
 
 
 ### **Client Story Testing:**
@@ -251,24 +253,33 @@ By analysing these rerports i was able to make alterations in both the HTML and 
 * In initial reports the website had an average Performance rating of **86**.
 * I changed changed the appropriate .jpg & .png files into webp format to minimalise memory usage and speed up loading and rendering times.
 * I streamlined the style.css file to lessen the date being loaded.
-* By  making these changes the current Performance rating is now **93**
+* By  making these changes the current Performance rating is now (on average) **93**
 
     **Accessibility**
 * In initial reports the website had an average Accessibility rating of **84**
 * I altered color schemes of text vs. background to maximise the contrast score allowing information to be more visible to a wider group of users with accessiblity issues.
 * I resized icons and images to make them more visible
 * I re-assessed background image choices for their contrast score
-* By making these changes the current Performance rating is now **91**
+* By making these changes the current Performance rating is now (on average) **95**
 
     **Best Practices**
 * In initial reports the website had an average Best Practices Score of **91**
 * I added 'rel' attributes for links in anchor tags leading to external sites e.g. rel=noreferrer
-* By making these changes the current Best Practices rating is now **93**
+* By making these changes the current Best Practices rating is now (on average)**99** 
 
 **Search Engine Optimisation**
 * In inital reports the website had an average SEO rating of **98**
 * I added in some META tags to give more information about the websites content and creator.
 * By making these changes the current SEO rating is now **100**
 
-**DESKTOP REPORT SCREENSHOT**
-<img src="https://github.com/DanielBradford/bamboo-fitness/blob/master/documents/lighthouse-desktop.png" alt="Lighthouse Desktop Report">
+**DESKTOP REPORT SCREENSHOTS**
+Lighthouse Desktop Reports:
+
+* Home/Landing Page:
+<img src="https://github.com/DanielBradford/bamboo-fitness/blob/master/assets/images/TESTING%20SCREENSHOTS/Home-Testing.png" alt="Home Page - LIGHTHOUSE REPORT">
+* Classes Page:
+<img src="https://github.com/DanielBradford/bamboo-fitness/blob/master/assets/images/TESTING%20SCREENSHOTS/Classes-Testing.png" alt="Classes Page - LIGHTHOUSE REPORT">
+* Contact Us Page:
+<img src="https://github.com/DanielBradford/bamboo-fitness/blob/master/assets/images/TESTING%20SCREENSHOTS/Contact%20Us%20-%20Testing.png" alt="Contact Us Page - LIGHTHOUSE REPORT">
+* Gallery Page:
+<img src="https://github.com/DanielBradford/bamboo-fitness/blob/master/assets/images/TESTING%20SCREENSHOTS/Gallery%20-%20Testing.png" alt="Gallery Page - LIGHTHOUSE REPORT">
