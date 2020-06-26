@@ -21,13 +21,14 @@
       content="A website advertising the services of Bamboo Fitness. A gym and fitness facility that donates to charity."
     />
     <meta
-      name="description"
+      name="author"
       content="Made by Daniel Bradford. Full Stack Development Student @ Code Institute"
     />
     <meta name="theme-color" content="#228B22" />
   </head>
   <body>
     <header>
+      <!-- ALERT BOX FROM BOOTSTRAP-->
       <div class="row">
         <div class="col-lg-4 col-md-4 d-none d-sm-block"></div>
         <div
@@ -38,6 +39,7 @@
           <a href="index.html#about-charity">Click for more info!</a>
         </div>
       </div>
+      <!--NAVBAR -->
       <nav class="navbar navbar-expand-sm">
         <a href="index.html" class="navbar-brand"
           ><div class="col-5 inline">
@@ -47,6 +49,7 @@
               alt="Bamboo Fitness Logo"
             /></div
         ></a>
+        <!-- MOBILE NAVIGATION BUTTON/MENU (similar to WHISKEY DROP / BOOTSTRAP LESSON) -->
         <button
           class="navbar-toggler ml-auto"
           type="button"
@@ -77,41 +80,37 @@
         </div>
       </nav>
     </header>
-    <!--THIS IS THE REPEATING IMAGE ON ALL PAGES-->
-    <!--REF _ https://wallpaperaccess.com/chinese-bamboo -->
+    <!--THIS IS THE REPEATING IMAGE ON ALL PAGES (https://wallpaperaccess.com/chinese-bamboo) -->
     <div class="hero-image3">
-      <!--This was borrowed from the Whiskey Project in the Bootstrap lessons: https://danielbradford.github.io/bootstrap/-->
+      <!-- INSPIRED BY WHISKEY DROP LESSON : https://danielbradford.github.io/bootstrap/-->
       <div class="container-fluid callout-container">
         <div class="row">
           <div class="col-12">
             <section class="callout jumbotron text-center">
               <h1 class="jumbotron-header">Classes</h1>
               <hr class="block-divider-gold" />
-              <br />
               <i class="fas fa-running"></i>
+              <br />
             </section>
           </div>
         </div>
       </div>
     </div>
     <main>
-      <section>
-        <!-- white space break SECTION--------------->
-        <div class="row container-fluid classes" style="text-align: center;">
-          <div class="col-lg-12">
-            <button
-              type="button"
-              class="btn btn-cta"
-              data-toggle="modal"
-              data-target="#timetable"
-            >
-              Class Timetable <i class="far fa-calendar-alt"></i>
-            </button>
-          </div>
+      <!-- WHITE SPACE AND CLASS TIMETABLE BUTTON SECTION -->
+      <div class="row container-fluid classes" style="text-align: center;">
+        <div class="col-lg-12">
+          <button
+            type="button"
+            class="btn btn-cta"
+            data-toggle="modal"
+            data-target="#timetable"
+          >
+            Class Timetable <i class="far fa-calendar-alt"></i>
+          </button>
         </div>
-      </section>
-      <!------------------------- Class types SECTION---->
-
+      </div>
+      <!-- CLASS MEDALS AND TYPES SECTION -->
       <section class="class-info">
         <div class="row class-info-container">
           <div class="col-lg-3 col-sm-6 d-md-none d-lg-block"></div>
@@ -123,8 +122,8 @@
                 <li>3 x Instructors</li>
                 <li>Fully Qualified</li>
                 <li>Core Workout</li>
-                <br />
               </ul>
+              <br />
             </div>
           </div>
           <div class="col-lg-3 col-sm-6 col-md-6">
@@ -134,9 +133,9 @@
               <ul>
                 <li>5 x Instructors</li>
                 <li>Fully Qualified</li>
-                <li>Breath &amp; Meditation</li>
-                <br />
+                <li>Breath & Meditation</li>
               </ul>
+              <br />
             </div>
           </div>
           <div class="col-lg-3 col-sm-6 d-md-none d-lg-block"></div>
@@ -150,7 +149,6 @@
                 <li>4 x Instructors</li>
                 <li>Fully Qualified</li>
                 <li>Hardcore Workout</li>
-                <br />
               </ul>
             </div>
           </div>
@@ -163,7 +161,6 @@
                 <li>High Intensity Interval Training</li>
                 <li>3 x Instructors</li>
                 <li>Fully Qualified</li>
-                <br />
               </ul>
             </div>
           </div>
@@ -178,7 +175,6 @@
                 <li>3 x Instructors</li>
                 <li>Fully Qualified</li>
                 <li>Fun Cardio Training</li>
-                <br />
               </ul>
             </div>
           </div>
@@ -190,14 +186,13 @@
                 <li>5 x Instructors</li>
                 <li>Fully Qualified</li>
                 <li>Biomechanics Training</li>
-                <br />
               </ul>
             </div>
           </div>
           <div class="col-lg-3 col-sm-6 d-md-none d-lg-block"></div>
         </div>
       </section>
-      <!-- MEET TEAM HEADING SECTION--------------->
+      <!-- MEET TEAM HEADING SECTION -->
       <section>
         <div class="row container-fluid classes d-none d-sm-block">
           <div class="col-lg-12 col-md-6">
@@ -207,7 +202,7 @@
           </div>
         </div>
       </section>
-      <!-- MEET OUR TEAM SECTION--------------->
+      <!-- MEET OUR TEAM SECTION -->
       <section>
         <div class="row container-fluid gold-wrapper d-none d-sm-block">
           <div class="col membership d-none d-sm-block">
@@ -281,7 +276,7 @@
         </div>
       </section>
     </main>
-    <!-- FOOTER SECTION-------MODELLED OFF THE RESUME PROJECT--------------->
+    <!-- FOOTER SECTION -->
     <footer class="container-fluid classesfooter">
       <div class="row social-links">
         <span class="col-3 inline">
@@ -327,13 +322,13 @@
         <br />
       </div>
     </footer>
-    <!-- Modal COPIED EXAMPLE FROM BOOTSTRAP THEN MODIFIED-->
+    <!-- MODAL FROM BOOTSTRAP THEN MODIFIED-->
     <div
       class="modal fade"
       id="timetable"
       tabindex="-1"
       role="dialog"
-      aria-labelledby="Class-Timetable"
+      aria-labelledby="time-table"
       aria-hidden="true"
     >
       <div
@@ -341,7 +336,7 @@
       >
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title about-heading" id="exampleModalLabel">
+            <h5 class="modal-title about-heading" id="time-table">
               Class Timetable
             </h5>
           </div>
@@ -370,20 +365,19 @@
                       <th scope="row">Monday</th>
                       <td></td>
                       <td></td>
-                      <td></td>
                     </tr>
                     <tr>
-                      <td scope="row">08:00 - 09:00</td>
+                      <td>08:00 - 09:00</td>
                       <td>Yoga</td>
                       <td>All</td>
                     </tr>
                     <tr>
-                      <td scope="row">09:00 -10:00</td>
+                      <td>09:00 -10:00</td>
                       <td>Aerobics</td>
                       <td>Intermediate</td>
                     </tr>
                     <tr>
-                      <td scope="row">18:30 - 19:30</td>
+                      <td>18:30 - 19:30</td>
                       <td>Pilates</td>
                       <td>Beginner</td>
                     </tr>
@@ -392,20 +386,19 @@
                       <th scope="row">Wednesday</th>
                       <td></td>
                       <td></td>
-                      <td></td>
                     </tr>
                     <tr>
-                      <td scope="row">08:00 - 09:00</td>
+                      <td>08:00 - 09:00</td>
                       <td>HIIT</td>
                       <td>Beginner</td>
                     </tr>
                     <tr>
-                      <td scope="row">09:00 - 10:00</td>
+                      <td>09:00 - 10:00</td>
                       <td>Spin</td>
                       <td>Intermediate</td>
                     </tr>
                     <tr>
-                      <td scope="row">18:30 - 19:30</td>
+                      <td>18:30 - 19:30</td>
                       <td>Pilates</td>
                       <td>Intermediate</td>
                     </tr>
@@ -414,47 +407,45 @@
                       <th scope="row">Friday</th>
                       <td></td>
                       <td></td>
-                      <td></td>
                     </tr>
                     <tr>
-                      <td scope="row">08:00 - 09:00</td>
+                      <td>08:00 - 09:00</td>
                       <td>Conditioning</td>
                       <td>Intermediate</td>
                     </tr>
                     <tr>
-                      <td scope="row">09:00 - 10:00</td>
+                      <td>09:00 - 10:00</td>
                       <td>HIIT</td>
                       <td>All</td>
                     </tr>
                     <tr>
-                      <td scope="row">18:30 - 19:30</td>
+                      <td>18:30 - 19:30</td>
                       <td>Pilates</td>
                       <td>Beginner</td>
                     </tr>
                     <!-- SATURDAY -->
                     <tr>
-                      <th scope="row">Saturday</th>
-                      <td></td>
+                      <th>Saturday</th>
                       <td></td>
                       <td></td>
                     </tr>
                     <tr>
-                      <td scope="row">08:00 - 09:00</td>
+                      <td>08:00 - 09:00</td>
                       <td>Spin</td>
                       <td>All</td>
                     </tr>
                     <tr>
-                      <td scope="row">09:00 - 10:00</td>
+                      <td>09:00 - 10:00</td>
                       <td>HIIT</td>
                       <td>All</td>
                     </tr>
                     <tr>
-                      <td scope="row">18:30 - 19:30</td>
+                      <td>18:30 - 19:30</td>
                       <td>Aerobics</td>
                       <td>All</td>
                     </tr>
                     <tr>
-                      <td scope="row">19:30 - 20:30</td>
+                      <td>19:30 - 20:30</td>
                       <td>Conditioning</td>
                       <td>All</td>
                     </tr>
@@ -467,10 +458,9 @@
             <button type="button" class="btn close-btn" data-dismiss="modal">
               Close <i class="fas fa-times"></i>
             </button>
-            <a href="documents/Class-Timetable.pdf" target="_blank"
-              ><button type="button" class="btn btn-cta">
-                DOWNLOAD PDF <i class="fas fa-file-pdf"></i></button
-            ></a>
+              <a href="documents/Class-Timetable.pdf" target="_blank">
+                DOWNLOAD PDF <i class="fas fa-file-pdf"></i
+              ></a>
           </div>
         </div>
       </div>
