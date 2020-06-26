@@ -18,332 +18,349 @@
     <title>Bamboo Fitness | Contact Us</title>
     <meta
       name="description"
-      content="A website advertising the services of Bamboo Fitness. A gym and fitness facility that donates to charity. Made by Daniel Bradford. Full Stack Development Student @ Code Institute"
+      content="A website advertising the services of Bamboo Fitness. A gym and fitness facility that donates to charity."
+    />
+    <meta
+      name="author"
+      content="Made by Daniel Bradford. Full Stack Development Student @ Code Institute"
     />
     <meta name="theme-color" content="#228B22" />
   </head>
-  <div class="full-jacket">
-    <body>
-      <header>
-        <div class="row">
-          <div class="col-lg-4 d-none d-sm-block"></div>
-          <div
-            class="col-lg-6 d-none d-sm-block alert alert-success"
-            role="alert"
-          >
-            We donate 10% of your membership to charity.
-            <a href="index.html#about-charity">Click for more info!</a>
-          </div>
-        </div>
-        <nav class="navbar navbar-expand-sm">
-          <a href="index.html" class="navbar-brand"
-            ><div class="col-5 inline">
-              <img
-                class="logo"
-                src="assets/images/BF-LOGO.webP"
-                alt="Bamboo Fitness Logo"
-              /></div
-          ></a>
-
-          <button
-            class="navbar-toggler ml-auto"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul id="menu" class="navbar-nav mr-auto">
-              <li class="nav-item mr-2">
-                <a class="nav-link" href="/">Home</a>
-              </li>
-              <li class="nav-item mr-2">
-                <a class="nav-link" href="classes.html">Classes</a>
-              </li>
-              <li class="nav-item mr-2">
-                <a class="nav-link" href="gallery.html">Gallery</a>
-              </li>
-              <li class="active nav-item mr-2">
-                <a class="nav-link" href="contact.html">Contact Us</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </header>
-      <div class="heroimage">
-        <!--This was borrowed from the Whiskey Project in the Bootstrap lessons: https://danielbradford.github.io/bootstrap/-->
-        <div class="container-fluid callout-container">
-          <div class="row">
-            <div class="col-12">
-              <section class="callout jumbotron text-center">
-                <h1 class="jumbotron-header uppercase">Contact Us</h1>
-                <hr class="block-divider" />
-                <br />
-                <i class="fas fa-laptop"></i>
-                <br />
-                <br />
-                <br />
-                <button
-                  type="button"
-                  class="btn btn-cta"
-                  data-toggle="modal"
-                  data-target="#opening-hours"
-                >
-                  Opening Hours
-                  <i class="fa fa-clock"></i>
-                </button>
-              </section>
-            </div>
-          </div>
+  <body>
+    <header>
+      <!-- ALERT BOX -->
+      <div class="row">
+        <div class="col-lg-4 col-md-4 d-none d-sm-block"></div>
+        <div
+          class="col-lg-6 col-md-8 d-none d-sm-block alert alert-success"
+          role="alert"
+        >
+          We donate 10% of your membership to charity.
+          <a href="index.html#about-charity">Click for more info!</a>
         </div>
       </div>
-      <main>
-        <div class="row thin-first-content">
-          <div class="col-lg-4 col-sm-12 contact-item">
-            <a href="tel:+44151637987">
-              <i class="fa fa-phone-square"></i> <br />+44 (0151) 637 9872</a
-            >
-          </div>
-          <div class="col-lg-4 col-sm-12 contact-item">
-            <a href="mailto:info@bamboofitness.com"
-              ><i class="fa fa-envelope-square"></i>
-              <br />
-              info@bamboofitness.com</a
-            >
-          </div>
-          <div class="col-lg-4 col-sm-12 contact-item">
-            <a
-              target="_blank"
-              href="http://maps.google.com/?q=22-24 Parkside Cl, Birkenhead, Bebington, Wirral CH63 7RY"
-              ><i class="fa fa-home"></i> <br />22 Parkside Cl, CH63 7RY</a
-            >
-          </div>
-        </div>
-        <!--THIS IS THE REPEATING IMAGE ON ALL PAGES-->
-        <!--REF _ https://wallpaperaccess.com/chinese-bamboo -->
-
-        <!-- FIRST CONTENT SECTION--------------->
-        <button class="col-12 btn join-us-btn d-none d-sm-block d-md-none">
-          <h4 class="join-us">Join Us</h4>
+      <!-- NAVBAR -->
+      <nav class="navbar navbar-expand-sm">
+        <a href="index.html" class="navbar-brand"
+          ><div class="col-5 inline">
+            <!--LOGO-->
+            <img
+              class="logo"
+              src="assets/images/BF-LOGO.webP"
+              alt="Bamboo Fitness Logo"
+            /></div
+        ></a>
+        <!-- MOBILE NAV BUTTON -->
+        <button
+          class="navbar-toggler ml-auto"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
         </button>
-
+        <!-- NAVBAR MENU -->
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul id="menu" class="navbar-nav mr-auto">
+            <li class="nav-item mr-2">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item mr-2">
+              <a class="nav-link" href="classes.html">Classes</a>
+            </li>
+            <li class="nav-item mr-2">
+              <a class="nav-link" href="gallery.html">Gallery</a>
+            </li>
+            <li class="active nav-item mr-2">
+              <a class="nav-link" href="contact.html">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div class="heroimage">
+      <!--This was borrowed from the Whiskey Project in the Bootstrap lessons: https://danielbradford.github.io/bootstrap/-->
+      <div class="container-fluid callout-container">
         <div class="row">
-          <div class="col-lg-3 col-sm-1 callout-container3"></div>
-          <!-- FORM TEMPLATE FROM BOOTSTRAP--------------->
-          <div class="col-lg-6 col-sm-12 gold-wrapper contact-form">
-            <section class="form-section">
-              <form onsubmit="FORM SUBMITTED THANK YOU!" class="form-group">
-                <br />
-                <h2>Get in touch... <i class="fa fa-heartbeat"></i></h2>
-                <br />
-                <label for="fname">FIRST NAME *: </label>
-                <input
-                  class="text-input"
-                  type="text"
-                  name="first_name"
-                  id="fname"
-                  required
-                /><br />
-                <br />
-                <label for="lname">LAST NAME *: </label>
-                <input
-                  class="text-input"
-                  type="text"
-                  name="last_name"
-                  id="lname"
-                  required
-                /><br />
-                <br />
-                <label for="email">EMAIL *: </label>
-                <input
-                  class="text-input"
-                  type="email"
-                  name="email_address"
-                  id="email"
-                  required
-                />
-                <br />
-                <h4 class="uppercase">
-                  Please select the membership type you are interested in:
-                </h4>
-                <label class="uppercase" for="bronze"> Bronze Leaf </label>
-                <input
-                  type="checkbox"
-                  name="membership_preference"
-                  value="bronze"
-                  id="bronze"
-                />
-                <label class="uppercase" for="silver"> Silver Leaf </label>
-                <input
-                  type="checkbox"
-                  name="membership_preference"
-                  value="silver"
-                  id="silver"
-                />
-                <label class="uppercase" for="gold"> Gold Leaf </label>
-                <input
-                  type="checkbox"
-                  name="membership_preference"
-                  value="gold"
-                  id="gold"
-                />
-                <br />
-                <label for="enquiry">How can we help?</label>
-                <textarea
-                  name="enquiry"
-                  class="form-control textarea"
-                  id="enquiry"
-                  rows="3"
-                ></textarea>
-                <br />
-                <br />
-                <br />
-                <br />
-                <button class="btn btn-cta">
-                  SEND <i class="fas fa-paper-plane"></i>
-                </button>
-              </form>
+          <div class="col-12">
+            <section class="callout jumbotron text-center">
+              <h1 class="jumbotron-header uppercase">Contact Us</h1>
+              <hr class="block-divider" />
+              <br />
+              <i class="fas fa-laptop"></i>
+              <br />
+              <br />
+              <br />
+              <!-- OPENING HOURS MODAL BUTTON -->
+              <button
+                type="button"
+                class="btn btn-cta"
+                data-toggle="modal"
+                data-target="#opening-hours"
+              >
+                Opening Hours
+                <i class="fa fa-clock"></i>
+              </button>
             </section>
           </div>
-          <div class="col-lg-3 col-sm-1 callout-container3"></div>
         </div>
-      </main>
-      <!-- FIRST CONTENT SECTION--------------->
-      <div
-        class="modal fade"
-        id="opening-hours"
-        tabindex="-1"
-        role="dialog"
-        aria-labelledby="OpeningHours"
-        aria-hidden="true"
-      >
-        <div class="modal-dialog modal-lg modal-dialog-centered">
-          <div class="modal-content">
-            <div class="modal-header about-heading">
-              <h5 class="modal-title">
-                <h2>Opening Hours <i class="far fa-clock"></i></h2>
-              </h5>
+      </div>
+    </div>
+    <main>
+      <!-- CONTACT METHODS-->
+      <div class="row thin-first-content">
+        <div class="col-lg-4 col-sm-12 contact-item">
+          <a href="tel:+44151637987" aria-label="link to phone call">
+            <i class="fa fa-phone-square"></i> <br />+44 (0151) 637 9872</a
+          >
+        </div>
+        <div class="col-lg-4 col-sm-12 contact-item">
+          <a href="mailto:info@bamboofitness.com" aria-label="link to email"
+            ><i class="fa fa-envelope-square"></i>
+            <br />
+            info@bamboofitness.com</a
+          >
+        </div>
+        <div class="col-lg-4 col-sm-12 contact-item">
+          <a
+            href="https://goo.gl/maps/vXR2Yrt6daiTH3AK7"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="link to google maps"
+            ><i class="fa fa-home"></i> <br />22 Parkside Cl, CH63 7RY</a
+          >
+        </div>
+      </div>
+      <!--ENQUIRY FORM SECTION-->
+      <div class="row">
+        <div class="col-lg-3 col-sm-1 callout-container3"></div>
+        <!-- FORM TEMPLATE FROM BOOTSTRAP -->
+        <div class="col-lg-6 col-sm-12 gold-wrapper contact-form">
+          <section class="form-section">
+            <form onsubmit="FORM SUBMITTED THANK YOU!" class="form-group">
+              <br />
+              <h2>Get in touch... <i class="fa fa-heartbeat"></i></h2>
+              <br />
+              <label for="fname">FIRST NAME *: </label>
+              <input
+                class="text-input"
+                type="text"
+                name="first_name"
+                id="fname"
+                required
+              /><br />
+              <br />
+              <label for="lname">LAST NAME *: </label>
+              <input
+                class="text-input"
+                type="text"
+                name="last_name"
+                id="lname"
+                required
+              /><br />
+              <br />
+              <label for="email">EMAIL *: </label>
+              <input
+                class="text-input"
+                type="email"
+                name="email_address"
+                id="email"
+                required
+              />
+              <br />
+              <h4 class="uppercase">
+                Please select the membership type you are interested in:
+              </h4>
+              <label class="uppercase" for="bronze"> Bronze Leaf </label>
+              <input
+                type="checkbox"
+                name="membership_preference"
+                value="bronze"
+                id="bronze"
+              />
+              <label class="uppercase" for="silver"> Silver Leaf </label>
+              <input
+                type="checkbox"
+                name="membership_preference"
+                value="silver"
+                id="silver"
+              />
+              <label class="uppercase" for="gold"> Gold Leaf </label>
+              <input
+                type="checkbox"
+                name="membership_preference"
+                value="gold"
+                id="gold"
+              />
+              <br />
+              <label for="enquiry">How can we help?</label>
+              <textarea
+                name="enquiry"
+                class="form-control textarea"
+                id="enquiry"
+                rows="3"
+              ></textarea>
+              <br />
+              <br />
+              <br />
+              <br />
+              <button class="btn btn-cta">
+                SEND <i class="fas fa-paper-plane"></i>
+              </button>
+            </form>
+          </section>
+        </div>
+        <div class="col-lg-3 col-sm-1 callout-container3"></div>
+      </div>
+    </main>
+    <!-- OPENING HOURS MODAL -->
+    <div
+      class="modal fade"
+      id="opening-hours"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="opening-hours"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header about-heading">
+            <h2 class="modal-title">
+              Opening Hours <i class="far fa-clock"></i></h2>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-lg-2 d-none d-sm-block d-md-none d-lg-block">
+                <img
+                  class="times-logo"
+                  src="assets/images/BF-LOGO.webP"
+                  alt="Bamboo Fitness Logo"
+                />
+              </div>
+              <!-- TABLE TEMPLATE FROM BOOTSTRAP -->
+              <div class="col-lg-10">
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th scope="col"></th>
+                      <th scope="col">Opening</th>
+                      <th scope="col">Closing</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">Monday</th>
+                      <td>08:00</td>
+                      <td>22:00</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Tuesday</th>
+                      <td>08:00</td>
+                      <td>22:00</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Wednesday</th>
+                      <td>07:00</td>
+                      <td>22:00</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Thursday</th>
+                      <td>07:00</td>
+                      <td>22:00</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Friday</th>
+                      <td>07:00</td>
+                      <td>23:00</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Saturday</th>
+                      <td>07:00</td>
+                      <td>23:00</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Sunday</th>
+                      <td>10:00</td>
+                      <td>17:00</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
             </div>
-            <div class="modal-body">
-              <div class="row">
-                <div class="col-lg-2 d-none d-sm-block">
-                  <img
-                    class="times-logo"
-                    src="assets/images/BF-LOGO.webP"
-                    alt="Bamboo Fitness Logo"
-                  />
-                </div>
-                <!-- TABLE TEMPLATE FROM BOOTSTRAP--------------->
-                <div class="col-lg-10">
-                  <table class="table">
-                    <thead>
-                      <tr>
-                        <th scope="col"></th>
-                        <th scope="col">Opening</th>
-                        <th scope="col">Closing</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <th scope="row">Monday</th>
-                        <td>08:00</td>
-                        <td>22:00</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">Tuesday</th>
-                        <td>08:00</td>
-                        <td>22:00</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">Wednesday</th>
-                        <td>07:00</td>
-                        <td>22:00</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">Thursday</th>
-                        <td>07:00</td>
-                        <td>22:00</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">Friday</th>
-                        <td>07:00</td>
-                        <td>23:00</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">Saturday</th>
-                        <td>07:00</td>
-                        <td>23:00</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">Sunday</th>
-                        <td>10:00</td>
-                        <td>17:00</td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn" data-dismiss="modal">
-                  Close <i class="fas fa-times"></i>
-                </button>
-              </div>
+            <div class="modal-footer">
+              <button type="button" class="btn" data-dismiss="modal">
+                Close <i class="fas fa-times"></i>
+              </button>
             </div>
           </div>
         </div>
       </div>
-      <script
-        src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"
-      ></script>
-      <script
-        src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"
-      ></script>
-      <script
-        src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-        crossorigin="anonymous"
-      ></script>
-      <!-- FOOTER SECTION-------MODELLED OFF THE RESUME PROJECT--------------->
-      <footer class="container-fluid contactfooter">
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <!-- FOOTER SECTION -->
+    <footer class="container-fluid contactfooter">
+      <br />
+      <br />
+      <div class="row social-links">
+        <span class="col-3 inline">
+          <a
+            target="_blank"
+            href="https://www.facebook.com"
+            rel="noreferrer"
+            aria-label="Facebook icon"
+            ><i class="fab fa-facebook"></i
+          ></a>
+        </span>
+        <span class="col-3 inline">
+          <a
+            target="_blank"
+            href="https://www.instagram.com"
+            rel="noreferrer"
+            aria-label="Instagram icon"
+            ><i class="fab fa-instagram"></i
+          ></a>
+        </span>
+        <span class="col-3 inline">
+          <a
+            target="_blank"
+            href="https://www.twitter.com"
+            rel="noreferrer"
+            aria-label="Twitter icon"
+            ><i class="fab fa-twitter"></i
+          ></a>
+        </span>
+        <span class="col-3 inline">
+          <a
+            target="_blank"
+            href="https://www.youtube.com"
+            rel="noreferrer"
+            aria-label="Youtube Icon"
+            ><i class="fab fa-youtube"></i
+          ></a>
+        </span>
         <br />
-        <br />
-        <div class="row social-links">
-          <span class="col-3 inline">
-            <a target="_blank" href="https://www.facebook.com"
-              ><i class="fab fa-facebook"></i
-            ></a>
-          </span>
-          <span class="col-3 inline">
-            <a target="_blank" href="https://www.instagram.com"
-              ><i class="fab fa-instagram"></i
-            ></a>
-          </span>
-          <span class="col-3 inline">
-            <a target="_blank" href="https://www.twitter.com"
-              ><i class="fab fa-twitter"></i
-            ></a>
-          </span>
-          <span class="col-3 inline">
-            <a target="_blank" href="https://www.youtube.com"
-              ><i class="fab fa-youtube"></i
-            ></a>
-          </span>
-          <br />
-          <div class="top-return">
-            <a href="#">Back to top</a>
-          </div>
-          <br />
+        <div class="top-return">
+          <a href="#">Back to top</a>
         </div>
-      </footer>
-    </body>
-  </div>
+        <br />
+      </div>
+    </footer>
+  </body>
 </html>
