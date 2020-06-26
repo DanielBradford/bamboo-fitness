@@ -78,6 +78,11 @@ The scope of this project includes new users and current users. The website meet
 ### **Mobile**
 * <a href="https://github.com/DanielBradford/bamboo-fitness/blob/master/documents/wireframes/MOBILE%20WIREFRAMES%20(All%20pages).pdf" target="_blank">Mobile Wireframes</a>
 
+
+## **Style / Theme**
+* As the gym is called Bamboo Fitness and has a strong connection to the environment end ecology i decided to use the following themes:
+    * Natural Colour Scheme: green(#008300), brown(#4a3700) an gold(#a87b00)
+    * I also used a strong purple (#48008a) to stand out from the overall theme. This was used sparingly on button features and selected text.
 ## **Features**
 
 ### **Repeating Features**
