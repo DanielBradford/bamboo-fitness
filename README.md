@@ -152,7 +152,7 @@ The scope of this project includes new users and current users. The website meet
 * ### **WAVE** https://wave.webaim.org/ (Accessibility Testing)
 
 ## **Testing**
-### Please refer to <a href="https://github.com/DanielBradford/bamboo-fitness/blob/f33fecb42719c9c2d8a5a65216cbef895ad1d070/TESTING.md">TESTING.md</a> for a full testing breakdown
+### Please refer to <a href="https://github.com/DanielBradford/bamboo-fitness/blob/master/TESTING.md">TESTING.md</a> for a full testing breakdown
 
 ## **Deployment** ##
 
