@@ -5,7 +5,7 @@ HTML VALIDATION - https://validator.w3.org/
 * ALL pages returned the vaildation that "Document checking completed. No errors or warnings to show."
 
 CSS VALIDATION - https://jigsaw.w3.org/css-validator/
-* All CSS writted in this project has been submitted for validation via the above software
+* All CSS written in this project has been submitted for validation via the above software
 <img src="https://github.com/DanielBradford/bamboo-fitness/blob/master/assets/images/TESTING%20SCREENSHOTS/CSS%20-%20Validation.png" alt="CSS Validation">
 
 
@@ -246,26 +246,26 @@ CSS VALIDATION - https://jigsaw.w3.org/css-validator/
   
 
 ### **Development Tools Testing**
-* From using the technologies of Wave and Lighthouse i was able to check the performance and accessiblity of the website. By utilisng this in DevTools i was able to generate reports for both desktop and mobile.
+From using the technologies of Wave and Lighthouse i was able to check the performance and accessiblity of the website. By utilisng this in DevTools i was able to generate reports for both desktop and mobile.
 By analysing these rerports i was able to make alterations in both the HTML and CSS code to improve the accessiblity of the site.
-
-    **Performance**
+    
+**Performance**
 * In initial reports the website had an average Performance rating of **86**.
 * I changed changed the appropriate .jpg & .png files into webp format to minimalise memory usage and speed up loading and rendering times.
 * I streamlined the style.css file to lessen the date being loaded.
-* By  making these changes the current Performance rating is now (on average) **93**
+* By  making these changes the current Performance rating is now (on average) **94**
 
-    **Accessibility**
+**Accessibility**
 * In initial reports the website had an average Accessibility rating of **84**
 * I altered color schemes of text vs. background to maximise the contrast score allowing information to be more visible to a wider group of users with accessiblity issues.
 * I resized icons and images to make them more visible
 * I re-assessed background image choices for their contrast score
-* By making these changes the current Performance rating is now (on average) **95**
+* By making these changes the current Performance rating is now (on average) **96**
 
-    **Best Practices**
+**Best Practices**
 * In initial reports the website had an average Best Practices Score of **91**
 * I added 'rel' attributes for links in anchor tags leading to external sites e.g. rel=noreferrer
-* By making these changes the current Best Practices rating is now (on average)**99** 
+* By making these changes the current Best Practices rating is now (on average)**100** 
 
 **Search Engine Optimisation**
 * In inital reports the website had an average SEO rating of **98**
@@ -280,6 +280,6 @@ Lighthouse Desktop Reports:
 * Classes Page:
 <img src="https://github.com/DanielBradford/bamboo-fitness/blob/master/assets/images/TESTING%20SCREENSHOTS/Classes-Testing.png" alt="Classes Page - LIGHTHOUSE REPORT">
 * Contact Us Page:
-<img src="https://github.com/DanielBradford/bamboo-fitness/blob/master/assets/images/TESTING%20SCREENSHOTS/Contact%20Us%20-%20Testing.png" alt="Contact Us Page - LIGHTHOUSE REPORT">
+<img src="https://github.com/DanielBradford/bamboo-fitness/blob/5e1a9747eb6cdad697dbe29864a69c005cd5dc92/assets/images/TESTING%20SCREENSHOTS/Contact%20Us%20-%20Testing%20Screenshot.png" alt="Contact Us Page - LIGHTHOUSE REPORT">
 * Gallery Page:
 <img src="https://github.com/DanielBradford/bamboo-fitness/blob/master/assets/images/TESTING%20SCREENSHOTS/Gallery%20-%20Testing.png" alt="Gallery Page - LIGHTHOUSE REPORT">
