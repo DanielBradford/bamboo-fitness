@@ -29,16 +29,19 @@
 
   <body>
     <header>
-        <div class="row">
-        <div class="col-lg-4 d-none d-sm-block"></div>
-        <div class="col-lg-6 d-none d-sm-block alert alert-success" role="alert">
+      <div class="row">
+        <div class="col-lg-4 col-md-4 d-none d-sm-block"></div>
+        <div
+          class="col-lg-6 col-md-8 d-none d-sm-block alert alert-success"
+          role="alert"
+        >
           We donate 10% of your membership to charity.
           <a href="index.html#about-charity">Click for more info!</a>
         </div>
-    </div>
+      </div>
       <nav class="navbar navbar-expand-sm">
         <a href="index.html" class="navbar-brand">
-          <div class="col-5 inline">
+          <div class="col-lg-5 col-md-3 inline">
             <img
               class="logo"
               src="assets/images/BF-LOGO.webP"
@@ -61,7 +64,7 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul id="menu" class="navbar-nav mr-auto">
             <li class="active nav-item mr-2">
-              <a class="active nav-link" href="/">Home</a>
+              <a class="active nav-link" href="index.html">Home</a>
             </li>
             <li class="nav-item mr-2">
               <a class="nav-link" href="classes.html">Classes</a>
@@ -124,7 +127,7 @@
           <!-- Photo by cottonbro from Pexels-->
           <div class="col-lg-6 three-women inline">
             <img
-              class="three-women-photo d-none d-sm-block d-md-block"
+              class="three-women-photo d-none d-sm-none d-md-none d-lg-block"
               src="assets/images/three-women.webP"
               alt="three women kneeling and smiling"
             />
@@ -138,20 +141,23 @@
         <div class="row container-fluid gold-wrapper">
           <div class="col-6 charity">
             <img
-              class="charity-photo d-none d-sm-block"
+              class="charity-photo d-none d-sm-none d-md-none d-lg-block"
               src="assets/images/charity.webP"
               alt="money pot with plant in"
             />
           </div>
-          <div class="col-lg-1 col-sm-12 charities d-none d-sm-block">
+          <div class="col-lg-1 col-sm-12 charities d-none d-sm-none d-md-none d-lg-block">
             <a href="https://www.rspb.org.uk/" target="_blank" rel="noreferrer"
               ><img class="RSPB" src="assets/images/rspb.png" alt="RSPB Logo"
             /></a>
-            <a href="https://cdn.friendsoftheearth.uk" target="_blank" rel="noreferrer"
+            <a
+              href="https://cdn.friendsoftheearth.uk"
+              target="_blank"
+              rel="noreferrer"
               ><img
                 class="friends"
                 src="assets/images/FOElogo.svg"
-                alt="Friends of the Earth Logo" 
+                alt="Friends of the Earth Logo"
             /></a>
             <a href="https://www.wwf.org.uk/" target="_blank" rel="noreferrer"
               ><img class="wwf" src="assets/images/wwf.svg" alt="WWF Logo"
@@ -192,10 +198,10 @@
               <li>Including Weekends</li>
               <li>Free Parking</li>
               <br />
-              <li class="price">
+              <div class="price">
                 <strong>£19.99</strong>
                 <h5 class="lowercase">per month</h5>
-              </li>
+              </div>
             </ul>
           </div>
         </div>
@@ -210,10 +216,10 @@
               <li><strong>16</strong> Free Classes (per month)</li>
               <li><strong>FREE</strong> Water Bottle</li>
               <br />
-              <li class="price">
+              <div class="price">
                 <strong>£24.99</strong>
                 <h5 class="lowercase">per month</h5>
-              </li>
+              </div>
             </ul>
           </div>
         </div>
@@ -228,10 +234,10 @@
               <li><strong>Unlimited</strong> Classes</li>
               <li><strong>FREE</strong> Towel & Water Bottle</li>
               <br />
-              <li class="price">
+              <div class="price">
                 <strong>£34.99</strong>
                 <h5 class="lowercase">per month</h5>
-              </li>
+              </div>
             </ul>
           </div>
         </div>
@@ -241,22 +247,38 @@
       <br />
       <div class="row social-links indexfooter">
         <span class="col-3 inline">
-          <a target="_blank" href="https://www.facebook.com" rel="noreferrer"
+          <a
+            target="_blank"
+            href="https://www.facebook.com"
+            rel="noreferrer"
+            aria-label="Facebook icon"
             ><i class="fab fa-facebook"></i
           ></a>
         </span>
         <span class="col-3 inline">
-          <a target="_blank" href="https://www.instagram.com" rel="noreferrer"
+          <a
+            target="_blank"
+            href="https://www.instagram.com"
+            rel="noreferrer"
+            aria-label="Instagram icon"
             ><i class="fab fa-instagram"></i
           ></a>
         </span>
         <span class="col-3 inline">
-          <a target="_blank" href="https://www.twitter.com" rel="noreferrer"
+          <a
+            target="_blank"
+            href="https://www.twitter.com"
+            rel="noreferrer"
+            aria-label="Twitter icon"
             ><i class="fab fa-twitter"></i
           ></a>
         </span>
         <span class="col-3 inline">
-          <a target="_blank" href="https://www.youtube.com" rel="noreferrer"
+          <a
+            target="_blank"
+            href="https://www.youtube.com"
+            rel="noreferrer"
+            aria-label="Youtube Icon"
             ><i class="fab fa-youtube"></i
           ></a>
         </span>
@@ -290,7 +312,7 @@
                 />
               </div>
               <!-- FORM TEMPLATE FROM BOOTSTRAP (SAME FORM AS CONTACT US PAGE)--------------->
-              <div class="col-lg-7 callout-container5 col-sm-12 contact-form">
+              <div class="col-lg-7 callout-container5 col-sm-12 pop-up-form">
                 <section class="form-section">
                   <form
                     class="form-group"
