@@ -243,7 +243,8 @@ CSS VALIDATION - https://jigsaw.w3.org/css-validator/
         4. Hover over each social media icon and confirm colour and size transitions expected.
         5. Click "Return to Top" link to verify the user is returned to top of current page.
         6. Reduce and expand width of window to verify that the footer is responsive and looks good on all device widths.
-  
+
+### **NOTE** - _The responsive design presented difficulties for the header section of the project. Although this was time consuming this issue was solved. In retrospect the mobile first development method would have eradicated this issue earlier on._
 
 ### **Development Tools Testing**
 From using the technologies of Wave and Lighthouse i was able to check the performance and accessiblity of the website. By utilisng this in DevTools i was able to generate reports for both desktop and mobile.
