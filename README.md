@@ -17,14 +17,14 @@
     * View the types of classes available.
     * View information about the gym instructors and management.
     * View/Download the Class Timetable.
-    * View Images and Videos from the gym in the Gallery.
+    * View Images and Videos from the gym in the Gallery to motivate them into joining.
     * Access to main channels of contact information.
 
 * Users as **POTENTIAL** members of gym
     * To learn about the gym and its services.
     * Direct link to pursuing a membership with the gym .
     * To access information about the memberships available e.g. prices.
-    * View Images and Videos of facilities and members of the gym.
+    * View Images and Videos of facilities and members of the gym to motivate them to train there.
 
 ## **UX** 
 ### **Who is the website for?**
@@ -70,17 +70,20 @@ The scope of this project includes new users and current users. The website meet
 1. As a current client, I want to know where the gym is located, so that i can find it. 
 
 ## **Wireframe Designs**
-### **Desktop**
+### **Desktop** - (All wireframes have annotated descriptions)
 * <a href="https://github.com/DanielBradford/bamboo-fitness/blob/master/documents/wireframes/LANDING%20PAGE%20WIREFRAME%20(index.html)%20.pdf" target="_blank">Home / Landing Page</a>
 * <a href="https://github.com/DanielBradford/bamboo-fitness/blob/master/documents/wireframes/CLASSES%20WIREFRAME%20(classes.html)%20.pdf" target="_blank">Classes Page</a>
 * <a href="https://github.com/DanielBradford/bamboo-fitness/blob/master/documents/wireframes/GALLERY%20WIREFRAME%20(gallery.html)%20.pdf" target="_blank">Gallery Page</a>
 * <a href="https://github.com/DanielBradford/bamboo-fitness/blob/master/documents/wireframes/CONTACT%20US%20WIREFRAME%20(contact.html)%20.pdf" target="_blank">Contact Us Page</a>
-### **Mobile**
+### **Mobile** - (All wireframes have annotated descriptions)
 * <a href="https://github.com/DanielBradford/bamboo-fitness/blob/master/documents/wireframes/MOBILE%20WIREFRAMES%20(All%20pages).pdf" target="_blank">Mobile Wireframes</a>
 
-
+## **Design**
+* Although the mobile first method is recommended and heavily supported by bootstrap, i went via the desktop first approach to fully realise the initial design idea. 
+* The idea behind this is assuming more users would be accessing the website from a Desktop therefore it seemed to be the correct approach for this project in particular. 
+* In future, the mobile first method may be more suitable due to societies increase in mobile web activity.
 ## **Style / Theme**
-* As the gym is called Bamboo Fitness and has a strong connection to the environment end ecology i decided to use the following themes:
+* As the gym is called Bamboo Fitness and has a strong connection to the environment and ecology, i decided to use the following themes:
     * Natural Colour Scheme: green(#008300), brown(#4a3700) an gold(#a87b00)
     * I also used a strong purple (#48008a) to stand out from the overall theme. This was used sparingly on button features and selected text.
 ## **Features**
@@ -112,6 +115,7 @@ The scope of this project includes new users and current users. The website meet
     * **Class Timetable Button** - This opens up the class timetable in pop-up window (via a Modal) and displays the class schedule. This can also be downloaded and will open in a new tab.
     * **QR-CODE Feature** - This feature allows users of a desktop/laptop to scan the code with their mobile to get directed to the class-timetable as a PDF.
     * **Class Type Medals** - These medals show the variety of classes on offer in a clear and stylish format
+     * **Facilities Medal** - This medal displays the facilities of the gym available to current and potential clients
     * **Meet Our Team Medals** - These medals show infromation about the instructors and management of the gym. This creates a personal touch i.e. friendly faces of the company.
 * ### **Gallery Page Features**
     * **Images** of the gym, members and facilities are clearly visible and when clicked will open as a full screen in a new window
@@ -135,11 +139,12 @@ The scope of this project includes new users and current users. The website meet
 * Animation of the Membership, Class and Team medals through CSS. I would make them spin on their Y-Axis to rotate and reveal additonal information.
 * Confirmation of form sending
 * Imediate reply email to confirm reciept of enquiry
-* Database storage of enquiries 
+* Database storage of enquiries
+* GDPR Compliance for information given by users in the form. A Legal requirement as well as user privacy. 
 ## **Expansion Ideas**
 * **Live chat feature** - Allows new users and potential members to discuss queries in a live chat with gym representatives
 * **Log-in function** for existing members who can access the following added features:
-    * **Fitness Chat forum** - Offers a platform to discuss training, technqiues, tips and advice with staff and members of gym
+    * **Fitness chat forum** - Offers a platform to discuss training, technqiues, tips and advice with staff and members of gym
     * **Online Class Booking System** - Offers the option to book specific classes online
     * **E-Commerce Store** - Offers the online purchasing of Bamboo Fitness merchandise
 
@@ -160,7 +165,7 @@ The scope of this project includes new users and current users. The website meet
     * All icons used in this project were from Font Awesome
 * ### **Lighthouse Analytics** (DevTools)
     * This was used to analayse the performance, accessiblity, best practices and SEO scores of the site.
-* ### **WAVE** https://wave.webaim.org/ (Accessibility Testing)
+* ### **WAVE** - https://wave.webaim.org/ (Accessibility Testing)
 
 ## **Testing**
 ### Please refer to <a href="https://github.com/DanielBradford/bamboo-fitness/blob/master/TESTING.md">TESTING.md</a> for a full testing breakdown
@@ -185,7 +190,7 @@ To deploy this page to GitHub Pages from its GitHub repository, the following st
 1. Scroll down to the _**GitHub Pages**_ section
 1. Under Source click the drop-down menu labelled None and select _**Master Branch**_
 1. On selecting Master Branch the page is **automatically refreshed**, the website is now deployed.
-1. Scroll back down to the GitHub Pages section to _**retrieve the link**_ to the deployed website.
+1. Scroll back down to the GitHub Pages section to _retrieve the link_ to the deployed website.
 1. At the moment of submitting this Milestone project the Development Branch and Master Branch are identical.
 
 ### **To run locally:**
