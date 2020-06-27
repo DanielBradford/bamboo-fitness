@@ -825,7 +825,7 @@ textarea.form-control {
 }
 
 /*---------------------Media Queries-------------*/
-
+/* Extra Small devices (phone-portrait, less than 568px)*/
 @media (max-width: 567px) {
   .callout-container {
     height: 90vh;
@@ -909,7 +909,7 @@ textarea.form-control {
     padding-top: 0;
   }
 }
-
+/*Small devices (phone landscape, tablets portrait, less than 768px)*/
 @media (max-width: 767px) {
   html,
   body {
@@ -937,7 +937,7 @@ textarea.form-control {
   }
 }
 
-/*Medium devices (tablets, less than 992px)*/
+/*Medium devices (tablets landscape, less than 992px)*/
 @media (max-width: 991.98px) { 
     html,
   body {
