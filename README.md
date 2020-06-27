@@ -5,6 +5,8 @@
 
 # **_Bamboo Fitness_**
 
+**Website on GitHub Pages:** https://danielbradford.github.io/bamboo-fitness/
+
 ### _A user-friendly, accessible and informative website advertising a gym and fitness company called 'Bamboo Fitness. The website allows current and potential members to access information about the gym, memberships and facilities, while understanding the unique branding and ethos of the company._
 ### _The website offers 4 seperate pages that allow the flow of current and new business for the company._
 ### **BUSINESS GOALS OF WEBSITE**
