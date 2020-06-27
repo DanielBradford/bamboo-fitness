@@ -316,12 +316,12 @@ hr {
 
 .highlight-purple {
   color: #48008a;
-  font-size:1.3em;
+  font-size: 1.3em;
 }
 
 .highlight-white {
   color: #ffffff;
-  font-size:1.3em;
+  font-size: 1.3em;
 }
 
 .highlight-white:hover,
@@ -451,6 +451,42 @@ h3 {
   width: auto;
   margin: 1.4em;
 }
+
+.facilities {
+  text-align: center;
+  text-decoration: none;
+  background-color: #e0a500;
+  border-radius: 20%;
+  z-index: 100;
+  height: auto;
+  width: auto;
+  margin: 1.4em;
+  border: solid 4px #4a3700;
+  color: #ffffff;
+  font-size: 1.5em;
+  font-family: "Oswald", sans-serif;
+}
+
+.facilities ul {
+    padding: 0;
+}
+
+.facilities li{
+    list-style-type: none;
+    text-align: center;
+}
+
+.facilities h4 {
+    color: #4a3700;
+    font-size: 1.5em;
+}
+
+.facilities i{
+    color: #4a3700;
+    font-size: 1.7em;
+
+}
+/*--------------------------------- Memberships Medal Feature ----------*/
 
 .memberships {
   text-align: center;
@@ -603,20 +639,20 @@ h3 {
   text-align: center;
 }
 
-.modal-body{
-    padding-top: 0;
+.modal-body {
+  padding-top: 0;
 }
 
 .modal-footer {
   justify-content: center;
 }
 
-.modal-footer a{
-    color: #ffffff;
-    background-color: #48008a;
-    border-radius: 2em;
-    font-size: 1.8em;
-    padding: 5px;
+.modal-footer a {
+  color: #ffffff;
+  background-color: #48008a;
+  border-radius: 2em;
+  font-size: 1.8em;
+  padding: 5px;
 }
 
 /*------ICONS--------*/
@@ -757,12 +793,11 @@ video:hover {
 }
 
 .pop-up-form {
-    text-align: right;
+  text-align: right;
   font-family: "Oswald", sans-serif;
   color: #ffffff;
   font-size: 1.2em;
   margin: 0;
-
 }
 
 .form-control,
@@ -873,7 +908,7 @@ textarea.form-control {
   header {
     height: auto;
   }
- 
+
   .what-we-do h3 {
     width: 100%;
     padding: 30px;
@@ -882,7 +917,7 @@ textarea.form-control {
   .what-we-offer h3 {
     width: 100%;
     text-align: center;
-    padding:0px;
+    padding: 0px;
   }
 
   .gold-wrapper {
@@ -930,16 +965,16 @@ textarea.form-control {
     font-size: 1.3em;
   }
   .jumbotron {
-    font-size: .8em;
-    }
+    font-size: 0.8em;
+  }
   .callout-container5 {
     height: auto;
   }
 }
 
 /*Medium devices (tablets landscape, less than 992px)*/
-@media (max-width: 991.98px) { 
-    html,
+@media (max-width: 991.98px) {
+  html,
   body {
     overflow-x: hidden;
     position: relative;
@@ -957,18 +992,16 @@ textarea.form-control {
     font-size: 1.35em;
   }
   .jumbotron {
-    font-size: .8em;
-    }
+    font-size: 0.8em;
+  }
   .callout-container5 {
     height: auto;
   }
-     
- }
+}
 
 /* Large devices (desktops, less than 1200px)*/
-@media (max-width: 1199.98px) { 
-    
-      html,
+@media (max-width: 1199.98px) {
+  html,
   body {
     overflow-x: hidden;
     position: relative;
@@ -981,13 +1014,12 @@ textarea.form-control {
 
   #menu {
     position: relative;
-    bottom: .4em;
+    bottom: 0.4em;
   }
   .jumbotron {
-    font-size: .8em;
-    }
+    font-size: 0.8em;
+  }
   .callout-container5 {
     height: auto;
   }
-
 }
