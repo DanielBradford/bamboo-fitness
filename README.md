@@ -93,7 +93,7 @@ The scope of this project includes new users and current users. The website meet
 ### **Repeating Features**
 ### The following features are repeated across the website allowing a consistent design format for the user to feel comfortable and familiar;
 * **Header**
-    *   **Alert-box** This advertises the companies charity donations and has a clickable link more information.
+    *   **Alert-box** This advertises the company's charity donations and has a clickable link more information.
     *   **Navbar** is clear and accessible. When hovered over the links are highlighted. It is also responsive in mobile.
     *   **Logo** is clearly displayed in a user-friendly and stylish format
     *   **Hero Image** is displayed across the full width of the screen displaying the image of bamboo. 
@@ -112,7 +112,7 @@ The scope of this project includes new users and current users. The website meet
         * The completion and sending of this form opens a channel of contact between the user and the gym.
     * **What we do Feature** - This informs the user of the services provided by the gym.
     * **What We Offer Feature** - This educates the user about the charitable USP of their (potential) membership and links to https://friendsoftheearth.uk/, RSPB: https://www.rspb.org.uk/ and WWF: https://www.wwf.org.uk/
-    * **Membership Medals** - These display the 3 options of membership and details of what is included e.g price. 
+    * **Membership Medals** - These display the 3 options of membership and details of what is included e.g price. When clicked they open the enquiry form modal.
 * ### **Classes Page Features**
     * **Class Timetable Button** - This opens up the class timetable in pop-up window (via a Modal) and displays the class schedule. This can also be downloaded and will open in a new tab.
     * **QR-CODE Feature** - This feature allows users of a desktop/laptop to scan the code with their mobile to get directed to the class-timetable as a PDF.
@@ -134,13 +134,14 @@ The scope of this project includes new users and current users. The website meet
         * Last Name - This field is validated to ensure an entry is made
         * Email - This field is validated to ensure an entry is made and a valid email address is entered
         * Membership Preference (Bronze, Silver or Gold)
-        * Text Area - For the user to write a breif message describing their enquiry
+        * Text Area - For the user to write a brief message describing their enquiry
         * The completion and sending of this form opens a channel of contact between the user and the gym.
 
 ## **Future Features**
 * Animation of the Membership, Class and Team medals through CSS. I would make them spin on their Y-Axis to rotate and reveal additonal information.
 * Confirmation of form sending
-* Imediate reply email to confirm reciept of enquiry
+* The membership type in the enquiry form is already selected in relation to the membership medal clicked.
+* Immediate reply email to confirm reciept of enquiry
 * Database storage of enquiries
 * GDPR Compliance for information given by users in the form. A Legal requirement as well as user privacy. 
 ## **Expansion Ideas**

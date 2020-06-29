@@ -1,11 +1,11 @@
 ## **Testing**
 
 HTML VALIDATION - https://validator.w3.org/
-* All HTML written in this project has been submitted for validation via the above software
+* All HTML written in this project has been submitted for validation via the above software.
 * ALL pages returned the vaildation that "Document checking completed. No errors or warnings to show."
 
 CSS VALIDATION - https://jigsaw.w3.org/css-validator/
-* All CSS written in this project has been submitted for validation via the above software
+* All CSS written in this project has been submitted for validation via the above software.
 <img src="https://github.com/DanielBradford/bamboo-fitness/blob/master/assets/images/TESTING%20SCREENSHOTS/CSS%20-%20Validation.png" alt="CSS Validation">
 
 
@@ -16,11 +16,11 @@ CSS VALIDATION - https://jigsaw.w3.org/css-validator/
 
 1. As an interested client, I want an easy to fill in enquiry form, so I can make contact with the gym.
     * The landing/home page has a clear "call to action" button (labelled "Join Us")which when clicked opens an enquiry form to be easily filled by the user
-    * The Contact Us page also has the option to fill in an enuiry form which can be sent to the gym.
+    * The Contact Us page also has the option to fill in an enquiry form which can be sent to the gym.
 
 1. As a new visitor to the website, I want learn more about the gym, so I can feel I understand their brand and ethos.
     *  All pages hold the logo and images that maintain the theme of nature, fitness and well being. 
-    *  All pages hold an alert box at the top of the page that advertises the gyms charity donations.
+    *  All pages hold an alert box at the top of the page that advertises the gym's charity donations.
     *  The landing/home page's first section has a summary of what the gym offers.
     *  The landing/home page's second section has information about the gym's charity donations.
 
@@ -28,17 +28,17 @@ CSS VALIDATION - https://jigsaw.w3.org/css-validator/
     * On the landing/home page the membership section clearly displays 3 options of membership with text displaying information and prices.
 
 1. As an interested current/or potential client, I want to follow the gym on social media, so I can keep up with their latest news.
-    * At the bottom of every page there are social media icons. When clicked these open a new browser tab witht he selcted social media site.
+    * At the bottom of every page there are social media icons. When clicked these open a new browser tab with the selcted social media site.
 
 1. As a potential/current client, I want to check the class timetable, so I know when my classes would be/are.
     * The Classes page has a clear "call to action" button (labelled "Class Timetable") which when clicked opens a pop-up window with a time-table of classes.
     * HOME > CLASSES > CLASS TIMETABLE 
-    * This also offers the client the option to download a PDF version of the class timetable to the users device.
+    * This also offers the client the option to download a PDF version of the class timetable to the user's device.
     * HOME > CLASSES > CLASS TIMETABLE > Download PDF > (PDF Opens in new tab)
     * The client also has the option (if using a desktop) to scan a QR-Code with their phone which will download the PDF to their phone.
     * HOME > CLASSES > CLASS TIMETABLE > (User scans QR Code with Phone) > (PDF opens on user mobile)
 1. As a new/current client, I want to know what classes are on offer so i know what classes there are.
-    * The Classes Page displays class "medals" that display breif summaries of the classes that the gym has to offer.
+    * The Classes Page displays class "medals" that display brief summaries of the classes that the gym has to offer.
     * HOME > CLASSES 
 1. As a new visitor to the website, I want view the gym's gallery, to see images and videos of their members and facilities, so i can decide if I want to join.
     * The Gallery page displays a number of images that show members, equipment and facilities of the gym. When selected the image will open to a full size in a new tab.
@@ -55,13 +55,13 @@ CSS VALIDATION - https://jigsaw.w3.org/css-validator/
 
 1. As a current client, I want to get contact information, so i can ask a question about my membership
     * The Contact Us page has a section displaying the 3 main forms of contact information: Phone, Email and Address.
-    * When the Phone Feature is selected the users device (if enabled) will invite a call to be made using that number
-    * When the Email Feature is selcted the users device (if enabled) will open a new email with 'to' address completed automatically
+    * When the Phone Feature is selected the user's device (if enabled) will invite a call to be made using that number
+    * When the Email Feature is selcted the user's device (if enabled) will open a new email with 'to' address completed automatically
     * HOME > CONTACT US > EMAIL
     * HOME > CONTACT US > PHONE
 
 1. As a current client, I want to know where the gym is located, so that i can find it. 
-    * On the Contact Us page, when the address feature is selcted the users device will open a new window and driect them the google maps link for the address of the gym.
+    * On the Contact Us page, when the address feature is selcted the user's device will open a new window and direct them the google maps link for the address of the gym.
     * HOME > CONTACT US > ADDRESS
     * From this point the user can get directions and make travel plans.
 
@@ -84,7 +84,7 @@ CSS VALIDATION - https://jigsaw.w3.org/css-validator/
             * _I made the navaigation menu condense to a hamburger button for both tablet and mobile screen sizes._ 
         2. Change screen size to small and click burger icon, verify that the menu drops down and that the menu text is clear and visible.
             * _I had difficulties during testing but found a method to make this work_
-        3. Hover over the navigation links and verify the CSS stylings changes
+        3. Hover over the navigation links and verify the CSS styling changes
             * _Some styling choices were changed during testing due to accessbility/contrast issues_
         4. Click on each of the navigation links and verify that it takes the user to the corresponding pages
             * _During testing i found the home button did not function. This issue was corrected_
@@ -115,6 +115,7 @@ CSS VALIDATION - https://jigsaw.w3.org/css-validator/
     *  **Membership Medals**
         1. Hover over the item to verify the scaled transition to show user selection.
             *During testing i decided to keep the scale increase minimal to not disturb the user
+        2. Click to verify the enquiry form opens.
         2. Verfiy all information is centered and visible.       
     * **Footer**
         1. Hover over the icons to verify the hover color change is applied
@@ -247,12 +248,12 @@ CSS VALIDATION - https://jigsaw.w3.org/css-validator/
 ### **NOTE** - _The responsive design presented difficulties for the header section of the project. Although this was time consuming this issue was solved. In retrospect the mobile first development method would have eradicated this issue earlier on._
 
 ### **Development Tools Testing**
-From using the technologies of Wave and Lighthouse i was able to check the performance and accessiblity of the website. By utilisng this in DevTools i was able to generate reports for both desktop and mobile.
+From using the technologies of Wave and Lighthouse i was able to check the performance and accessiblity of the website. By utilizing this in DevTools i was able to generate reports for both desktop and mobile.
 By analysing these rerports i was able to make alterations in both the HTML and CSS code to improve the accessiblity of the site.
     
 **Performance**
 * In initial reports the website had an average Performance rating of **86**.
-* I changed changed the appropriate .jpg & .png files into webp format to minimalise memory usage and speed up loading and rendering times.
+* I changed changed the appropriate .jpg & .png files into webp format to minimise memory usage and speed up loading and rendering times.
 * I streamlined the style.css file to lessen the date being loaded.
 * By  making these changes the current Performance rating is now (on average) **94**
 
@@ -269,7 +270,7 @@ By analysing these rerports i was able to make alterations in both the HTML and 
 * By making these changes the current Best Practices rating is now (on average)**100** 
 
 **Search Engine Optimisation**
-* In inital reports the website had an average SEO rating of **98**
+* In initial reports the website had an average SEO rating of **98**
 * I added in some META tags to give more information about the websites content and creator.
 * By making these changes the current SEO rating is now **100**
 
