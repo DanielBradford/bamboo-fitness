@@ -375,6 +375,7 @@ hr {
   width: 80%;
   margin-right: 60px;
   padding: 40px;
+  margin-left: 40px;
 }
 
 h3 {
@@ -460,7 +461,7 @@ h3 {
   z-index: 100;
   height: auto;
   width: auto;
-  margin: 1.4em;
+  margin: auto;
   border: solid 4px #4a3700;
   color: #ffffff;
   font-size: 1.5em;
@@ -497,7 +498,7 @@ h3 {
   z-index: 100;
   height: auto;
   opacity: 1;
-  width: auto;
+  width: 19em;
   margin: 1.4em;
 }
 .memberships:hover {
@@ -596,12 +597,11 @@ h3 {
 .charities img {
   padding-bottom: 35px;
   width: 6em;
-  opacity: 0.9;
-  border-radius: 40%;
+
 }
 
 .charities img:hover {
-  opacity: 10;
+  opacity: .5;
 }
 
 .id-photo {
@@ -679,7 +679,6 @@ h3 {
 video {
   height: auto;
   width: 100%;
-  border-radius: 10%;
 }
 
 video:hover {
@@ -702,6 +701,10 @@ video:hover {
   text-align: center;
   border-radius: 2em;
   padding: 0.7em;
+}
+
+.send-btn{
+    padding: .2em;
 }
 
 .btn-cta:hover {
@@ -750,10 +753,14 @@ video:hover {
   padding-bottom: 50px;
 }
 
+.team{
+    padding-right: 70px;
+    padding-left: 0;
+}
+
 .charities {
   padding-top: 180px;
   text-align: center;
-  opacity: 0.5;
 }
 
 .gallery {
@@ -788,7 +795,7 @@ video:hover {
   text-align: right;
   font-family: "Oswald", sans-serif;
   color: #4a3700;
-  font-size: 1.2em;
+  font-size: 1.5em;
   margin: 0;
 }
 
