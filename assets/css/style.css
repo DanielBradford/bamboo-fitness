@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Open+Sans+Condensed:wght@700&family=Oswald&display=swap");
 
-/*---------------------THEME COLOR-----------*/
+/*---------------------THEME COLOR---(THIS CHANGES THE THEME COLOR FOR USERS BROWSER)--------*/
 .theme-color {
   color: #228b22;
 }

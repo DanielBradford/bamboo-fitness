@@ -150,20 +150,21 @@ The scope of this project includes new users and current users. The website meet
     * **Online Class Booking System** - Offers the option to book specific classes online
     * **E-Commerce Store** - Offers the online purchasing of Bamboo Fitness merchandise
 
-## **Technologies Used**
+## **Hardware Used**
 * ### **MacBook Pro (Retina, 13-inch, Mid 2014)**
+## **Technologies Used**
 * ### **Gitpod** - https://gitpod.io/
 * ### **HTML / HTML5**
     * Used to create the structure of the pages 
 * ### **CSS / CSS3**
     * Used to style the elements and customise layout. e.g. Color Schemes, design elements 
-* ### **Bootstrap Version 4.7/5**
+* ### **Bootstrap Version 4 - 4.5**
     * Used mainly for responsive design and layout. Other elements used were Tables and Modals
 * ### **Javascript/JQuery**
     * Used for the modal button functionality via Bootstrap
 * ### **Popper.js**
     * The project uses Popper,js reference Javascript needed for the responsive navbar.
-* ### **Font Awesome** - https://fontawesome.com/
+* ### **Font Awesome** - v5.10.0 https://fontawesome.com/
     * All icons used in this project were from Font Awesome
 * ### **Lighthouse Analytics** (DevTools)
     * This was used to analayse the performance, accessiblity, best practices and SEO scores of the site.

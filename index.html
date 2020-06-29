@@ -29,7 +29,7 @@
 
   <body>
     <header>
-     <!-- ALERT BOX -->
+      <!-- ALERT BOX -->
       <div class="row">
         <div class="col-lg-4 col-md-6 d-none d-sm-none d-md-block"></div>
         <div
@@ -147,7 +147,9 @@
               alt="money pot with plant in"
             />
           </div>
-          <div class="col-lg-1 col-sm-12 charities d-none d-sm-none d-md-none d-lg-block">
+          <div
+            class="col-lg-1 col-sm-12 charities d-none d-sm-none d-md-none d-lg-block"
+          >
             <a href="https://www.rspb.org.uk/" target="_blank" rel="noreferrer"
               ><img class="RSPB" src="assets/images/rspb.png" alt="RSPB Logo"
             /></a>
@@ -172,9 +174,7 @@
               At <span class="highlight-white">Bamboo</span> Fitness we pride
               ourselves on our <span class="highlight-white">care</span> and
               charity. That is why we
-              <span class="highlight-white"
-                >donate <br />10%</span
-              >
+              <span class="highlight-white">donate <br />10%</span>
               of your membership every month to a selected
               <span class="highlight-white">eco charity.</span>
             </h3>
@@ -191,7 +191,8 @@
       </div>
       <div class="row container-fluid callout-container5">
         <div class="col-lg-4 col-sm-12">
-          <div class="memberships bronze">
+          <div data-toggle="modal"
+              data-target="#enquiry-form" class="memberships bronze">
             <i class="fa fa-leaf"></i>
             <h3 class="uppercase">Bronze leaf</h3>
             <ul style="padding-left: 0px;">
@@ -199,7 +200,7 @@
               <li>Including Weekends</li>
               <li>Free Parking</li>
             </ul>
-              <br />
+            <br />
             <ul>
               <li class="price">
                 <strong>£19.99</strong>
@@ -209,7 +210,8 @@
           </div>
         </div>
         <div class="col-lg-4 col-sm-12">
-          <div class="memberships silver">
+          <div data-toggle="modal"
+              data-target="#enquiry-form" class="memberships silver">
             <i class="fa fa-leaf"></i>
             <h3 class="uppercase">Silver leaf</h3>
             <ul style="padding-left: 0px;">
@@ -219,7 +221,7 @@
               <li><strong>16</strong> Free Classes (per month)</li>
               <li><strong>FREE</strong> Water Bottle</li>
             </ul>
-              <br />
+            <br />
             <ul>
               <li class="price">
                 <strong>£24.99</strong>
@@ -229,7 +231,8 @@
           </div>
         </div>
         <div class="col-lg-4 col-sm-12">
-          <div class="memberships gold">
+          <div data-toggle="modal"
+              data-target="#enquiry-form" class="memberships gold">
             <i class="fa fa-leaf"></i>
             <h3 class="uppercase">Gold leaf</h3>
             <ul style="padding-left: 0px;">
@@ -239,7 +242,7 @@
               <li><strong>Unlimited</strong> Classes</li>
               <li><strong>FREE</strong> Towel & Water Bottle</li>
             </ul>
-              <br />
+            <br />
             <ul>
               <li class="price">
                 <strong>£34.99</strong>
@@ -321,12 +324,9 @@
               <!-- FORM TEMPLATE FROM BOOTSTRAP (SAME FORM AS CONTACT US PAGE)-->
               <div class="col-lg-7 callout-container5 col-sm-12 pop-up-form">
                 <section class="form-section">
-                  <form
-                    class="form-group"
-                    onsubmit="SUCCESS! Your message has been sent!"
-                  >
+                  <form onsubmit="FORM SUBMITTED THANK YOU!" class="form-group">
                     <br />
-                    <label for="fname">FIRST NAME: </label>
+                    <label for="fname">FIRST NAME *: </label>
                     <input
                       class="text-input"
                       type="text"
@@ -335,7 +335,7 @@
                       required
                     /><br />
                     <br />
-                    <label for="lname">LAST NAME: </label>
+                    <label for="lname">LAST NAME *: </label>
                     <input
                       class="text-input"
                       type="text"
@@ -344,7 +344,7 @@
                       required
                     /><br />
                     <br />
-                    <label for="email">EMAIL: </label>
+                    <label for="email">EMAIL *: </label>
                     <input
                       class="text-input"
                       type="email"
@@ -353,9 +353,10 @@
                       required
                     />
                     <br />
-                    <h4 class="uppercase">
+                    <br />
+                    <p class="uppercase">
                       Please select the membership type you are interested in:
-                    </h4>
+                    </p>
                     <label class="uppercase" for="bronze"> Bronze Leaf </label>
                     <input
                       type="checkbox"
@@ -377,17 +378,21 @@
                       value="gold"
                       id="gold"
                     />
-                    <div class="form-group">
-                      <label for="enquiry">How can we help?</label>
-                      <textarea
-                        name="enquiry"
-                        class="form-control textarea"
-                        id="enquiry"
-                        rows="3"
-                      ></textarea>
-                    </div>
                     <br />
-                    <button class="btn btn-cta">
+                    <br />
+                    <label class="uppercase" for="enquiry"
+                      >How can we help?</label
+                    >
+                    <textarea
+                      name="enquiry"
+                      class="form-control textarea"
+                      id="enquiry"
+                      rows="3"
+                    ></textarea>
+                    <br />
+                    <br />
+                    <br />
+                    <button class="btn btn-cta send-btn">
                       SEND <i class="fas fa-paper-plane"></i>
                     </button>
                   </form>
@@ -419,6 +424,5 @@
       integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
       crossorigin="anonymous"
     ></script>
-
   </body>
 </html>
