@@ -29,7 +29,7 @@
   <body>
     <header>
       <!-- ALERT BOX FROM BOOTSTRAP-->
-    <div class="row">
+      <div class="row">
         <div class="col-lg-4 col-md-6 d-none d-sm-none d-md-block"></div>
         <div
           class="col-lg-6 col-md-6 d-none d-sm-none d-md-block alert alert-success"
@@ -38,7 +38,7 @@
           We donate 10% of your membership to charity.
           <a href="index.html#about-charity">Click for more info!</a>
         </div>
-    </div>
+      </div>
       <!-- NAVBAR -->
       <nav class="navbar navbar-expand-sm">
         <a href="index.html" class="navbar-brand"
@@ -171,9 +171,10 @@
                 required
               />
               <br />
-              <h4 class="uppercase">
+              <br />
+              <p class="uppercase">
                 Please select the membership type you are interested in:
-              </h4>
+              </p>
               <label class="uppercase" for="bronze"> Bronze Leaf </label>
               <input
                 type="checkbox"
@@ -196,7 +197,8 @@
                 id="gold"
               />
               <br />
-              <label for="enquiry">How can we help?</label>
+              <br />
+              <label class="uppercase" for="enquiry">How can we help?</label>
               <textarea
                 name="enquiry"
                 class="form-control textarea"
@@ -206,8 +208,7 @@
               <br />
               <br />
               <br />
-              <br />
-              <button class="btn btn-cta">
+              <button class="btn btn-cta send-btn">
                 SEND <i class="fas fa-paper-plane"></i>
               </button>
             </form>
@@ -229,11 +230,12 @@
         <div class="modal-content">
           <div class="modal-header about-heading">
             <h2 class="modal-title">
-              Opening Hours <i class="far fa-clock"></i></h2>
+              Opening Hours <i class="far fa-clock"></i>
+            </h2>
           </div>
           <div class="modal-body">
             <div class="row">
-              <div class="col-lg-2 d-none d-sm-block d-md-none d-lg-block">
+              <div class="col-lg-2 d-none d-sm-none d-md-block d-lg-block">
                 <img
                   class="times-logo"
                   src="assets/images/BF-LOGO.webP"

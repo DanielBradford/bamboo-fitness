@@ -498,7 +498,7 @@ h3 {
   z-index: 100;
   height: auto;
   opacity: 1;
-  width: 19em;
+  width: auto;
   margin: 1.4em;
 }
 .memberships:hover {
@@ -555,6 +555,7 @@ h3 {
 .team-medals {
   color: #4a3700;
   border: solid 4px #4a3700;
+  width: 19em;
 }
 .team-medals h4 {
   background-color: #4a3700;
@@ -567,6 +568,7 @@ h3 {
   color: #4a3700;
   border: solid 4px #e0a500;
   border-radius: 45%;
+  width: auto;
 }
 
 .class.type h4 {
@@ -828,6 +830,9 @@ textarea.form-control {
   color: #4a3700;
 }
 
+.form-section h3 {
+    color: #fff;
+}
 /*--------------------CONTACT US items-------------*/
 
 .contact-item {
